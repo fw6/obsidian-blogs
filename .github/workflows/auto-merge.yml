@@ -11,11 +11,18 @@ jobs:
       - name: checkout
         uses: actions/checkout@v3
 
-      - name: merge
-        uses: mtanzi/action-automerge@v1
-        id: merge
+      - name: pull-request-action
+        uses: vsoch/pull-request-action@master
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          PULL_REQUEST_BRANCH: "astro"
+
+      - uses: actions/checkout@v3
         with:
-            github_token: ${{ github.token }}
-            source: 'master'
-            target: 'astro'
-            webhook_url: #if present add the Slack webhook
+            ref: astro
+
+      - id: automerge
+        name: automerge
+        uses: "pascalgn/automerge-action@v0.15.6"
+        env:
+            GITHUB_TOKEN: "${{ github.token }}"
