@@ -6,6 +6,7 @@
       {
         "id": "b8c2df088808d980",
         "type": "tabs",
+        "dimension": 64.32246998284734,
         "children": [
           {
             "id": "0a101552a253ae47",
@@ -16,6 +17,42 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Web",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Web.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "CSS",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/CSS.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":59,\"ch\":30},\"to\":{\"line\":59,\"ch\":30}},\"scroll\":43.073893229166664}"
+                },
+                {
+                  "title": "JS",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/JS.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":17},\"to\":{\"line\":20,\"ch\":17}},\"scroll\":1.375}"
+                },
+                {
+                  "title": "README",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"README.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
+                },
+                {
+                  "title": "Web",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Web.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":0},\"to\":{\"line\":7,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "CSS",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/CSS.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":63,\"ch\":0},\"to\":{\"line\":63,\"ch\":0}},\"scroll\":46.096506808762584}"
                 },
                 {
                   "title": "General",
@@ -76,7 +113,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200-Learning/210-Programing/CSS.md",
+                "file": "Calendar/Daily notes/2023-06-26.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,6 +125,7 @@
       {
         "id": "1e9774cd8fe042c3",
         "type": "tabs",
+        "dimension": 35.67753001715266,
         "children": [
           {
             "id": "83193687ec45f311",
@@ -126,25 +164,6 @@
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "4863e71fa2d5546d",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.3.5"
               }
             }
           }
@@ -262,6 +281,15 @@
           {
             "id": "9e6570a0f54174b1",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "bookmarks",
               "state": {}
@@ -289,7 +317,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200-Learning/210-Programing/CSS.md"
+                "file": "Calendar/Daily notes/2023-06-26.md"
               }
             }
           },
@@ -308,7 +336,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-Learning/210-Programing/CSS.md",
+                "file": "Calendar/Daily notes/2023-06-26.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -329,7 +357,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "200-Learning/210-Programing/CSS.md",
+                "file": "Calendar/Daily notes/2023-06-26.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -373,7 +401,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-Learning/210-Programing/CSS.md",
+                "file": "Calendar/Daily notes/2023-06-26.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -397,6 +425,7 @@
       {
         "id": "ccdef1b6ad5a1f28",
         "type": "tabs",
+        "dimension": 21.532846715328464,
         "children": [
           {
             "id": "327e0e86c19a7d68",
@@ -454,6 +483,7 @@
       {
         "id": "c74291021baaccc8",
         "type": "tabs",
+        "dimension": 28.467153284671532,
         "children": [
           {
             "id": "835b59bca180ea82",
@@ -500,6 +530,7 @@
       {
         "id": "0aab44f079597a58",
         "type": "tabs",
+        "dimension": 25,
         "children": [
           {
             "id": "09bfa1834807e6a9",
@@ -546,6 +577,7 @@
       {
         "id": "8a7effdc29e4084a",
         "type": "tabs",
+        "dimension": 25,
         "children": [
           {
             "id": "5375f195639b015b",
@@ -573,7 +605,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 282.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -596,10 +628,12 @@
   },
   "lastOpenFiles": [
     "Calendar/Daily notes/2023-06-26.md",
-    "jieba_rs_wasm_bg.wasm",
+    "200-Learning/210-Programing/Web.md",
     "200-Learning/210-Programing/CSS.md",
-    "200-Learning/210-Programing/General.md",
     "200-Learning/210-Programing/JS.md",
+    "200-Learning/210-Programing/General.md",
+    "README.md",
+    "jieba_rs_wasm_bg.wasm",
     "Calendar/Weekly/2023-W-6.md",
     "Calendar/Daily notes/2023-02-17.md",
     "200-Learning/220-Sociology",
