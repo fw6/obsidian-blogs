@@ -1,0 +1,21 @@
+name: CI
+on:
+  push:
+    branches: [ "master" ]
+
+jobs:
+  auto-merge-astro-branch:
+    name: Auto Merge Astro Branch
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v3
+
+      - name: merge
+        uses: mtanzi/action-automerge@v1
+        id: merge
+        with:
+            github_token: ${{ github.token }}
+            source: 'master'
+            target: 'astro'
+            webhook_url: #if present add the Slack webhook
