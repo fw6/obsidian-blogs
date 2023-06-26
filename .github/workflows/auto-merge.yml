@@ -5,6 +5,7 @@ on:
 
 jobs:
   auto-merge-astro-branch:
+    permissions: write-all
     name: Auto Merge Astro Branch
     runs-on: ubuntu-latest
     steps:
