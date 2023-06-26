@@ -1,0 +1,303 @@
+{
+  "strategy": "chinese",
+  "matchStrategy": "prefix",
+  "maxNumberOfSuggestions": 24,
+  "maxNumberOfWordsAsPhrase": 5,
+  "minNumberOfCharactersTriggered": 0,
+  "minNumberOfWordsTriggeredPhrase": 1,
+  "complementAutomatically": true,
+  "delayMilliSeconds": 0,
+  "disableSuggestionsDuringImeOn": true,
+  "insertAfterCompletion": false,
+  "firstCharactersDisableSuggestions": ":/^。，：？『",
+  "showMatchStrategy": false,
+  "showComplementAutomatically": false,
+  "showIndexingStatus": false,
+  "descriptionOnSuggestion": "Short",
+  "selectSuggestionKeys": "Tab",
+  "additionalCycleThroughSuggestionsKeys": "None",
+  "disableUpDownKeysForCycleThroughSuggestionsKeys": false,
+  "openSourceFileKey": "None",
+  "propagateEsc": false,
+  "enableCurrentFileComplement": true,
+  "currentFileMinNumberOfCharacters": 0,
+  "onlyComplementEnglishOnCurrentFileComplement": true,
+  "enableCurrentVaultComplement": true,
+  "currentVaultMinNumberOfCharacters": 0,
+  "includeCurrentVaultPathPrefixPatterns": "",
+  "excludeCurrentVaultPathPrefixPatterns": "Extras/Templates/其他/dict/dict.md",
+  "includeCurrentVaultOnlyFilesUnderCurrentDirectory": false,
+  "enableCustomDictionaryComplement": true,
+  "customDictionaryPaths": "Extras/Templates/其他/dict/dict.md",
+  "columnDelimiter": "Pipe",
+  "customDictionaryWordRegexPattern": "",
+  "delimiterToHideSuggestion": "+=",
+  "delimiterToDivideSuggestionsForDisplayFromInsertion": "=>",
+  "caretLocationSymbolAfterComplement": "$END$",
+  "displayedTextSuffix": " => ...",
+  "enableInternalLinkComplement": true,
+  "suggestInternalLinkWithAlias": true,
+  "excludeInternalLinkPathPrefixPatterns": "",
+  "enableFrontMatterComplement": true,
+  "frontMatterComplementMatchStrategy": "inherit",
+  "insertCommaAfterFrontMatterCompletion": false,
+  "intelligentSuggestionPrioritization": {
+    "maxDaysToKeepHistory": 30,
+    "maxNumberOfHistoryToKeep": 0
+  },
+  "showLogAboutPerformanceInConsole": false,
+  "selectionHistoryTree": {
+    "styled-components": {
+      "styled-components": {
+        "currentVault": {
+          "count": 35,
+          "lastUpdated": 1675091759047
+        }
+      }
+    },
+    "phantomDependency": {
+      "phantomDependency": {
+        "currentVault": {
+          "count": 5,
+          "lastUpdated": 1675348282979
+        }
+      }
+    },
+    "-S": {
+      "-S": {
+        "currentVault": {
+          "count": 2,
+          "lastUpdated": 1674200256458
+        }
+      }
+    },
+    "peerDependencies": {
+      "peerDependencies": {
+        "currentVault": {
+          "count": 2,
+          "lastUpdated": 1673495989293
+        }
+      }
+    },
+    "5m": {
+      "5m": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1673448347771
+        }
+      }
+    },
+    "babel-plugin-import": {
+      "babel-plugin-import": {
+        "currentVault": {
+          "count": 1,
+          "lastUpdated": 1673449002840
+        }
+      }
+    },
+    "运动": {
+      "运动": {
+        "currentVault": {
+          "count": 1,
+          "lastUpdated": 1673526999221
+        }
+      }
+    },
+    "10m": {
+      "10m": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1673534762655
+        },
+        "currentVault": {
+          "count": 1,
+          "lastUpdated": 1673603949527
+        }
+      }
+    },
+    "nodeModules": {
+      "nodeModules": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1673577263014
+        }
+      }
+    },
+    "undefined": {
+      "undefined": {
+        "currentVault": {
+          "count": 2,
+          "lastUpdated": 1674269285387
+        }
+      }
+    },
+    "开始": {
+      "开始": {
+        "currentVault": {
+          "count": 1,
+          "lastUpdated": 1673619174418
+        }
+      }
+    },
+    "deprecate": {
+      "deprecate": {
+        "currentVault": {
+          "count": 1,
+          "lastUpdated": 1673851315453
+        }
+      }
+    },
+    "todoSchema": {
+      "todoSchema": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1673880250208
+        }
+      }
+    },
+    "getInitialState": {
+      "getInitialState": {
+        "currentVault": {
+          "count": 2,
+          "lastUpdated": 1673925495138
+        }
+      }
+    },
+    "alipayobjects": {
+      "alipayobjects": {
+        "currentVault": {
+          "count": 1,
+          "lastUpdated": 1674028155170
+        }
+      }
+    },
+    "}}": {
+      "}}": {
+        "currentVault": {
+          "count": 1,
+          "lastUpdated": 1674029927036
+        }
+      }
+    },
+    "Netfl": {
+      "Netfl": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1674044615788
+        }
+      }
+    },
+    "MidJourney": {
+      "MidJourney": {
+        "currentVault": {
+          "count": 2,
+          "lastUpdated": 1674712452495
+        }
+      }
+    },
+    "前端": {
+      "前端": {
+        "currentVault": {
+          "count": 1,
+          "lastUpdated": 1674093186797
+        }
+      }
+    },
+    "xiaohuoni": {
+      "xiaohuoni": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1674098524675
+        }
+      }
+    },
+    "debouce": {
+      "debouce": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1674272049968
+        }
+      }
+    },
+    "部分": {
+      "部分": {
+        "currentVault": {
+          "count": 1,
+          "lastUpdated": 1674457375721
+        }
+      }
+    },
+    "XMLHttpRequest": {
+      "XMLHttpRequest": {
+        "currentVault": {
+          "count": 1,
+          "lastUpdated": 1674871155662
+        }
+      }
+    },
+    "telegram": {
+      "telegram": {
+        "currentVault": {
+          "count": 1,
+          "lastUpdated": 1674952661984
+        }
+      }
+    },
+    "umi-plugin-docaid": {
+      "umi-plugin-docaid": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1675091252973
+        }
+      }
+    },
+    "create-docaid": {
+      "create-docaid": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1675091260634
+        }
+      }
+    },
+    "highlight": {
+      "highlight": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1675346203404
+        }
+      }
+    },
+    "link": {
+      "link": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1675343886793
+        }
+      }
+    },
+    "useContextSelector": {
+      "useContextSelector": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1675417785301
+        }
+      }
+    },
+    "Prosemirror-flat-list": {
+      "Prosemirror-flat-list": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1676042627939
+        }
+      }
+    },
+    "ProseMirror": {
+      "ProseMirror": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1676042631114
+        }
+      }
+    }
+  }
+}

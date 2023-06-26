@@ -1,0 +1,10 @@
+{
+  "uploadByClipSwitch": true,
+  "uploader": "PicGo-Core",
+  "uploadServer": "http://127.0.0.1:36677/upload",
+  "picgoCorePath": "/Users/chencheng/Library/pnpm/picgo",
+  "menuMode": "auto",
+  "workOnNetWork": false,
+  "fixPath": true,
+  "applyImage": true
+}

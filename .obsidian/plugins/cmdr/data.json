@@ -1,0 +1,55 @@
+{
+  "confirmDeletion": true,
+  "showAddCommand": true,
+  "debug": false,
+  "editorMenu": [
+    {
+      "id": "zk-prefixer",
+      "icon": "box-glyph",
+      "name": "时间戳笔记生成器: 创建时间戳笔记",
+      "mode": "any"
+    },
+    {
+      "id": "table-editor-obsidian:insert-row",
+      "icon": "insertRow",
+      "name": "Advanced Tables: Insert row before current",
+      "mode": "any"
+    },
+    {
+      "id": "table-editor-obsidian:insert-row",
+      "icon": "insertRow",
+      "name": "Advanced Tables: Insert row before current",
+      "mode": "any"
+    }
+  ],
+  "fileMenu": [],
+  "leftRibbon": [],
+  "rightRibbon": [],
+  "titleBar": [],
+  "statusBar": [],
+  "pageHeader": [
+    {
+      "id": "file-explorer:reveal-active-file",
+      "icon": "lucide-navigation",
+      "name": "文件列表: 在文件列表中显示当前文件",
+      "mode": "any"
+    }
+  ],
+  "macros": [],
+  "explorer": [],
+  "hide": {
+    "statusbar": [],
+    "leftRibbon": []
+  },
+  "spacing": 8,
+  "advancedToolbar": {
+    "rowHeight": 48,
+    "rowCount": 1,
+    "spacing": 0,
+    "buttonWidth": 48,
+    "columnLayout": false,
+    "mappedIcons": [],
+    "tooltips": false,
+    "heightOffset": 0
+  }
+}
