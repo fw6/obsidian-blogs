@@ -1,0 +1,29 @@
+name: CI
+on:
+  push:
+    branches: [ "master" ]
+
+jobs:
+  auto-merge-astro-branch:
+    permissions: write-all
+    name: Auto Merge Astro Branch
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v3
+
+      - name: pull-request-action
+        uses: vsoch/pull-request-action@master
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          PULL_REQUEST_BRANCH: "astro"
+
+      - uses: actions/checkout@v3
+        with:
+            ref: astro
+
+      - id: automerge
+        name: automerge
+        uses: "pascalgn/automerge-action@v0.15.6"
+        env:
+            GITHUB_TOKEN: "${{ github.token }}"
