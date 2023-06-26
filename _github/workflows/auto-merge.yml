@@ -12,18 +12,16 @@ jobs:
       - name: checkout
         uses: actions/checkout@v3
 
-      - name: pull-request-action
-        uses: vsoch/pull-request-action@master
+      - name: Enable Pull Request Automerge
+        run: gh pr create --base astro --head master --title "Auto Merge Astro Branch" --body "Auto Merge Astro Branch"
         env:
-          GITHUB_TOKEN: ${{ github.token }}
-          PULL_REQUEST_BRANCH: "astro"
+            GH_TOKEN: ${{ github.token }}
 
       - uses: actions/checkout@v3
         with:
             ref: astro
 
-      - id: automerge
-        name: automerge
-        uses: "pascalgn/automerge-action@v0.15.6"
+      - name: Enable Pull Request Automerge
+        run: gh pr merge --merge --auto "1"
         env:
-            GITHUB_TOKEN: "${{ github.token }}"
+            GH_TOKEN: ${{ github.token }}
