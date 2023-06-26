@@ -289,7 +289,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Calendar/Daily notes/2023-06-26.md"
+                "file": "200-Learning/210-Programing/CSS.md"
               }
             }
           },
@@ -308,7 +308,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Calendar/Daily notes/2023-06-26.md",
+                "file": "200-Learning/210-Programing/CSS.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -329,7 +329,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Calendar/Daily notes/2023-06-26.md",
+                "file": "200-Learning/210-Programing/CSS.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -373,7 +373,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Calendar/Daily notes/2023-06-26.md",
+                "file": "200-Learning/210-Programing/CSS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -590,11 +590,12 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "83193687ec45f311",
+  "active": "0a101552a253ae47",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": false
   },
   "lastOpenFiles": [
+    "Calendar/Daily notes/2023-06-26.md",
     "jieba_rs_wasm_bg.wasm",
     "200-Learning/210-Programing/CSS.md",
     "200-Learning/210-Programing/General.md",
@@ -612,12 +613,10 @@
     "Extras/个人资产/生活/驾考.md",
     "未命名.md",
     "999-Archive",
-    "300-Life",
     "000-INBOX.md",
     "Calendar/2023 书单.md",
     "Calendar/2023 目标.md",
     "Extras/Templates/其他/dict/dict.md",
-    "Calendar/Daily notes/2023-06-26.md",
     "Extras/个人资产/工作/富文本编辑器/ProseMirror.md",
     "Calendar/Daily notes/2023-02-11.md",
     "Extras/个人资产/生活/买房🏠.md",
