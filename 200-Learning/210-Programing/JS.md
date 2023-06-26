@@ -1,7 +1,12 @@
 ---
+title: "Web"
+description: "Web API about"
+pubDate: "2023-06-26"
+heroImage: "/placeholder-hero.jpg"
 date created: 2023-06-26
 date modified: 2023-06-26
 ---
+
 #Programing #FE
 
 ## Diff DOM

@@ -1,3 +1,11 @@
+---
+title: "Web"
+description: "Web API about"
+pubDate: "2023-06-26"
+heroImage: "/placeholder-hero.jpg"
+date created: 2023-06-26
+date modified: 2023-06-26
+---
 
 
 ## IME
@@ -12,17 +20,7 @@
 
 ## Edit Context
 
-- [EditContext API](https://w3c.github.io/edit-context/)
+- [EditContext API](https://w3c.github.io/edit-context/)  
 ![image.png](https://raw.githubusercontent.com/fw6/assets/main/toy_docs/20230626145625.png)
 
-
 ![image.png](https://raw.githubusercontent.com/fw6/assets/main/toy_docs/20230626145600.png)
-
-
-
-
-
-
-
-
-

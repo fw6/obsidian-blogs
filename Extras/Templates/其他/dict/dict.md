@@ -1,6 +1,10 @@
 ---
-date created: 2022-06-09
-date modified: 2022-08-10
+title: "Web"
+description: "Web API about"
+pubDate: {{date:dddd MM YYYY}}
+heroImage: "/placeholder-hero.jpg"
+date created: {{date}}
+date modified: {{date}}
 ---
 
 ## callout语法

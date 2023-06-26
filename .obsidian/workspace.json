@@ -19,6 +19,84 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "JS",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/JS.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":3},\"to\":{\"line\":7,\"ch\":3}}}"
+                },
+                {
+                  "title": "blog",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Extras/Templates/blog.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}}}"
+                },
+                {
+                  "title": "dict",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Extras/Templates/其他/dict/dict.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":3},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "blog",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Extras/Templates/blog.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "dict",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Extras/Templates/其他/dict/dict.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "JS",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/JS.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":34},\"to\":{\"line\":1,\"ch\":0}}}"
+                },
+                {
+                  "title": "dict",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Extras/Templates/其他/dict/dict.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":25},\"to\":{\"line\":2,\"ch\":25}}}"
+                },
+                {
+                  "title": "Daily notes模板",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Extras/Templates/Calendar模板/Daily notes模板.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "dict",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Extras/Templates/其他/dict/dict.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "JS",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/JS.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":28,\"ch\":0},\"to\":{\"line\":28,\"ch\":0}}}"
+                },
+                {
+                  "title": "Web",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Web.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":0},\"to\":{\"line\":4,\"ch\":34}}}"
+                },
+                {
+                  "title": "JS",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/JS.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":25},\"to\":{\"line\":2,\"ch\":25}}}"
+                },
+                {
+                  "title": "Web",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Web.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
                   "title": "CSS",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/CSS.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -41,10 +119,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200-Learning/210-Programing/Web.md",
+                "file": "Extras/Templates/blog.md",
                 "mode": "source",
                 "backlinks": true,
-                "source": true
+                "source": false
               }
             }
           }
@@ -227,7 +305,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200-Learning/210-Programing/Web.md"
+                "file": "Extras/Templates/blog.md"
               }
             }
           },
@@ -246,7 +324,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-Learning/210-Programing/Web.md",
+                "file": "Extras/Templates/blog.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -267,7 +345,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "200-Learning/210-Programing/Web.md",
+                "file": "Extras/Templates/blog.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -311,7 +389,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-Learning/210-Programing/Web.md",
+                "file": "Extras/Templates/blog.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -528,15 +606,21 @@
       "obsidian-spaced-repetition:复习卡片": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
-      "omnisearch:Omnisearch": false
+      "omnisearch:Omnisearch": false,
+      "templates:插入模板": false
     }
   },
   "active": "0a101552a253ae47",
   "lastOpenFiles": [
-    "200-Learning/210-Programing/CSS.md",
     "200-Learning/210-Programing/JS.md",
-    "Calendar/Daily notes/2023-06-26.md",
+    "200-Learning/210-Programing/未命名.md",
+    "Extras/Templates/blog.md",
+    "Extras/Templates/其他/dict/dict.md",
+    "Extras/Templates/Blog",
+    "Extras/Templates/Calendar模板/Daily notes模板.md",
     "200-Learning/210-Programing/Web.md",
+    "200-Learning/210-Programing/CSS.md",
+    "Calendar/Daily notes/2023-06-26.md",
     "200-Learning/210-Programing/General.md",
     "README.md",
     "jieba_rs_wasm_bg.wasm",
@@ -552,11 +636,9 @@
     "000-Inbox/010-Workspace",
     "Extras/个人资产/生活/驾考.md",
     "未命名.md",
-    "999-Archive",
     "000-INBOX.md",
     "Calendar/2023 书单.md",
     "Calendar/2023 目标.md",
-    "Extras/Templates/其他/dict/dict.md",
     "Extras/个人资产/工作/富文本编辑器/ProseMirror.md",
     "Calendar/Daily notes/2023-02-11.md",
     "Extras/个人资产/生活/买房🏠.md",
