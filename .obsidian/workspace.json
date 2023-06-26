@@ -6,7 +6,7 @@
       {
         "id": "b8c2df088808d980",
         "type": "tabs",
-        "dimension": 64.32246998284734,
+        "dimension": 82.28520814880426,
         "children": [
           {
             "id": "0a101552a253ae47",
@@ -44,7 +44,7 @@
                 "file": "200-Learning/210-Programing/Web.md",
                 "mode": "source",
                 "backlinks": true,
-                "source": false
+                "source": true
               }
             }
           }
@@ -53,7 +53,7 @@
       {
         "id": "1e9774cd8fe042c3",
         "type": "tabs",
-        "dimension": 35.67753001715266,
+        "dimension": 17.71479185119575,
         "children": [
           {
             "id": "83193687ec45f311",
@@ -523,7 +523,6 @@
       "graph:查看关系图谱": false,
       "daily-notes:打开/创建今天的日记": false,
       "workspaces:管理工作区布局": false,
-      "publish:发布更改": false,
       "command-palette:打开命令面板": false,
       "zk-prefixer:创建时间戳笔记": false,
       "obsidian-spaced-repetition:复习卡片": false,

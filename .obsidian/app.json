@@ -28,5 +28,6 @@
   "autoPairBrackets": true,
   "smartIndentList": true,
   "tabSize": 4,
-  "showInlineTitle": true
+  "showInlineTitle": true,
+  "showFrontmatter": true
 }
