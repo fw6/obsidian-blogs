@@ -2,7 +2,7 @@
 title: "CSS"
 description: ""
 pubDate: "2023-06-27 16:23"
-heroImage: "![photo by Ravi Sharma on Unsplash](https://images.unsplash.com/photo-1686704223352-366336b32263?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNjM5Nzd8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc4NDQ2ODR8&ixlib=rb-4.0.3&q=85&w=1200&h=400)"
+heroImage: "https://images.unsplash.com/photo-1686704223352-366336b32263?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNjM5Nzd8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc4NDQ2ODR8&ixlib=rb-4.0.3&q=85&w=1200&h=400"
 date created: "2023-06-26 09:42"
 date modified: "2023-06-27"
 ---
@@ -37,7 +37,7 @@ date modified: "2023-06-27"
 
 }
 
-  
+
 
 /* Selects any paragraph inside a header, main
 
