@@ -1,11 +1,10 @@
 ---
-title: "Web"
-description: "Web API about"
-pubDate: {{date:dddd MM YYYY}}
-heroImage: "/placeholder-hero.jpg"
-date created: {{date}}
-date modified: {{date}}
+title: "<% tp.file.title %>"
+description: ""
+pubDate: "<% tp.file.last_modified_date("dddd MM YYYY") %>"
+heroImage: "<% tp.web.random_picture("1200x400") %>"
 ---
+
 
 ## callout语法
 

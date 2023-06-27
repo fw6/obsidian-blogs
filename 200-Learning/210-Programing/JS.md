@@ -1,13 +1,17 @@
 ---
-title: "Web"
-description: "Web API about"
-pubDate: "2023-06-26"
-heroImage: "/placeholder-hero.jpg"
-date created: 2023-06-26
-date modified: 2023-06-26
+title: "JS"
+description: ""
+pubDate: "星期二 06 2023"
+heroImage: "![photo by NEOM on Unsplash](https://images.unsplash.com/photo-1682687979601-082a1295b78f?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNjM5Nzd8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc4NDQ4MjR8&ixlib=rb-4.0.3&q=85&w=1200&h=400)"
+date created: "2023-06-26 11:00"
+date modified: "2023-06-27"
 ---
 
-#Programing #FE
+#Programing #FE 
+
+> Go to your bosom: Knock there and ask your heart what it doth know.
+> — <cite>William Shakespeare</cite>
+
 
 ## Diff DOM
 
