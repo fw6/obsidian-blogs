@@ -1,3 +1,11 @@
+---
+title: "<% tp.file.title %>"
+description: ""
+pubDate: "<% tp.file.last_modified_date("dddd MM YYYY") %>"
+heroImage: "<% tp.web.random_picture("1200x400") %>"
+---
+
+
 ## 今天的灵感或闪念
 
 - 今天的 3 Frog 是？
