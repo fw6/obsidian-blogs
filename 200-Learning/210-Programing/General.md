@@ -12,7 +12,9 @@ date modified: "2023-06-27"
 > So much technology, so little talent.
 > — <cite>Vernor Vinge</cite>
 
+
 ## Bitmask 位掩码
+
 [javascript - How is svelte making a component dirty - Stack Overflow](https://stackoverflow.com/questions/59541070/how-is-svelte-making-a-component-dirty)
 
 svelte使用$bitmask$技术保存脏检查结果：
