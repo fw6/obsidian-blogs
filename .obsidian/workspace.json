@@ -6,7 +6,7 @@
       {
         "id": "b8c2df088808d980",
         "type": "tabs",
-        "dimension": 82.28520814880426,
+        "dimension": 82.28520814880424,
         "children": [
           {
             "id": "0a101552a253ae47",
@@ -17,6 +17,12 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "blog",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Extras/Templates/blog.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 },
                 {
                   "title": "JS",
@@ -119,7 +125,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Extras/Templates/blog.md",
+                "file": "Calendar/Daily notes/2023-06-27.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -131,7 +137,7 @@
       {
         "id": "1e9774cd8fe042c3",
         "type": "tabs",
-        "dimension": 17.71479185119575,
+        "dimension": 17.714791851195745,
         "children": [
           {
             "id": "83193687ec45f311",
@@ -305,7 +311,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Extras/Templates/blog.md"
+                "file": "Calendar/Daily notes/2023-06-27.md"
               }
             }
           },
@@ -324,7 +330,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Extras/Templates/blog.md",
+                "file": "Calendar/Daily notes/2023-06-27.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -345,7 +351,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Extras/Templates/blog.md",
+                "file": "Calendar/Daily notes/2023-06-27.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -389,7 +395,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Extras/Templates/blog.md",
+                "file": "Calendar/Daily notes/2023-06-27.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -612,9 +618,10 @@
   },
   "active": "0a101552a253ae47",
   "lastOpenFiles": [
+    "Extras/Templates/blog.md",
+    "Calendar/Daily notes/2023-06-27.md",
     "200-Learning/210-Programing/JS.md",
     "200-Learning/210-Programing/未命名.md",
-    "Extras/Templates/blog.md",
     "Extras/Templates/其他/dict/dict.md",
     "Extras/Templates/Blog",
     "Extras/Templates/Calendar模板/Daily notes模板.md",
