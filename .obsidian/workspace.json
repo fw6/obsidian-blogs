@@ -19,6 +19,18 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "JS",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/JS.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "README",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"README.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":0},\"to\":{\"line\":14,\"ch\":0}}}"
+                },
+                {
                   "title": "2023 目标",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Calendar/2023 目标.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -485,7 +497,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "200-Learning/210-Programing/General.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -666,7 +678,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "200-Learning/210-Programing/General.md"
               }
             }
           },
@@ -685,7 +697,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "200-Learning/210-Programing/General.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -706,7 +718,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "README.md",
+                "file": "200-Learning/210-Programing/General.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -750,7 +762,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "200-Learning/210-Programing/General.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -971,43 +983,43 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0a101552a253ae47",
+  "active": "a4d1994dfc9f1870",
   "lastOpenFiles": [
+    "renovate.json",
+    "cedict_ts.u8",
+    "_obsidian/zk-prefixer.json",
+    "_obsidian/workspaces.json",
+    "_obsidian/workspace.json",
+    "_obsidian/workspace",
+    "_obsidian/themes/Shimmering Focus/theme.css",
+    "_obsidian/themes/Shimmering Focus/manifest.json",
+    "_obsidian/themes/Obsidian Nord/theme.css",
+    "_obsidian/themes/Obsidian Nord/manifest.json",
+    "_obsidian/themes/Minimal/theme.css",
+    "200-Learning/210-Programing/JS.md",
+    "README.md",
+    "Extras/Templates/其他/dict/_dict.md",
+    "Extras/Templates/_blog.md",
+    "Extras/Templates/Calendar模板/_Daily notes模板周日.md",
+    "Extras/Templates/Calendar模板/_Daily notes模板周六.md",
+    "Extras/Templates/Calendar模板/_Daily notes模板.md",
+    "Calendar/Daily notes/2023-06-27.md",
+    "Extras/Templates/其他/dict/dict.md",
+    "Extras/Templates/blog.md",
+    "Extras/Templates/Calendar模板/Daily notes模板周日.md",
+    "Extras/Templates/Calendar模板/Daily notes模板周六.md",
+    "Extras/Templates/Calendar模板/Daily notes模板.md",
+    "Calendar/Daily notes/2023-06-26.md",
+    "Calendar/Daily notes/2023-02-17.md",
     "Calendar/2023 目标.md",
     "Calendar/2023 书单.md",
     "Calendar/Weekly/2023-W-6.md",
     "Calendar/Daily notes/2023-02-11.md",
-    "Calendar/Daily notes/2023-06-27.md",
-    "Calendar/Daily notes/2023-02-17.md",
-    "Calendar/Daily notes/2023-06-26.md",
-    "Extras/Templates/_blog.md",
     "Extras/个人资产/工作/代码库收集/GitHub.md",
     "Extras/个人资产/工作/学习文档/效率工具.md",
     "Extras/个人资产/工作/学习文档/面试手册.md",
     "Extras/个人资产/工作/富文本编辑器/ProseMirror.md",
     "Extras/个人资产/生活/买房🏠.md",
-    "Extras/个人资产/生活/蜜月旅行🏝️.md",
-    "Extras/个人资产/生活/驾考.md",
-    "Extras/Templates/其他/dict/_dict.md",
-    "Extras/Templates/Calendar模板/_Daily notes模板周日.md",
-    "Extras/Templates/Calendar模板/_Daily notes模板周六.md",
-    "Extras/Templates/Calendar模板/_Daily notes模板.md",
-    "Extras/Daily Reading/1.md.md",
-    "200-Learning/210-Programing/CSS.md",
-    "200-Learning/210-Programing/Web.md",
-    "200-Learning/未命名.md",
-    "200-Learning/210-Programing/JS.md",
-    "200-Learning/210-Programing/General.md",
-    "200-Learning/210-Programing/未命名.md",
-    "Extras/Templates/Blog",
-    "jieba_rs_wasm_bg.wasm",
-    "200-Learning/220-Sociology",
-    "200-Learning/220-English",
-    "200-Learning/210-Programing",
-    "000-Inbox/050-Blog Notes",
-    "000-Inbox/040-Idea Incubator",
-    "000-Inbox/030-History",
-    "000-Inbox/020-Wechat",
-    "000-Inbox/010-Workspace"
+    "Extras/个人资产/生活/蜜月旅行🏝️.md"
   ]
 }
