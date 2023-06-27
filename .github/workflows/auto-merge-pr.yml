@@ -21,7 +21,7 @@ jobs:
           ref: astro
 
       - name: Enable Pull Request Automerge
-        run: gh pr merge "$PRNUM" --auto --squash --title "Auto Merge Astro Branch" --body "$PRBODY"
+        run: gh pr merge "$PRNUM" --auto --merge --title "Auto Merge Astro Branch" --body "$PRBODY"
         env:
             GH_TOKEN: ${{ github.token }}
             PRNUM: ${{ github.event.pull_request.number }}
