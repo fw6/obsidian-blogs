@@ -2,14 +2,13 @@
 title: "Web"
 description: ""
 pubDate: "2023-06-27 16:23"
-heroImage: "![photo by Hiki App on Unsplash](https://images.unsplash.com/photo-1687360441063-27492a092519?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNjM5Nzd8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc4NDQ4NjB8&ixlib=rb-4.0.3&q=85&w=1200&h=400)"
-date created: "2023-06-26 13:57"
-date modified: "2023-06-27"
+heroImage: "https://images.unsplash.com/photo-1687360441063-27492a092519?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNjM5Nzd8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc4NDQ4NjB8&ixlib=rb-4.0.3&q=85&w=1200&h=400"
+date created: 2023-06-27
+date modified: 2023-06-27
 ---
 
-> The function of wisdom is to discriminate between good and evil.
+> The function of wisdom is to discriminate between good and evil.  
 > — <cite>Cicero</cite>
-
 
 ## IME
 
