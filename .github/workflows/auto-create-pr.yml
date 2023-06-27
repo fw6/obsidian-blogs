@@ -1,4 +1,4 @@
-name: CI
+name: CI_auto_create_pr
 on:
   push:
     branches: [ "master" ]
