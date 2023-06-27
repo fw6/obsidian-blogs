@@ -2,6 +2,9 @@ name: CI_auto_create_pr
 on:
   push:
     branches: [ "master" ]
+    paths:
+        - '**.md'
+        - '**.mdx'
 
 jobs:
   auto-merge-astro-branch:
