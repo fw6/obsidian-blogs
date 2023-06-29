@@ -2,7 +2,7 @@
 title: "JS"
 description: ""
 pubDate: "2023-06-27 16:23"
-heroImage: "https://images.unsplash.com/photo-1682687979601-082a1295b78f?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNjM5Nzd8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc4NDQ4MjR8&ixlib=rb-4.0.3&q=85&w=1200&h=400"
+heroImage: "https://images.unsplash.com/photo-1550063873-ab792950096b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=640&q=80"
 date created: "2023-06-26 11:00"
 date modified: "2023-06-27"
 ---
