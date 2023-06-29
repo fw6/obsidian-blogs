@@ -1,0 +1,57 @@
+---
+title: "RichText Editor"
+description: ""
+pubDate: "2023-06-29 14:38"
+heroImage: "https://images.unsplash.com/photo-1687054232652-f12bc731b2a6?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNjM5Nzd8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgwMjA3MTB8&ixlib=rb-4.0.3&q=85"
+date created: 2023-06-29
+date modified: 2023-06-29
+---
+
+# RichText Editor
+
+> There is nothing permanent except change.  
+> — <cite>Heraclitus</cite>
+
+## [[ProseMirror]]
+
+### Tracking changes
+
+- discuss
+	- [Live tracking / Track changes - Yjs Community](https://discuss.yjs.dev/t/live-tracking-track-changes/293/5)
+	- [How to compare 2 versions of the same document - discuss.ProseMirror](https://discuss.prosemirror.net/t/how-to-compare-2-versions-of-the-same-document/1836/2)
+- libraries
+	- [prosemirror-live-suggestions / prosemirror-live-suggestions · GitLab](https://gitlab.com/prosemirror-live-suggestions/prosemirror-live-suggestions)
+	- [GitHub - automerge/automerge: A JSON-like data structure (a CRDT) that can be modified concurrently by different users, and merged again automatically.](https://github.com/automerge/automerge)
+	- [GitHub - y-crdt/y-crdt: Rust port of Yjs](https://github.com/y-crdt/y-crdt)
+- essay/talks
+	- [About CRDTs • Conflict-free Replicated Data Types](https://crdt.tech/)
+	- [Peritext: A CRDT for Rich-Text Collaboration](https://www.inkandswitch.com/peritext/)
+	- [Local-first software: You own your data, in spite of the cloud](https://www.inkandswitch.com/local-first/)
+	- [Upwelling: Combining real-time collaboration with version control for writers.](https://www.inkandswitch.com/upwelling/)
+
+### References
+
+- [remirror/remirror: ProseMirror toolkit for React 🎉 (github.com)](https://github.com/remirror/remirror)
+- [curvenote/editor: An interactive scientific editor built with ProseMirror, React and Redux - by Curvenote. (github.com)](https://github.com/curvenote/editor)
+- [streetwriters/notesnook: A fully open source & end-to-end encrypted note taking alternative to Evernote. (github.com)](https://github.com/streetwriters/notesnook)
+- [herrdu/prosemirror: 个人使用的 prosemirror 合集版本 (github.com)](https://github.com/herrdu/prosemirror)
+- [nhn/tui.editor: 🍞📝 Markdown WYSIWYG Editor. GFM Standard + Chart & UML Extensible. (github.com)](https://github.com/nhn/tui.editor)
+- [sereneinserenade (Jeet Mandaliya) (github.com)](https://github.com/sereneinserenade)
+- [sereneinserenade/notitap: Notitap - Notion like editor built on top of tiptap. (github.com)](https://github.com/sereneinserenade/notitap)
+- [TypeCellOS/BlockNote: A "Notion-style" block-based extensible text editor built on top of Prosemirror and Tiptap. (github.com)](https://github.com/TypeCellOS/BlockNote)
+- [IncredibleDevHQ/Incredible: Incredible drastically simplifies creation of developer video content. It offers a unified workflow to storyboard, record, collaborate and produce the video. (github.com)](https://github.com/IncredibleDevHQ/Incredible)
+- [michelson/Dante: Just another Medium wysiwyg editor clone (github.com)](https://github.com/michelson/Dante)
+- [uptonking/nostalgia-studio-full: wip projects about documentation and knowledge base (github.com)](https://github.com/uptonking/nostalgia-studio-full)
+- [ahixon/atlassian-frontend-mirror (github.com)](https://github.com/ahixon/atlassian-frontend-mirror)
+- [ronkok/Hurmet: Rich text editor on the web, featuring live calculations. (github.com)](https://github.com/ronkok/Hurmet)
+- [quarto-dev/quarto: Quarto open-source scientific and technical publishing system (github.com)](https://github.com/quarto-dev/quarto)
+- [nib-edit/nib: Wysiwyg / Text editor components built using React and Prosemirror (github.com)](https://github.com/nib-edit/nib)
+- [bangle-io/bangle.dev: Collection of higher level rich text editing tools. It powers the local only note taking app https://bangle.io (github.com)](https://github.com/bangle-io/bangle.dev)
+- [PierBover/prosemirror-cookbook: A series of examples for understanding ProseMirror (github.com)](https://github.com/PierBover/prosemirror-cookbook)
+- [sereneinserenade/placenoter: Chrome extension to turn browser's default new tab into note-taking machine. (github.com)](https://github.com/sereneinserenade/placenoter)
+- [dotCMS/core: Headless/Hybrid Content Management System for Enterprises (github.com)](https://github.com/dotCMS/core)
+- [NewBuilding/start-editor: A rich editor make in ProseMirror (github.com)](https://github.com/NewBuilding/start-editor)
+- [Milkdown/milkdown: 🍼 Plugin driven WYSIWYG markdown editor framework. (github.com)](https://github.com/Milkdown/milkdown)
+- [https://github.com/bytedance/syllepsis](https://github.com/bytedance/syllepsis)
+- [GitHub - fiduswriter/fiduswriter: Fidus Writer is an online collaborative editor for academics.](https://github.com/fiduswriter/fiduswriter)
+- [Commits · master · wax / wax-prosemirror · GitLab](https://gitlab.coko.foundation/wax/wax-prosemirror/-/commits/master?ref_type=heads)

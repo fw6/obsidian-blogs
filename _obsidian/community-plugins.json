@@ -1,5 +1,4 @@
 [
-  "obsidian-style-settings",
   "obsidian-auto-link-title",
   "dataview",
   "obsidian-image-auto-upload-plugin",
@@ -24,5 +23,7 @@
   "cmdr",
   "floating-toc",
   "obsidian-git",
-  "templater-obsidian"
+  "templater-obsidian",
+  "obsidian-style-settings",
+  "supercharged-links-obsidian"
 ]
