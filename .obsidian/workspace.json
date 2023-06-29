@@ -19,6 +19,192 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "驾考",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Extras/个人资产/生活/驾考.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":11},\"to\":{\"line\":7,\"ch\":11}}}"
+                },
+                {
+                  "title": "蜜月旅行🏝️",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Extras/个人资产/生活/蜜月旅行🏝️.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":11},\"to\":{\"line\":7,\"ch\":11}}}"
+                },
+                {
+                  "title": "买房🏠",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Extras/个人资产/生活/买房🏠.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":11},\"to\":{\"line\":7,\"ch\":11}}}"
+                },
+                {
+                  "title": "ProseMirror",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Extras/个人资产/工作/富文本编辑器/ProseMirror.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":11},\"to\":{\"line\":7,\"ch\":11}},\"scroll\":0.5818181818181818}"
+                },
+                {
+                  "title": "面试手册",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Extras/个人资产/工作/学习文档/面试手册.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":11},\"to\":{\"line\":7,\"ch\":11}}}"
+                },
+                {
+                  "title": "效率工具",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Extras/个人资产/工作/学习文档/效率工具.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":11},\"to\":{\"line\":7,\"ch\":11}}}"
+                },
+                {
+                  "title": "GitHub",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Extras/个人资产/工作/代码库收集/GitHub.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":11},\"to\":{\"line\":7,\"ch\":11}},\"scroll\":0.41818181818181815}"
+                },
+                {
+                  "title": "_blog",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Extras/Templates/_blog.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":11},\"to\":{\"line\":7,\"ch\":11}}}"
+                },
+                {
+                  "title": "_dict",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Extras/Templates/其他/dict/_dict.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":11},\"to\":{\"line\":5,\"ch\":11}}}"
+                },
+                {
+                  "title": "_Daily notes模板周日",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Extras/Templates/Calendar模板/_Daily notes模板周日.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":11},\"to\":{\"line\":5,\"ch\":11}}}"
+                },
+                {
+                  "title": "_Daily notes模板周六",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Extras/Templates/Calendar模板/_Daily notes模板周六.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":11},\"to\":{\"line\":5,\"ch\":11}}}"
+                },
+                {
+                  "title": "_Daily notes模板",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Extras/Templates/Calendar模板/_Daily notes模板.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":11},\"to\":{\"line\":5,\"ch\":11}},\"scroll\":0}"
+                },
+                {
+                  "title": "1.md",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Extras/Daily Reading/1.md.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":11},\"to\":{\"line\":7,\"ch\":11}},\"scroll\":0.740909090909091}"
+                },
+                {
+                  "title": "2023 目标",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Calendar/2023 目标.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":11},\"to\":{\"line\":7,\"ch\":11}},\"scroll\":2.1666666666666665}"
+                },
+                {
+                  "title": "2023 书单",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Calendar/2023 书单.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":11},\"to\":{\"line\":7,\"ch\":11}},\"scroll\":0.9181818181818182}"
+                },
+                {
+                  "title": "2023-W-6",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Calendar/Weekly/2023-W-6.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":11},\"to\":{\"line\":7,\"ch\":11}},\"scroll\":2.375}"
+                },
+                {
+                  "title": "2023-02-11",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Calendar/Daily notes/2023-02-11.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":11},\"to\":{\"line\":7,\"ch\":11}}}"
+                },
+                {
+                  "title": "Web",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Web.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "RichText Editor",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/RichText Editor.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "JS",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/JS.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "General",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/General.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "CSS",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/CSS.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "工作总结",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"000-Inbox/010-Workspace/工作总结.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}}}"
+                },
+                {
+                  "title": "CSS",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/CSS.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Web",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Web.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":177},\"to\":{\"line\":4,\"ch\":177}}}"
+                },
+                {
+                  "title": "RichText Editor",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/RichText Editor.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":177},\"to\":{\"line\":4,\"ch\":177}}}"
+                },
+                {
+                  "title": "JS",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/JS.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":174},\"to\":{\"line\":4,\"ch\":174}}}"
+                },
+                {
+                  "title": "CSS",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/CSS.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "General",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/General.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":177},\"to\":{\"line\":4,\"ch\":177}}}"
+                },
+                {
+                  "title": "CSS",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/CSS.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":20},\"to\":{\"line\":9,\"ch\":20}},\"scroll\":0}"
+                },
+                {
+                  "title": "工作总结",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"000-Inbox/010-Workspace/工作总结.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":3},\"to\":{\"line\":7,\"ch\":3}},\"scroll\":0.8181818181818182}"
+                },
+                {
                   "title": "RichText Editor",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/RichText Editor.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -155,7 +341,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000-Inbox/010-Workspace/_工作总结.md",
+                "file": "README.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -425,7 +611,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-Inbox/010-Workspace/_工作总结.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -451,7 +637,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-Inbox/010-Workspace/_工作总结.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -492,7 +678,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000-Inbox/010-Workspace/_工作总结.md"
+                "file": "README.md"
               }
             }
           },
@@ -555,16 +741,29 @@
   },
   "active": "2b253c52ed61f4d7",
   "lastOpenFiles": [
-    "200-Learning/210-Programing/Web.md",
-    "000-Inbox/010-Workspace/_工作总结.md",
-    "200-Learning/210-Programing/RichText Editor.md",
-    "200-Learning/210-Programing/JS.md",
-    "200-Learning/210-Programing/CSS.md",
+    "Extras/个人资产/生活/驾考.md",
+    "Extras/个人资产/生活/蜜月旅行🏝️.md",
+    "Extras/个人资产/生活/买房🏠.md",
     "Extras/个人资产/工作/富文本编辑器/ProseMirror.md",
     "Extras/个人资产/工作/学习文档/面试手册.md",
     "Extras/个人资产/工作/学习文档/效率工具.md",
     "Extras/个人资产/工作/代码库收集/GitHub.md",
+    "Extras/Templates/_blog.md",
+    "Extras/Templates/其他/dict/_dict.md",
+    "Extras/Templates/Calendar模板/_Daily notes模板周日.md",
+    "Extras/Templates/Calendar模板/_Daily notes模板周六.md",
+    "Extras/Templates/Calendar模板/_Daily notes模板.md",
+    "Extras/Daily Reading/1.md.md",
+    "Calendar/2023 目标.md",
+    "Calendar/2023 书单.md",
+    "Calendar/Weekly/2023-W-6.md",
+    "Calendar/Daily notes/2023-02-11.md",
+    "200-Learning/210-Programing/Web.md",
+    "200-Learning/210-Programing/RichText Editor.md",
+    "200-Learning/210-Programing/JS.md",
     "200-Learning/210-Programing/General.md",
+    "200-Learning/210-Programing/CSS.md",
+    "000-Inbox/010-Workspace/工作总结.md",
     "renovate.json",
     "cedict_ts.u8",
     "_obsidian/zk-prefixer.json",
@@ -574,7 +773,6 @@
     "_obsidian/themes/Shimmering Focus/theme.css",
     "_obsidian/themes/Shimmering Focus/manifest.json",
     "_obsidian/themes/Obsidian Nord/theme.css",
-    "_obsidian/themes/Obsidian Nord/manifest.json",
-    "Extras/Templates/_blog.md"
+    "_obsidian/themes/Obsidian Nord/manifest.json"
   ]
 }

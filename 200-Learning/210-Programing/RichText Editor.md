@@ -2,7 +2,7 @@
 title: "RichText Editor"
 description: ""
 pubDate: "2023-06-29 14:38"
-heroImage: "https://images.unsplash.com/photo-1687054232652-f12bc731b2a6?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNjM5Nzd8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgwMjA3MTB8&ixlib=rb-4.0.3&q=85"
+heroImage: "https://images.unsplash.com/photo-1659083428436-c55805a424db?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=640&q=80"
 date created: 2023-06-29
 date modified: 2023-06-29
 ---
