@@ -28,3 +28,10 @@ jobs:
             git pull
             git merge --no-ff origin/master -m "Auto-merge master back to blog"
             git push
+
+      - name: Generate a pr after after previous step failed
+        if: ${{ failure() }}
+        run: |
+            gh pr create --base astro --head master --title "Auto Merge Astro Branch" --body "Auto Merge Astro Branch" --label "automerge"
+        env:
+            GH_TOKEN: ${{ github.token }}

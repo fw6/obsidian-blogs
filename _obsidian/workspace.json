@@ -262,13 +262,22 @@
   },
   "active": "2b253c52ed61f4d7",
   "lastOpenFiles": [
+    "renovate.json",
+    "cedict_ts.u8",
+    "_obsidian/zk-prefixer.json",
+    "_obsidian/workspaces.json",
+    "_obsidian/workspace.json",
+    "_obsidian/workspace",
+    "_obsidian/themes/Shimmering Focus/theme.css",
+    "_obsidian/themes/Shimmering Focus/manifest.json",
+    "_obsidian/themes/Obsidian Nord/theme.css",
+    "_obsidian/themes/Obsidian Nord/manifest.json",
+    "_obsidian/themes/Minimal/theme.css",
     "Extras/Templates/_blog.md",
     "200-Learning/210-Programing/JS.md",
     "200-Learning/210-Programing/Web.md",
     "200-Learning/210-Programing/CSS.md",
     "Extras/个人资产/工作/代码库收集/GitHub.md",
-    "200-Learning/210-Programing/General.md",
-    "renovate.json",
-    "cedict_ts.u8"
+    "200-Learning/210-Programing/General.md"
   ]
 }
