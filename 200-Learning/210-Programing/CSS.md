@@ -17,7 +17,7 @@ date modified: "2023-06-27"
 [Learn CSS | web.dev](https://web.dev/learn/css/)
 [CSS - 学习 Web 开发 | MDN](https://developer.mozilla.org/zh-CN/docs/Learn/CSS)
 
-## **:where 和 :is**
+## :where 和 :is
 [:where() - CSS：层叠样式表 | MDN](https://developer.mozilla.org/zh-CN/docs/Web/CSS/:where)
 [:is() - CSS：层叠样式表 | MDN](https://developer.mozilla.org/zh-CN/docs/Web/CSS/:is)
 
@@ -129,8 +129,59 @@ I am wrapped in an anonymous box.
 
 元素的position为absolute或fixed，该元素为绝对定位。
 
+## 应用或脱离流布局
+
+脱离常规流的元素：
+- floated items。浮动的元素
+- items with `position: absolute` (including `position: fixed` which acts in the same way)。通过设置 position 属性为 absolute 或者 fixed 的元素
+- the root element (`html`) 根元素
+脱离常规流的元素会创建新的块级格式化上下文环境，其中包含对的所有元素构成了一个小的布局环境，与页面中的其他内容分割开来。而根元素，作为所有页面的容器自身脱离常规流，为整个文档创建一个块级格式化上下文环境。
+
+当移动元素或使元素脱离文档流，为防止折叠，你可能需要对元素内容和严肃周围内容做一些管理，要么清楚浮动，要么保证相对定位不会覆盖其他元素。
+
+
 ## 块格式化上下文
 
 >块格式化上下文（Block Formatting Context，BFC）：是Web页面的可视CSS渲染的一部分，是块级盒子布局过程发生的区域，也是浮动元素与其他元素交互的区域。
 
-下列方式会创建块格式化上下文
+格式化上下文包含以下几种类型：
+1. 块格式化上下文。根据布局块规则布局子元素
+2. 内联格式化上下文。
+3. 灵活格式化上下文。将其子元素布局为灵活项（flex items）
+
+下列方式会创建块格式化上下文：
+- 根元素（`<html>`）
+- 浮动元素（[`float`](https://developer.mozilla.org/zh-CN/docs/Web/CSS/float) 值不为 `none`）
+- 绝对定位元素（[`position`](https://developer.mozilla.org/zh-CN/docs/Web/CSS/position) 值为 `absolute` 或 `fixed`）
+- 行内块元素（[`display`](https://developer.mozilla.org/zh-CN/docs/Web/CSS/display) 值为 `inline-block`）
+- 表格单元格（[`display`](https://developer.mozilla.org/zh-CN/docs/Web/CSS/display) 值为 `table-cell`，HTML 表格单元格默认值）
+- 表格标题（[`display`](https://developer.mozilla.org/zh-CN/docs/Web/CSS/display) 值为 `table-caption`，HTML 表格标题默认值）
+- 匿名表格单元格元素（[`display`](https://developer.mozilla.org/zh-CN/docs/Web/CSS/display) 值为 `table`、`table-row`、 `table-row-group`、`table-header-group`、`table-footer-group`（分别是 HTML table、tr、tbody、thead、tfoot 的默认值）或 `inline-table`）
+- [`overflow`](https://developer.mozilla.org/zh-CN/docs/Web/CSS/overflow) 值不为 `visible`、`clip` 的块元素
+- [`display`](https://developer.mozilla.org/zh-CN/docs/Web/CSS/display) 值为 `flow-root` 的元素
+- [`contain`](https://developer.mozilla.org/zh-CN/docs/Web/CSS/contain) 值为 `layout`、`content` 或 `paint` 的元素
+- 弹性元素（[`display`](https://developer.mozilla.org/zh-CN/docs/Web/CSS/display) 值为 `flex` 或 `inline-flex` 元素的直接子元素），如果它们本身既不是 [flex](https://developer.mozilla.org/zh-CN/docs/Glossary/Flex_Container)、[grid](https://developer.mozilla.org/zh-CN/docs/Glossary/Grid_Container) 也不是 [table](https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_table) 容器
+- 网格元素（[`display`](https://developer.mozilla.org/zh-CN/docs/Web/CSS/display) 值为 `grid` 或 `inline-grid` 元素的直接子元素），如果它们本身既不是 [flex](https://developer.mozilla.org/zh-CN/docs/Glossary/Flex_Container)、[grid](https://developer.mozilla.org/zh-CN/docs/Glossary/Grid_Container) 也不是 [table](https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_table) 容器
+- 多列容器（[`column-count`](https://developer.mozilla.org/zh-CN/docs/Web/CSS/column-count) 或 [`column-width` (en-US)](https://developer.mozilla.org/en-US/docs/Web/CSS/column-width "Currently only available in English (US)") 值不为 `auto`，包括`column-count` 为 `1`）
+- `column-span` 值为 `all` 的元素始终会创建一个新的 BFC，即使该元素没有包裹在一个多列容器中 ([规范变更](https://github.com/w3c/csswg-drafts/commit/a8634b96900279916bd6c505fda88dda71d8ec51), [Chrome bug](https://bugs.chromium.org/p/chromium/issues/detail?id=709362))
+
+
+例子：
+```html
+<div class="box">
+   <div class="float">I am a floated box!</div>
+   <p>I am content inside the container.</p>
+</div>
+```
+```css
+.box {
+   background-color: rgb(224, 206, 247);
+   border: 5px solid rebeccapurple;
+}
+```
+
+![image.png](https://raw.githubusercontent.com/fw6/assets/main/toy_docs/20230705153904.png)
+
+在上面例子中由于float的内容比旁边内容高，所以float的元素贯穿了box；浮动脱离文档流，因此背景和边框仅包含内容不包含浮动。
+创建一个新的BFC将包含该浮动，如外部容器元素设置`overflow: auto`或其他不是`overflow: visible`的值。
+推荐一个新的方式显式创建BFC：`display: flow-root`，不会产生任何其他潜在的副作用，容器下的所有内容都将参与容器的块格式上下文，并且浮动不会从元素底部弹出。
