@@ -5,6 +5,9 @@ pubDate: "2023-06-27 16:23"
 heroImage: "https://images.unsplash.com/photo-1521185496955-15097b20c5fe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=640&q=80"
 date created: "2023-06-26 09:46"
 date modified: "2023-06-27"
+tags:
+	- writings
+	- Programing
 ---
 
 #Programing
