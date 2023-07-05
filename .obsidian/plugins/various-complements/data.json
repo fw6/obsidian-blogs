@@ -25,10 +25,10 @@
   "enableCurrentVaultComplement": true,
   "currentVaultMinNumberOfCharacters": 0,
   "includeCurrentVaultPathPrefixPatterns": "",
-  "excludeCurrentVaultPathPrefixPatterns": "Extras/Templates/其他/dict/dict.md",
+  "excludeCurrentVaultPathPrefixPatterns": "Extras/Templates/其他/dict/_dict.md",
   "includeCurrentVaultOnlyFilesUnderCurrentDirectory": false,
   "enableCustomDictionaryComplement": true,
-  "customDictionaryPaths": "Extras/Templates/其他/dict/dict.md",
+  "customDictionaryPaths": "Extras/Templates/其他/dict/_dict.md",
   "columnDelimiter": "Pipe",
   "customDictionaryWordRegexPattern": "",
   "delimiterToHideSuggestion": "+=",
@@ -60,6 +60,22 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1688035624805
+        }
+      }
+    },
+    "盒子": {
+      "盒子": {
+        "currentVault": {
+          "count": 1,
+          "lastUpdated": 1688452721229
+        }
+      }
+    },
+    "进行": {
+      "进行": {
+        "currentVault": {
+          "count": 1,
+          "lastUpdated": 1688452899980
         }
       }
     }
