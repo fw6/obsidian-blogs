@@ -1,5 +1,5 @@
 {
-  "cssTheme": "Obsidian Nord",
+  "cssTheme": "Shimmering Focus",
   "enabledCssSnippets": [
     "多栏callout样式",
     "隐藏文件和文件夹",
@@ -11,7 +11,7 @@
     "侧边栏dataview样式定制",
     "菜单栏及侧边栏定制"
   ],
-  "theme": "moonstone",
+  "theme": "obsidian",
   "baseFontSize": 16,
   "baseFontSizeAction": true,
   "translucency": false,
@@ -19,5 +19,6 @@
   "monospaceFontFamily": "Operator Mono",
   "nativeMenus": true,
   "showViewHeader": true,
-  "textFontFamily": "LXGW WenKai"
+  "textFontFamily": "LXGW WenKai",
+  "interfaceFontFamily": "LXGW WenKai"
 }
