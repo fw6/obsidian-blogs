@@ -1,10 +1,16 @@
 ---
-title: "Web"
+title: "你不知道的Web标准"
 description: ""
 pubDate: "2023-06-27 16:23"
 heroImage: "https://images.unsplash.com/photo-1621839673705-6617adf9e890?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=640&q=80"
 date created: 2023-06-27
 date modified: 2023-06-27
+tags: 
+	- notes
+	- HTML
+	- WebAPI
+	- W3C
+	- Programing
 ---
 
 > The function of wisdom is to discriminate between good and evil.  

@@ -1,10 +1,15 @@
 ---
-title: "CSS"
+title: "重学CSS"
 description: ""
 pubDate: "2023-06-27 16:23"
 heroImage: "https://images.unsplash.com/photo-1523437113738-bbd3cc89fb19?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=640&q=80"
 date created: "2023-06-26 09:42"
 date modified: "2023-06-27"
+tags:
+	- notes
+	- CSS
+	- Programing
+	- FE
 ---
 
 #CSS #Programing #FE
@@ -185,3 +190,5 @@ I am wrapped in an anonymous box.
 在上面例子中由于float的内容比旁边内容高，所以float的元素贯穿了box；浮动脱离文档流，因此背景和边框仅包含内容不包含浮动。
 创建一个新的BFC将包含该浮动，如外部容器元素设置`overflow: auto`或其他不是`overflow: visible`的值。
 推荐一个新的方式显式创建BFC：`display: flow-root`，不会产生任何其他潜在的副作用，容器下的所有内容都将参与容器的块格式上下文，并且浮动不会从元素底部弹出。
+
+
