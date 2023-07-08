@@ -106,6 +106,8 @@ I am wrapped in an anonymous box.
 </div>
 ```
 
+
+
 ## 定位方案
 
 - 普通流：按照次序依次定位每个盒子
@@ -192,3 +194,52 @@ I am wrapped in an anonymous box.
 推荐一个新的方式显式创建BFC：`display: flow-root`，不会产生任何其他潜在的副作用，容器下的所有内容都将参与容器的块格式上下文，并且浮动不会从元素底部弹出。
 
 
+
+## 文本断行与包装文本
+
+[Overflowing text | MDN Play](https://developer.mozilla.org/en-US/play?id=qtxraz4LZy72oE60ZNsdlUHKQY0jyA9wIzoBIO6VRfXRP2V274cvwwOEnKqp6SgDkbB2ea0tyAh0b1e5)
+[CSS Box Sizing Module Level 3](https://www.w3.org/TR/css-sizing-3/)
+[CSS Writing Modes Level 3](https://www.w3.org/TR/css-writing-modes-3/)
+
+
+```html
+<div class="preview">
+  <div class="box">Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch</div>
+</div>
+```
+```css
+.preview {
+  border: 1px solid;
+  padding: 16px;
+}
+.box {
+  inline-size: 50px;
+  border: 1px solid red;
+}
+```
+overflow默认visible，故文本超出时还能继续看到。
+inline-size或width可设置为min-width，宽度设置为最小内容宽度，
+如果需要内容宽度适应inline-size，但还要能完整换行展示出来，可配合使用`overflow-wrap:break-word`，这个样式会将超出的单词完整换行（可用`word-break`替代）
+
+单词边界换行方式也可选择增加连字符：`hyphens: manual`
+
+## Shape
+
+[CSS Shapes Module Level 2](https://drafts.csswg.org/css-shapes-2/)
+
+
+CSS的Shape相关规范定义了浮动图像元素的任意几何形状。
+其他类似的规范有：
+- [CSS Masking - CSS：层叠样式表 | MDN](https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_masking) 定义部分或完全隐藏视觉部分元素区域
+- [CSS Exclusions Module Level 1](https://www.w3.org/TR/css3-exclusions/) 定义了容器盒子内包装上下文的排除区域与内联流内容的环绕（流动）关系
+
+
+![image.png](https://raw.githubusercontent.com/fw6/assets/main/toy_docs/20230705200647.png)
+```css
+.float {
+	width: 100px;
+	height: 100px;
+	shape-outside: polygon(10px 10px, 90px 50px, 40px 50px, 90px 90px, 10px 90px);
+	shape-margin: 10px;
+}
+```
