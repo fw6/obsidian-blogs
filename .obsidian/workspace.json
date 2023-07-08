@@ -24,6 +24,48 @@
                   "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 },
                 {
+                  "title": "算法入门",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/算法入门.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":13},\"to\":{\"line\":2,\"ch\":13}},\"scroll\":0}"
+                },
+                {
+                  "title": "重学CSS",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/重学CSS.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "_blog",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Extras/Templates/_blog.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":11},\"to\":{\"line\":9,\"ch\":11}}}"
+                },
+                {
+                  "title": "重学CSS",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/重学CSS.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":5},\"to\":{\"line\":7,\"ch\":0}}}"
+                },
+                {
+                  "title": "算法入门",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/算法入门.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":11},\"to\":{\"line\":7,\"ch\":11}},\"scroll\":0}"
+                },
+                {
+                  "title": "重学CSS",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/重学CSS.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":109,\"ch\":0},\"to\":{\"line\":109,\"ch\":0}},\"scroll\":85.96402994791667}"
+                },
+                {
+                  "title": "富文本编辑器相关资源",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/富文本编辑器相关资源.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
                   "title": "你不知道的Web标准",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/你不知道的Web标准.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -682,7 +724,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200-Learning/210-Programing/重学CSS.md",
+                "file": "200-Learning/210-Programing/算法入门.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -791,7 +833,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-Learning/210-Programing/重学CSS.md",
+                "file": "200-Learning/210-Programing/算法入门.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -817,7 +859,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-Learning/210-Programing/重学CSS.md",
+                "file": "200-Learning/210-Programing/算法入门.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -858,7 +900,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200-Learning/210-Programing/重学CSS.md"
+                "file": "200-Learning/210-Programing/算法入门.md"
               }
             }
           },
@@ -922,10 +964,12 @@
   "active": "2b253c52ed61f4d7",
   "lastOpenFiles": [
     "200-Learning/210-Programing/富文本编辑器相关资源.md",
+    "200-Learning/210-Programing/算法入门.md",
+    "200-Learning/210-Programing/重学CSS.md",
+    "Extras/Templates/_blog.md",
     "200-Learning/210-Programing/你不知道的Web标准.md",
     "200-Learning/210-Programing/JS.md",
     "200-Learning/210-Programing/General.md",
-    "200-Learning/210-Programing/重学CSS.md",
     "200-Learning/220-English/Blogs.md",
     "200-Learning/220-English/Dioxus.md",
     "200-Learning/220-English/Dietcode Blog.md",
@@ -940,13 +984,11 @@
     "Extras/个人资产/工作/学习文档/面试手册.md",
     "Extras/个人资产/工作/学习文档/效率工具.md",
     "Extras/个人资产/工作/代码库收集/GitHub.md",
-    "Extras/Templates/_blog.md",
     "Extras/Templates/其他/dict/_dict.md",
     "Extras/Templates/Calendar模板/_Daily notes模板周日.md",
     "Extras/Templates/Calendar模板/_Daily notes模板周六.md",
     "Extras/Templates/Calendar模板/_Daily notes模板.md",
     "Extras/Daily Reading/1.md.md",
-    "Calendar/2023 目标.md",
     "renovate.json",
     "cedict_ts.u8",
     "_obsidian/zk-prefixer.json",
