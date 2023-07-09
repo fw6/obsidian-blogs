@@ -35,3 +35,6 @@ jobs:
             gh pr create --base astro --head master --title "Auto Merge Astro Branch" --body "Auto Merge Astro Branch" --label "automerge"
         env:
             GH_TOKEN: ${{ github.token }}
+
+      - name: Manual trigger astro blog build workflow
+        run: gh workflow run astro.yml --ref master --repo git@github.com:fw6/blog.git
