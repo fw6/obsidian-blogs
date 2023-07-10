@@ -18,6 +18,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "工作总结",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"000-Inbox/010-Workspace/工作总结.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
                   "title": "2023-07-10",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Calendar/Daily notes/2023-07-10.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -736,7 +742,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000-Inbox/010-Workspace/工作总结.md",
+                "file": "Calendar/Daily notes/2023-07-10.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -845,7 +851,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-Inbox/010-Workspace/工作总结.md",
+                "file": "Calendar/Daily notes/2023-07-10.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -871,7 +877,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-Inbox/010-Workspace/工作总结.md",
+                "file": "Calendar/Daily notes/2023-07-10.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -912,7 +918,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000-Inbox/010-Workspace/工作总结.md"
+                "file": "Calendar/Daily notes/2023-07-10.md"
               }
             }
           },
