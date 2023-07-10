@@ -39,20 +39,20 @@ jobs:
 
       - name: Manual trigger astro blog build workflow
         # https://stackoverflow.com/questions/71499150/how-to-run-a-workflow-using-github-cli
-        # run: gh workflow run astro.yml --ref master --repo git@github.com:fw6/blog.git
-        # env:
-        #     GH_TOKEN: ${{ github.token }}
-        run: |
-            REPO_OWNER=fw6
-            REPO_NAME=blog
-            BRANCH=master
-            WORKFLOW_ID=astro.yml
-            ACCESS_TOKEN=${{ secrets.workflow_triggers }}
-            URL="https://api.github.com/repos/$REPO_OWNER/$REPO_NAME/actions/workflows/$WORKFLOW_ID/dispatches"
-            PAYLOAD='{"ref":"$BRANCH"}'
+        run: gh workflow run astro.yml --ref master --repo git@github.com:fw6/blog.git
+        env:
+            GH_TOKEN: ${{ secrets.workflow_triggers }}
+        # run: |
+        #     REPO_OWNER=fw6
+        #     REPO_NAME=blog
+        #     BRANCH=master
+        #     WORKFLOW_ID=astro.yml
+        #     ACCESS_TOKEN=${{ secrets.workflow_triggers }}
+        #     URL="https://api.github.com/repos/$REPO_OWNER/$REPO_NAME/actions/workflows/$WORKFLOW_ID/dispatches"
+        #     PAYLOAD='{"ref":"$BRANCH"}'
 
-            curl -X POST -H "Accept: application/vnd.github.v3+json" \
-                -H "Authorization: Bearer $ACCESS_TOKEN" \
-                -H "Content-Type: application/json" \
-                -d "$PAYLOAD" \
-                "$URL"
+        #     curl -X POST -H "Accept: application/vnd.github.v3+json" \
+        #         -H "Authorization: Bearer $ACCESS_TOKEN" \
+        #         -H "Content-Type: application/json" \
+        #         -d "$PAYLOAD" \
+        #         "$URL"
