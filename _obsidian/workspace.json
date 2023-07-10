@@ -18,6 +18,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "2023-07-10",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Calendar/Daily notes/2023-07-10.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
                   "title": "算法入门",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/算法入门.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -730,7 +736,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Calendar/Daily notes/2023-07-10.md",
+                "file": "000-Inbox/010-Workspace/工作总结.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -839,7 +845,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Calendar/Daily notes/2023-07-10.md",
+                "file": "000-Inbox/010-Workspace/工作总结.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -865,7 +871,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Calendar/Daily notes/2023-07-10.md",
+                "file": "000-Inbox/010-Workspace/工作总结.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -906,7 +912,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Calendar/Daily notes/2023-07-10.md"
+                "file": "000-Inbox/010-Workspace/工作总结.md"
               }
             }
           },
@@ -969,8 +975,8 @@
   },
   "active": "2b253c52ed61f4d7",
   "lastOpenFiles": [
-    "200-Learning/210-Programing/算法入门.md",
     "Calendar/Daily notes/2023-07-10.md",
+    "200-Learning/210-Programing/算法入门.md",
     "200-Learning/210-Programing/富文本编辑器相关资源.md",
     "200-Learning/210-Programing/重学CSS.md",
     "Extras/Templates/_blog.md",

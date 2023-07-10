@@ -38,3 +38,5 @@ jobs:
 
       - name: Manual trigger astro blog build workflow
         run: gh workflow run astro.yml --ref master --repo git@github.com:fw6/blog.git
+        env:
+            GH_TOKEN: ${{ github.token }}
