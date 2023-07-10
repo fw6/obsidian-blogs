@@ -47,7 +47,7 @@ jobs:
             REPO_NAME=blog
             BRANCH=master
             WORKFLOW_ID=astro.yml
-            ACCESS_TOKEN=${{ secrets.WORKFLOW_TRIGGERS }}
+            ACCESS_TOKEN=${{ secrets.workflow_triggers }}
             URL="https://api.github.com/repos/$REPO_OWNER/$REPO_NAME/actions/workflows/$WORKFLOW_ID/dispatches"
             PAYLOAD='{"ref":"$BRANCH"}'
 
