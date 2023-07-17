@@ -18,7 +18,7 @@ tags:
 
 ## Bitmask 位掩码
 
-[javascript - How is svelte making a component dirty - Stack Overflow](https://stackoverflow.com/questions/59541070/how-is-svelte-making-a-component-dirty)
+[JavaScript - How is svelte making a component dirty - Stack Overflow](https://stackoverflow.com/questions/59541070/how-is-svelte-making-a-component-dirty)
 
 svelte使用$bitmask$技术保存脏检查结果：
 ```js
