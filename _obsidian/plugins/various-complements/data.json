@@ -78,6 +78,30 @@
           "lastUpdated": 1688452899980
         }
       }
+    },
+    "JavaScript": {
+      "JavaScript": {
+        "currentFile": {
+          "count": 5,
+          "lastUpdated": 1689582489044
+        }
+      }
+    },
+    "-Infinity": {
+      "-Infinity": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1689558594405
+        }
+      }
+    },
+    "int32": {
+      "int32": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1689558704417
+        }
+      }
     }
   }
 }
