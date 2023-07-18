@@ -6,7 +6,7 @@ heroImage: "https://images.unsplash.com/photo-1550063873-ab792950096b?ixlib=rb-4
 date created: 2023-07-09
 date modified: 2023-07-17
 tags: 
-	- writings 
+	- notes
 	- JS 
 	- Programing
 ---
@@ -15,22 +15,6 @@ tags:
 
 > Go to your bosom: Knock there and ask your heart what it doth know.  
 > — <cite>William Shakespeare</cite>
-
-## Diff DOM
-
-[Virtual DOM: Back in Block | Million.js](https://million.dev/blog/virtual-dom)
-
->1. 静态分析阶段，将树的动态部分提取到 mappings 中;
-
->2. 通过脏检查比较数据来确定发生了哪些变化。状态变化则通过mappings更新DOM.
-
-具体步骤
-
-- 不使用React渲染jsx，而是使用million.js，用holes 表示动态变化的部分并传递到虚拟DOM，holes作为动态内容的占位符
-- 一旦通过脏检查确定状态变化的内容，即可通过mappings找到各自的节点并直接更新DOM  
-Block Virtual DOM适合的使用场景：
-- 静态内容较多。此时可跳过大量静态部分
-- 适用于稳定、变化不大的UI树，
 
 ## 在什么情况下 `a === a - 1`
 
@@ -343,14 +327,14 @@ console.log({} + []); // "[object Object]"
 
 ## JavaScript的并发模型与事件循环
 
-JavaScript 有一个基于**事件循环**的并发模型，事件循环负责执行代码、收集和处理事件以及执行队列中的子任务。
+`JavaScript` 有一个基于**事件循环**的并发模型，事件循环负责执行代码、收集和处理事件以及执行队列中的子任务。
 
-如下图展示了现代JavaScript引擎在运行时的可视化描述
+如下图展示了现代`JavaScript`引擎在运行时的可视化描述
 ![image.png](https://raw.githubusercontent.com/fw6/assets/main/toy_docs/20230717162354.png)
 
 栈：函数调用形成了一个由若干帧组成的栈，帧中包含了函数的参数和局部变量（执行上下文）。当函数执行完毕所属栈被弹出⏏️
 堆：对象被分配在堆（一大块非结构化的内存区域）中。
-队列：一个JavaScript运行时包含了一个待处理的消息队列。每个消息都关联着一个用以处理这个消息的回调函数。
+队列：一个`JavaScript`运行时包含了一个待处理的消息队列。每个消息都关联着一个用以处理这个消息的回调函数。
 
 事件循环的常常以如下方式实现：
 ```js
@@ -358,10 +342,9 @@ while (queue.waitForMessage()) {
   queue.processNextMessage();
 }
 ```
+可以看到整个事件循环就是反复“等待-执行”。
 
-
-### EventLoop
-[WHATWG/task-queue](https://html.spec.whatwg.org/multipage/webappapis.html#task-queue)
+EventLoop的定义 -> [WHATWG/task-queue](https://html.spec.whatwg.org/multipage/webappapis.html#task-queue)
 
 事件循环有一个或多个任务队列，任务队列是一组任务。
 >实际上任务队列是集合而非队列，因为事件循环处理模型是从所选队列中获取第一个可执行的任务，而不是使第一个任务出队。
@@ -371,15 +354,262 @@ while (queue.waitForMessage()) {
 每个事件循环都有一个微任务队列。微任务是指通过微任务算法队列创建的任务的通俗说法。
 每个事件循环都有一个执行微任务检查的布尔值，用于防治执行微任务检查点的重复执行。
 
-实现循环执行步骤如下：
-1. 使oldestTask 和 taskStartTime 为 null
-2. 如果事件循环有任务队列，且至少有一个可以执行，则：
-	1. 定义一个taskQueue
-	2. 定义taskStartTime为当前共享时间
-	3. oldestTask设置为taskQueue第一个可执行任务，并从taskQueue移除
-	4. 将事件循环的当前执行中任务设置为oldestTask
-	5. 执行oldestTask若干步骤
-	6. 将事件循环当前执行中任务设置为null
-3. 执行微任务检查点
-4. 
+当拿到一段`JavaScript`代码时，浏览器首先要做的是传递给`JavaScript`引擎，并要求它执行。执行`JavaScript`代码并非一次性，当宿主环境（浏览器、`Node`、`Deno`、小程序容器）遇到一些事时，会继续传递一段代码让`JavaScript`引擎执行。此外，我们还会提供API给`JavaScrip`t引擎，比如`setTimeout`（由宿主环境实现！）这种，它会允许JavaScript在特定时机执行。
+
+在ES3和更早版本，`JavaScript`本身没有异步能力，这就意味着传递给`JavaScript`引擎一段代码，引擎直接顺序执行了，这个任务也就是宿主发起的任务。
+
+在ES5之后，`JavaScript`引入了`Promise`，这样无序浏览器安排，`JavaScript`引擎本身就能发起任务了。
+
+`JSC`引擎对任务的定义：宿主发起的称为宏观任务，JavaScript引擎发起的称为微观任务。
+`JavaScript`引擎等待宿主环境分配宏观任务，在操作系统中，通常等待的行为就是一个事件循环，所以在Node术语中，会把这部分称为事件循环。
+
+宏观任务队列就相当于事件循环。
+
+在宏观任务中，`JavaScript`还会产生异步代码，`JavaScrip`t必须保证这些异步代码在一个宏观任务中执行完成，因此每个宏观任务中又包含了一个微观任务队列。
+
+有了宏观任务与微观任务机制，就可以实现`JavaScript`引擎级和宿主级的任务了。例如：`Promise`永远在队列尾部添加微观任务，`setTimeout`、``requestIdleCallback``等宿主API则会添加宏任务。
+
+```js
+var r = new Promise(function(resolve, reject){
+	console.log("a");
+	resolve()
+});
+setTimeout(()=>console.log("d"), 0)
+r.then(() => console.log("c"));
+console.log("b")
+```
+执行这段代码，可看到执行顺序为`a`->`b`->`c`->`d`。因为`Promise`产生的时微任务，在第一次宏任务执行`a`、`b`，`Promise`创建的微任务被执行，即打印了`c`，然后定时器执行触发内部新的宏任务，打印`d`。
+
+微任务始终先于宏任务！
+```js
+// 下面这段代码进入执行栈时延时就已经开始了
+setTimeout(()=>console.log("d"), 0)
+
+var r = new Promise(function(resolve, reject){
+	resolve()
+});
+
+r.then(() => { 
+	var begin = Date.now();
+	while(Date.now() - begin < 1000);
+	console.log("c1") 
+	new Promise(function(resolve, reject){
+		resolve()
+	}).then(() => console.log("c2"))
+});
+```
+上方代码中在微任务中阻塞执行1s后创建了新的微任务，最终结果依旧是：`c1`->`c2`->`d`
+
+## 执行上下文、闭包、作用域链、this值
+
+`JavaScript`标准把一段代码（包括函数），执行所需的所有信息定义为：“执行上下文”。
+
+执行上下文在ES5中包含了如下部分：
+- `lexical environment`。词法环境，当获取变量时使用
+- `variable environment`。变量环境，当声明变量时使用
+- `this value`。`this`值
+
+在ES2018中，执行上下文又变成了如下内容：
+- `lexical environment`。词法环境，当获取变量和`this`值时使用
+- `variable environment`。变量环境，当申明变量时使用
+- `code evaluation state`。用于恢复代码执行位置
+- `Function`。执行的任务是函数时使用，表示正在被执行的函数
+- `ScriptOrModule`。执行的任务是脚本或模块时使用，表示正在被执行的代码
+- `Realm`。使用的基础库和内置对象实例
+- `Generator`。仅生成器上下文有此属性，表示当前生成器。
+
+
+### this关键字的行为
+
+>`this`是运行时，作用域是定义时
+
+`this`是执行上下文中很重要的一个组成部分。同一个函数调用方式不同，得到的`this`值也不同，如下所示：
+```js
+function showThis(){
+    console.log(this);
+}
+
+var o = {
+    showThis: showThis
+}
+
+showThis(); // global
+o.showThis(); // o
+```
+
+在上方示例中定义了函数`showThis`，把它赋值给一个对象o的属性，分别使用两个引用来调用同一个函数，结果得到了不同的`this`值。
+
+普通函数的this值由”调用它所使用的引用“决定，我们获取函数的表达式，它实际上返回的并非函数本身，而是一个`Reference`类型。
+
+`Reference`类型包含两部分：对象和属性值。`o.showThis`产生的`Reference`类型，即由对象o和属性“showThis”构成。
+
+当做一些运算时，`Reference`类型会被解引用，即获取真正的值来参与运算，而类似函数调用、delete操作等，都需要使用到`Reference`类型中的对象。
+在上方例子中，`Reference`类型中的对象被当作`this`值，传入了执行函数的上下文中。
+
+一言以蔽之：调用函数时，决定了函数运行时刻的`this`值。
+实际上从运行时的角度来看，`this`跟面向对象毫无关联，它是与函数调用时使用的表达式相关。
+
+再来看“方法”，它的表现又不一样：
+```js
+class C {
+    showThis() {
+        console.log(this);
+    }
+}
+var o = new C();
+var showThis = o.showThis;
+
+showThis(); // undefined
+o.showThis(); // o
+```
+当使用`showThis`这个引用去调用方法时，得到了`undefined`
+
+### `this`关键字的机制
+
+函数能够引用定义时的变量，如上文⬆️，函数也能记住定义时的this，因此函数内部必定有一个机制来保存这些信息。
+
+在JavaScript标准中，为函数规定了用来保存定义时上下文信息的私有属性`[[Environment]]`。
+
+当一个函数被执行时，会创建一个新的执行环境记录，记录的外层词法环境（otuer lexical environment）会被设置成函数的`[[Environment]]`，这个动作就是切换上下文。
+```js
+var a = 1;
+foo();
+
+// 在别处定义了foo：
+
+var b = 2;
+function foo(){
+    console.log(b); // 2
+    console.log(a); // error
+}
+```
+这里的foo能访问定义时的b却不能访问执行时的a，这就是执行上下文的切换机制。
+
+JavaScript用一个栈来管理执行上下文，每个栈中的每一项又包含一个链表。如下所示：
+![image.png](https://raw.githubusercontent.com/fw6/assets/main/toy_docs/20230718155325.png)
+当函数调用时，会入栈一个新的执行上下文，函数调用时执行上下文出栈。
+
+而this是个更复杂的机制，JavaScript标准定义了`[[thisMode]]`私有属性。
+`[[thisMode]]`包含3个取值：
+- lexical：表示从上下文中找到this，这对应了箭头函数
+- global。表示this为undefined时，取全局对象，对应了普通函数
+- strict。当严格模式时使用，this严格按照调用时传入的值，可能为null或undefined
+
+方法的行为和普通函数有差异，恰恰是因为class设计成了默认按照strict模式执行。
+
+函数创建新的执行上下文中的词法环境记录时，会根据`[[thisMode]]`来标记新记录的`[[ThisBindingStatus]]`私有属性。
+代码执行到this时，会逐层检查当前词法环境记录中的`[[ThisBindingStatus]]`，当找到有this的环境记录时获取this的值。
+
+
+
+
+## var、let、const
+
+### var
+
+*`var` 声明了作用于函数执行的作用域*。所以在同一个函数内，`for`、`if`语句块内的`var`申明在外部也能获取。
+
+为解决该问题诞生了一个技巧——立即执行函数表达式（`IIFE`），通过创建一个函数并立即执行来构造一个新的作用域以此来控制var的范围。
+```js
+void (function() {
+	var a
+	// ...
+})()
+```
+
+### `let`
+
+`let`语句声明一个块级作用域的局部变量。
+
+let是ES6之后引入的新的变量声明模式，为实现`let`，`JavaScrip`t在运行时引入了块级作用域。也就是说在let之前，`if`、`for`语句皆不产生作用域。
+
+`var`和`let`的一个重要区别，let声明的变量不会在作用域中被提升，它是在编译时才初始化。
+`let`和`const`一样，不会在全局声明中创建`window`对象的属性。
+与`let`不同的是，`let`只是开始声明而非完整表达式，如下所示：
+```js
+if (true) let a = 1 // SyntaxError: Lexical declaration cannot appear in a single-statement context
+```
+
+`let`不允许重复声明（在同一个函数或块作用域），否则会抛出`SyntaxError`
+
+
+### `const`
+
+常量是块级范围的，非常类似用 [let](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Statements/let) 语句定义的变量。但常量的值是无法（通过重新赋值）改变的，也不能被重新声明。
+
+**`const` 声明**创建一个值的只读引用。但这并不意味着它所持有的值是不可变的，只是变量标识符不能重新分配。例如，在引用内容是对象的情况下，这意味着可以改变对象的内容（例如，其参数）。
+
+一个常量不能和它所在作用域内的其他变量或函数拥有相同的名称。
+常量要求一个初始值
+
+
+### 暂时性死区
+
+从一个代码块的开始直到代码执行到声明变量的行之前，`let` 或 `const` 声明的变量都处于“暂时性死区”（Temporal dead zone，TDZ）中。
+
+当变量处于暂时性死区之中时，其尚未被初始化，尝试访问变量将抛出 [`ReferenceError`](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError)。当代码执行到声明变量所在的行时，变量被初始化为一个值。如果声明中未指定初始值，则变量将被初始化为 `undefined`。
+
+与 [`var`](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Statements/var) 声明的变量不同，如果在声明前访问了变量，变量将会返回 `undefined`。以下代码演示了在使用 `let` 和 `var` 声明变量的行之前访问变量的不同结果。
+
+```js
+{ // TDZ starts at beginning of scope
+  console.log(bar); // undefined
+  console.log(foo); // ReferenceError
+  var bar = 1;
+  let foo = 2; // End of TDZ (for foo)
+}
+
+```
+
+使用术语“temporal”是因为区域取决于执行顺序（时间），而不是编写代码的顺序（位置）。例如，下面的代码会生效，是因为即使使用 `let` 变量的函数出现在变量声明之前，但函数的执行是在暂时性死区的外面。
+```js
+{
+  // TDZ starts at beginning of scope
+  const func = () => console.log(letVar); // OK
+
+  // Within the TDZ letVar access throws `ReferenceError`
+
+  let letVar = 3; // End of TDZ (for letVar)
+  func(); // Called outside TDZ!
+}
+```
+
+以下代码会造成暂时性死区：
+```js
+function test() {
+  var foo = 33;
+  if(foo) {
+    let foo = (foo + 55); // ReferenceError
+  }
+}
+test();
+```
+由于外部变量 `foo` 有值，因此会执行 `if` 语句块，但是由于词法作用域，该值在块内不可用：`if` 块内的标识符 `foo` 是 `let foo`。表达式 `(foo + 55)` 会抛出 `ReferenceError` 异常，是因为 `let foo` 还没完成初始化，它仍然在暂时性死区里。
+
+
+### 变量提升
+
+变量提升（Hoisting）被认为是，Javascript 中执行上下文（特别是创建和执行阶段）工作方式的一种认识。
+从概念的字面意义上说，“变量提升”意味着变量和函数的声明会在物理层面移动到代码的最前面，但这么说并不准确。实际上变量和函数声明在代码里的位置是不会动的，而是在编译阶段被放入内存中。
+
+JavaScript 在执行任何代码段之前，将函数声明放入内存中的优点之一是，你可以在声明一个函数之前使用该函数。
+
+	函数和变量相比，会被优先提升。这意味着函数会被提升到更靠前的位置。
+
+即使我们在定义函数之前调用它，函数仍然可以工作。这是因为在 JavaScript 中**执行上下文**的工作方式造成的。
+变量提升也适用于其他数据类型和变量。变量可以在声明之前进行初始化和使用。但是如果没有初始化，就不能使用它们。
+
+JavaScript 只会提升声明，不会提升其初始化。如果一个变量先被使用再被声明和赋值的话，使用时的值是 undefined。
+```js
+console.log(num); // Returns undefined
+var num;
+num = 6;
+```
+
+如果你先赋值、再使用、最后声明该变量，使用时能获取到所赋的值
+```js
+num = 6;
+console.log(num); // returns 6
+var num;
+```
 
