@@ -16,6 +16,8 @@ tags:
 > The function of wisdom is to discriminate between good and evil.
 > — <cite>Cicero</cite>
 
+## TOC
+
 ## IME
 
 - [IME | W3C](https://w3c.github.io/uievents/#ime)

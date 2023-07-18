@@ -16,6 +16,8 @@ tags:
 > Go to your bosom: Knock there and ask your heart what it doth know.  
 > — <cite>William Shakespeare</cite>
 
+## TOC
+
 ## 在什么情况下 `a === a - 1`
 
 1. 正负`Infinity`。
