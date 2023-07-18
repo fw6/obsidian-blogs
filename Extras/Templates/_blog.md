@@ -7,7 +7,7 @@ date created: "<% tp.file.creation_date() %>"
 date modified: "<% tp.file.last_modified_date("YYYY-MM-DD") %>"
 draft: true
 tags:
-	- writings
+    - writings
 ---
 
 # <% tp.file.title %>

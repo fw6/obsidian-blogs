@@ -6,13 +6,13 @@ heroImage: "https://images.unsplash.com/photo-1523437113738-bbd3cc89fb19?ixlib=r
 date created: "2023-06-26 09:42"
 date modified: "2023-06-27"
 tags:
-	- notes
-	- CSS
-	- Programing
-	- FE
+    - notes
+    - CSS
+    - Programming
+    - FE
 ---
 
-#CSS #Programing #FE
+#CSS #Programming #FE
 
 > Silence is deep as Eternity; Speech is shallow as Time.
 > — <cite>Thomas Carlyle</cite>
@@ -93,14 +93,14 @@ tags:
 ```html
 <!-- 1 -->
 <div class="flex">
-I am wrapped in an anonymous box 
+I am wrapped in an anonymous box
 <p>I am in the paragraph</p>
 I am wrapped in an anonymous box.
 </div>
 
 <!-- 2 -->
 <div class="example">
-I am wrapped in an anonymous box 
+I am wrapped in an anonymous box
 <p>I am in the paragraph</p>
 I am wrapped in an anonymous box.
 </div>
