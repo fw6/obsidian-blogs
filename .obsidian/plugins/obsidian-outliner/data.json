@@ -1,6 +1,6 @@
 {
   "styleLists": true,
-  "debug": false,
+  "debug": true,
   "stickCursor": true,
   "betterEnter": true,
   "betterTab": true,

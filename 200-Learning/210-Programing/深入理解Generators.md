@@ -7,7 +7,7 @@ date created: "2023-07-12 18:36"
 date modified: "2023-07-12"
 draft: true
 tags:
-	- writings
+    - writings
 ---
 
 [【转向 Javascript 系列】深入理解 Generators | AlloyTeam](http://www.alloyteam.com/2016/02/generators-in-depth/)
