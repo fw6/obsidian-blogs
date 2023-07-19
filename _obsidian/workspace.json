@@ -18,13 +18,73 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "JavaScript尾后逗号",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/JavaScript尾后逗号.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":3},\"to\":{\"line\":11,\"ch\":3}}}"
+                },
+                {
+                  "title": "JavaScript的词法文法",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/JavaScript的词法文法.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":11},\"to\":{\"line\":8,\"ch\":6}}}"
+                },
+                {
+                  "title": "JavaScript尾后逗号",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/JavaScript尾后逗号.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":3},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "JavaScript的词法文法",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/JavaScript的词法文法.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "JavaScript尾后逗号",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/JavaScript尾后逗号.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":12},\"to\":{\"line\":4,\"ch\":89}}}"
+                },
+                {
+                  "title": "Magic of Tagged Templates Literals in JavaScript",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Magic of Tagged Templates Literals in JavaScript.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":12},\"to\":{\"line\":4,\"ch\":178}}}"
+                },
+                {
+                  "title": "Rust入门之旅",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Rust入门之旅.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Magic of Tagged Templates Literals in JavaScript",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Magic of Tagged Templates Literals in JavaScript.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "JavaScript尾后逗号",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/JavaScript尾后逗号.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":3},\"to\":{\"line\":11,\"ch\":3}},\"scroll\":0}"
+                },
+                {
+                  "title": "Magic of Tagged Templates Literals in JavaScript",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Magic of Tagged Templates Literals in JavaScript.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":164,\"ch\":2},\"to\":{\"line\":164,\"ch\":2}},\"scroll\":147.34114583333334}"
+                },
+                {
                   "title": "一些有意思的Web API",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/一些有意思的Web API.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":3},\"to\":{\"line\":0,\"ch\":0}}}"
                 },
                 {
-                  "title": "JavaScript库中被广泛使用的技巧：带标签的模板",
+                  "title": "Magic of Tagged Templates Literals in JavaScript",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Magic of Tagged Templates Literals in JavaScript.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
@@ -1342,7 +1402,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200-Learning/210-Programing/Magic of Tagged Templates Literals in JavaScript.md",
+                "file": "200-Learning/210-Programing/JavaScript的词法文法.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -1451,7 +1511,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-Learning/210-Programing/Magic of Tagged Templates Literals in JavaScript.md",
+                "file": "200-Learning/210-Programing/JavaScript的词法文法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1477,7 +1537,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-Learning/210-Programing/Magic of Tagged Templates Literals in JavaScript.md",
+                "file": "200-Learning/210-Programing/JavaScript的词法文法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1518,7 +1578,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200-Learning/210-Programing/Magic of Tagged Templates Literals in JavaScript.md"
+                "file": "200-Learning/210-Programing/JavaScript的词法文法.md"
               }
             }
           },
@@ -1581,15 +1641,17 @@
   },
   "active": "2b253c52ed61f4d7",
   "lastOpenFiles": [
-    "200-Learning/210-Programing/一些有意思的Web API.md",
+    "200-Learning/210-Programing/JavaScript尾后逗号.md",
+    "200-Learning/210-Programing/JavaScript的词法文法.md",
     "200-Learning/210-Programing/Magic of Tagged Templates Literals in JavaScript.md",
+    "200-Learning/210-Programing/Rust入门之旅.md",
+    "200-Learning/210-Programing/一些有意思的Web API.md",
     "200-Learning/210-Programing/深入理解Generators.md",
     "200-Learning/210-Programing/富文本编辑器相关资源.md",
     "200-Learning/210-Programing/你不知道的JS.md",
     "200-Learning/210-Programing/关于Web Performance.md",
     "200-Learning/210-Programing/算法入门.md",
     "200-Learning/210-Programing/重学CSS.md",
-    "200-Learning/210-Programing/Rust入门之旅.md",
     "200-Learning/210-Programing/一些通用的编程知识.md",
     "200-Learning/210-Programing/冒号课堂.md",
     "000-Inbox/010-Workspace/工作总结.md",
@@ -1605,8 +1667,6 @@
     "Extras/个人资产/生活/驾考.md",
     "Extras/个人资产/生活/蜜月旅行🏝️.md",
     "Extras/个人资产/生活/买房🏠.md",
-    "Extras/个人资产/工作/富文本编辑器/ProseMirror.md",
-    "Extras/个人资产/工作/学习文档/面试手册.md",
     "renovate.json",
     "cedict_ts.u8",
     "_obsidian/zk-prefixer.json",

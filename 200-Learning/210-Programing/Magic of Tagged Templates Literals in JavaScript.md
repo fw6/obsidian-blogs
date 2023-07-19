@@ -90,10 +90,79 @@ tag`string text line 1 \n string text line 2`;
 使用 `String.raw()`方法创建原始字符串与标签函数中的raw属性结果一致。
 ```js
 String.raw`Hi\n${2+3}!` // "Hi\\n5!"
+String.raw({ raw: ['aaa', 'bbbbb', 'cc'] }, 1, 2) // "aaa1bbbbb2cc"
+```
+
+如果字面量不包含任何转义序列，`String.raw` 函数就像一个“identity”标签。
+这对于许多工具来说很有用，它们要对以特定名称为标签的字面量作特殊处理。
+```js
+const html = (strings, ...values) => String.raw({ raw: strings }, ...values);
+// Some formatters will format this literal's content as HTML
+const doc = html`<!doctype html>
+  <html lang="en-US">
+    <head>
+      <title>Hello</title>
+    </head>
+    <body>
+      <h1>Hello world!</h1>
+    </body>
+  </html>`;
 ```
 
 
-### tagged-template-literal相关学习资源
+## 例子
+
+高亮显示模板字符串内的表达式
+```js
+function highlight(strings, ...values) {
+  let str = '';
+  strings.forEach((string, i) => {
+    str += string + typeof values[i] === 'string' ? `<mark>${values[i]}</mark>` : '';
+  });
+  return str;
+}
+const name = 'Snickers';
+const age = '100';
+const sentence = highlight`My dog's name is ${name} and he is ${age} years old`;
+console.log(sentence); // My dog's name is <mark>Snickers</mark> and he is <mark>100</mark> years old
+```
+
+使用String.raw生成正则表达式，而无需使用反斜线
+```js
+function createNumberRegExp(english) { 
+    const PERIOD = english ? String.raw`\.` : ','; // (A) 
+    return new RegExp(`[0-9]+(${PERIOD}[0-9]+)?`); 
+}
+```
+
+Shell command
+```js
+const proc = sh`ps ax | grep ${pid}`;
+```
+(Source: [David Herman](https://gist.github.com/dherman/6165867))
+
+Byte strings
+```js
+const buffer = bytes`455336465457210a`;
+```
+(Source: [David Herman](https://gist.github.com/dherman/6165867))
+
+HTTP requests
+```js
+POST`http://foo.org/bar?a=${a}&b=${b} 
+    Content-Type: application/json 
+    X-Credentials: ${credentials} { "foo": ${foo}, "bar": ${bar}}
+    `
+    (myOnReadyStateChangeHandler);
+```
+(Source: [Luke Hoban](https://github.com/lukehoban/es6features#template-strings))
+
+Query language
+```js
+$`a.${className}[href*='//${domain}/']`
+```
+
+## tagged-template-literal相关学习资源
 
 [tagged-template-literals · GitHub Topics · GitHub](https://github.com/topics/tagged-template-literals)
 
