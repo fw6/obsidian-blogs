@@ -18,6 +18,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "一些通用的编程知识",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/一些通用的编程知识.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":36,\"ch\":9},\"to\":{\"line\":36,\"ch\":9}},\"scroll\":4.239583333333333}"
+                },
+                {
                   "title": "你不知道的JS",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/你不知道的JS.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -1060,7 +1066,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200-Learning/210-Programing/一些通用的编程知识.md",
+                "file": "200-Learning/210-Programing/冒号课堂.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -1169,7 +1175,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-Learning/210-Programing/一些通用的编程知识.md",
+                "file": "200-Learning/210-Programing/冒号课堂.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1195,7 +1201,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-Learning/210-Programing/一些通用的编程知识.md",
+                "file": "200-Learning/210-Programing/冒号课堂.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1236,7 +1242,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200-Learning/210-Programing/一些通用的编程知识.md"
+                "file": "200-Learning/210-Programing/冒号课堂.md"
               }
             }
           },
@@ -1299,13 +1305,14 @@
   },
   "active": "2b253c52ed61f4d7",
   "lastOpenFiles": [
+    "200-Learning/210-Programing/一些通用的编程知识.md",
+    "200-Learning/210-Programing/冒号课堂.md",
     "200-Learning/210-Programing/你不知道的JS.md",
     "200-Learning/210-Programing/你不知道的Web标准.md",
     "200-Learning/210-Programing/富文本编辑器相关资源.md",
     "200-Learning/210-Programing/深入理解Generators.md",
     "200-Learning/210-Programing/算法入门.md",
     "200-Learning/210-Programing/重学CSS.md",
-    "200-Learning/210-Programing/一些通用的编程知识.md",
     "000-Inbox/010-Workspace/工作总结.md",
     "Calendar/Daily notes/2023-07-10.md",
     "Extras/Templates/_blog.md",
@@ -1324,7 +1331,6 @@
     "Extras/个人资产/工作/学习文档/效率工具.md",
     "Extras/个人资产/工作/代码库收集/GitHub.md",
     "Extras/Templates/其他/dict/_dict.md",
-    "Extras/Templates/Calendar模板/_Daily notes模板周日.md",
     "renovate.json",
     "cedict_ts.u8",
     "_obsidian/zk-prefixer.json",
