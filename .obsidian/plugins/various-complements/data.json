@@ -114,8 +114,8 @@
     "writings": {
       "writings": {
         "frontMatter": {
-          "count": 2,
-          "lastUpdated": 1689754664577
+          "count": 4,
+          "lastUpdated": 1689759670889
         }
       }
     },
@@ -124,6 +124,38 @@
         "frontMatter": {
           "count": 1,
           "lastUpdated": 1689739978642
+        }
+      }
+    },
+    "writing": {
+      "writing": {
+        "currentVault": {
+          "count": 1,
+          "lastUpdated": 1689756119904
+        }
+      }
+    },
+    "Javascript": {
+      "Javascript": {
+        "currentVault": {
+          "count": 2,
+          "lastUpdated": 1689756283374
+        }
+      }
+    },
+    "FE": {
+      "FE": {
+        "frontMatter": {
+          "count": 1,
+          "lastUpdated": 1689757095895
+        }
+      }
+    },
+    "WebAPI": {
+      "WebAPI": {
+        "frontMatter": {
+          "count": 2,
+          "lastUpdated": 1689757192021
         }
       }
     }
