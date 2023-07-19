@@ -6,7 +6,7 @@ heroImage: "https://images.unsplash.com/photo-1550063873-ab792950096b?ixlib=rb-4
 date created: 2023-07-09
 date modified: 2023-07-18
 tags:
-    - notes
+    - writings
     - JS
     - Programming
 ---

@@ -1,5 +1,5 @@
 ---
-title: "你不知道的Web标准"
+title: "有意思的Web API"
 description: ""
 pubDate: "2023-06-27 16:23"
 heroImage: "https://images.unsplash.com/photo-1621839673705-6617adf9e890?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=640&q=80"
