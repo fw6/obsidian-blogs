@@ -37,7 +37,7 @@ jobs:
         env:
             GH_TOKEN: ${{ github.token }}
 
-      - name: Manual trigger astro blog build workflow
+      - name: Trigger Astro CI workflow on master branch at blog repo from outside
         # https://stackoverflow.com/questions/71499150/how-to-run-a-workflow-using-github-cli
         run: gh workflow run astro.yml --ref master --repo git@github.com:fw6/blog.git
         env:

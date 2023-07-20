@@ -24,13 +24,13 @@ tags:
 
 ## TOC
 
-## :where 和 :is
-[:where() - CSS：层叠样式表 | MDN](https://developer.mozilla.org/zh-CN/docs/Web/CSS/:where)
-[:is() - CSS：层叠样式表 | MDN](https://developer.mozilla.org/zh-CN/docs/Web/CSS/:is)
+## `:where` 和 `:is`
+[`:where()` - CSS：层叠样式表 | MDN](https://developer.mozilla.org/zh-CN/docs/Web/CSS/:where)
+[`:is()` - CSS：层叠样式表 | MDN](https://developer.mozilla.org/zh-CN/docs/Web/CSS/:is)
 
-:is() CSS 伪类函数以选择器列表作为参数，并选择该列表中任意一个选择器可以选择的元素。
+`:is()` CSS 伪类函数以选择器列表作为参数，并选择该列表中任意一个选择器可以选择的元素。
 
-:where() CSS 伪类函数接受选择器列表作为它的参数，将会选择所有能被该选择器列表中任何一条规则选中的元素。
+`:where()` CSS 伪类函数接受选择器列表作为它的参数，将会选择所有能被该选择器列表中任何一条规则选中的元素。
 
 ```css
 
@@ -60,11 +60,11 @@ tags:
 
 ```
 
-两者之间的区别在于，:is() 会计入整个选择器的优先级（它采用其最具体参数的优先级），而 :where() 的优先级为 0。这可以通过 :where() 参考页面上的示例来演示。
+两者之间的区别在于，`:is()` 会计入整个选择器的优先级（它采用其最具体参数的优先级），而 `:where()` 的优先级为 0。这可以通过 `:where()` 参考页面上的示例来演示。
 
-规范将 :is() 和 :where() 定义为接受容错选择器列表。
-1. :is() 伪类可以大大简化您的 CSS 选择器。
-2. :is() 不能选择伪元素
+规范将 `:is()` 和 `:where()` 定义为接受容错选择器列表。
+1. `:is()` 伪类可以大大简化您的 CSS 选择器。
+2. `:is()` 不能选择伪元素
 
 
 ## 视觉格式化模型
