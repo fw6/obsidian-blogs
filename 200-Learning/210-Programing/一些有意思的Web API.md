@@ -37,17 +37,100 @@ tags:
 ![image.png](https://raw.githubusercontent.com/fw6/assets/main/toy_docs/20230626145600.png)
 
 
-## Background Tasks API
-
-[Background Synchronization API - Web APIs | MDN](https://developer.mozilla.org/en-US/docs/Web/API/Background_Synchronization_API)
+## Background Fetch API
 
 该API提供了一种新的方式在浏览器下载资源，如电影、音视频、软件。
 
 当网友端要求客户下载大文件时，这通常需要用户保持与页面连接才能完成下载，如果失去连接、关闭选项卡、离开下载页面都会导致下载停止🤚。
 
-[Background Synchronization API](https://developer.mozilla.org/en-US/docs/Web/API/Background_Synchronization_API) 使Web应用能延迟任务，一旦用户网络稳定即可在`Service Worker`中运行。但是它不能用于需要长时间运行的任务，例如
-使用 Service Worker 提供了一种推迟处理直到用户连接的方法；但是它不能用于长时间运行的任务，例如下载大文件。后台同步要求服务工作人员保持活动状态直到获取完成，并且为了节省电池寿命并防止在后台发生不需要的任务，浏览器将在某个时刻终止该任务。
+[Background Synchronization API](https://developer.mozilla.org/en-US/docs/Web/API/Background_Synchronization_API) 使Web应用能延迟任务，一旦用户网络稳定即可在`Service Worker`中运行。但是它不能用于需要长时间运行的任务，例如下载大文件，后台同步要求Service保持活动状态直到完成，并为了节省电池寿命（节能模式）防止在后台产生不必要的任务，浏览器将在某个时刻终止该任务。
 
+新的实验性技术`Background Fetch API`解决了该问题，它为Web开发人员提供了一种告诉浏览器在后台发送请求的方法。例如当用户点击下载按钮时下载视频时，浏览器以一种可见的方式执行`fetch`，并向用户显示进度和取消下载的方法，下载完成后，浏览器会打开`Service Worker`，此时应用程序可根据需要响应执行某些操作。
+如果用户在离线状态下启动进程，`Background Fetch`也会启动，一旦网络连接，它就会开始，如果用户再次离线，会暂停知道用户再次上线。
 
+### Example
+
+```js
+// client.js
+
+function startBgFetch() {
+    if (!('BackgroundFetchManager' in self)) {
+        fallbackFetch(item);
+        return;
+    }
+    const reg = await navigator.serviceWorker.ready;
+    const bgFetch = await reg.backgroundFetch.fetch(
+        id, 
+        [item.src], 
+        {
+            title: item.title,
+            icons: [
+                { 
+                    sizes: '300x300', 
+                    src: item.image, 
+                    type: 'image/jpeg' 
+                }
+            ],
+            downloadTotal: item.size
+        }
+    );
+    monitorBgFetch(bgFetch);
+}
+
+async function monitorBgFetch(bgFetch) {
+    function doUpdate() {
+        const update = {};
+        if (bgFetch.result === '') {
+            update.state = 'fetching';
+            update.progress = bgFetch.downloaded / bgFetch.downloadTotal;
+        } else if (bgFetch.result === 'success') {
+            update.state = 'fetching';
+            update.progress = 1;
+        } else if (bgFetch.failureReason === 'aborted') { // Failure
+            update.state = 'not-stored';
+        } else { // other failure
+            update.state = 'failed';
+        }
+    
+        updateItem(bgFetch.id, update);
+    };
+      
+      doUpdate();
+    
+      bgFetch.addEventListener('progress', doUpdate);
+      const channel = new BroadcastChannel(bgFetch.id);
+      
+    channel.onmessage = (event) => {
+        if (!event.data.stored) return;
+        bgFetch.removeEventListener('progress', doUpdate);
+        channel.close();
+        updateItem(bgFetch.id, { state: 'stored' });
+    };
+}
+
+// sw.js
+
+addEventListener('fetch', (event) => {
+    event.respondWith(async function() {
+        const cachedResponse = await caches.match(event.request);
+        return cachedResponse || fetch(event.request);
+    }());
+});
+
+addEventListener('backgroundfetchsuccess', event => {
+    const bgFetch = event.registration;
+    event.waitUntil(async function () {
+    new BroadcastChannel(bgFetch.id).postMessage({ stored: true });
+    }());
+});
+
+addEventListener('backgroundfetchfail', event => {
+    console.log('Background fetch failed', event);
+});
+
+addEventListener('backgroundfetchclick', event => {
+    clients.openWindow('/');
+});
+```
 
 
