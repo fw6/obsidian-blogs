@@ -1,5 +1,5 @@
 ---
-title: "JavaScript尾后逗号"
+title: "JavaScript的词法文法"
 description: ""
 pubDate: "2023-07-19 21:41"
 heroImage: "https://raw.githubusercontent.com/fw6/assets/main/toy_docs/20230719215441.png"
