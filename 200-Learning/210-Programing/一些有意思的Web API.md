@@ -18,6 +18,7 @@ tags:
 
 ## TOC
 
+
 ## IME
 
 - [IME | W3C](https://w3c.github.io/uievents/#ime)
@@ -36,7 +37,16 @@ tags:
 ![image.png](https://raw.githubusercontent.com/fw6/assets/main/toy_docs/20230626145600.png)
 
 
+## Background Tasks API
 
+[Background Synchronization API - Web APIs | MDN](https://developer.mozilla.org/en-US/docs/Web/API/Background_Synchronization_API)
+
+该API提供了一种新的方式在浏览器下载资源，如电影、音视频、软件。
+
+当网友端要求客户下载大文件时，这通常需要用户保持与页面连接才能完成下载，如果失去连接、关闭选项卡、离开下载页面都会导致下载停止🤚。
+
+[Background Synchronization API](https://developer.mozilla.org/en-US/docs/Web/API/Background_Synchronization_API) 使Web应用能延迟任务，一旦用户网络稳定即可在`Service Worker`中运行。但是它不能用于需要长时间运行的任务，例如
+使用 Service Worker 提供了一种推迟处理直到用户连接的方法；但是它不能用于长时间运行的任务，例如下载大文件。后台同步要求服务工作人员保持活动状态直到获取完成，并且为了节省电池寿命并防止在后台发生不需要的任务，浏览器将在某个时刻终止该任务。
 
 
 

@@ -18,6 +18,78 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "一些通用的编程知识",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/一些通用的编程知识.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "一些有意思的Web API",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/一些有意思的Web API.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Rust入门之旅",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Rust入门之旅.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Magic of Tagged Templates Literals in JavaScript",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Magic of Tagged Templates Literals in JavaScript.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "JavaScript的词法文法",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/JavaScript的词法文法.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "JavaScript尾后逗号",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/JavaScript尾后逗号.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Compile Svelte in Your Head",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Compile Svelte in Your Head.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":0},\"to\":{\"line\":15,\"ch\":0}}}"
+                },
+                {
+                  "title": "JavaScript尾后逗号",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/JavaScript尾后逗号.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "JavaScript的词法文法",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/JavaScript的词法文法.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":9},\"to\":{\"line\":17,\"ch\":9}},\"scroll\":0}"
+                },
+                {
+                  "title": "JavaScript尾后逗号",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/JavaScript尾后逗号.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Compile Svelte in Your Head",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Compile Svelte in Your Head.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":0},\"to\":{\"line\":17,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "重学CSS",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/重学CSS.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":91,\"ch\":57},\"to\":{\"line\":91,\"ch\":57}},\"scroll\":114.62226169330965}"
+                },
+                {
                   "title": "算法入门",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/算法入门.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -1480,7 +1552,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200-Learning/210-Programing/重学CSS.md",
+                "file": "200-Learning/210-Programing/一些有意思的Web API.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -1589,7 +1661,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-Learning/210-Programing/重学CSS.md",
+                "file": "200-Learning/210-Programing/一些有意思的Web API.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1615,7 +1687,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-Learning/210-Programing/重学CSS.md",
+                "file": "200-Learning/210-Programing/一些有意思的Web API.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1656,7 +1728,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200-Learning/210-Programing/重学CSS.md"
+                "file": "200-Learning/210-Programing/一些有意思的Web API.md"
               }
             }
           },
@@ -1719,19 +1791,20 @@
   },
   "active": "2b253c52ed61f4d7",
   "lastOpenFiles": [
-    "200-Learning/210-Programing/算法入门.md",
-    "200-Learning/210-Programing/深入理解Generators.md",
-    "200-Learning/210-Programing/富文本编辑器相关资源.md",
-    "200-Learning/210-Programing/冒号课堂.md",
-    "200-Learning/210-Programing/关于Web Performance.md",
-    "200-Learning/210-Programing/你不知道的JS.md",
     "200-Learning/210-Programing/一些通用的编程知识.md",
     "200-Learning/210-Programing/一些有意思的Web API.md",
     "200-Learning/210-Programing/Rust入门之旅.md",
     "200-Learning/210-Programing/Magic of Tagged Templates Literals in JavaScript.md",
     "200-Learning/210-Programing/JavaScript的词法文法.md",
     "200-Learning/210-Programing/JavaScript尾后逗号.md",
+    "200-Learning/210-Programing/Compile Svelte in Your Head.md",
     "200-Learning/210-Programing/重学CSS.md",
+    "200-Learning/210-Programing/算法入门.md",
+    "200-Learning/210-Programing/深入理解Generators.md",
+    "200-Learning/210-Programing/富文本编辑器相关资源.md",
+    "200-Learning/210-Programing/冒号课堂.md",
+    "200-Learning/210-Programing/关于Web Performance.md",
+    "200-Learning/210-Programing/你不知道的JS.md",
     "000-Inbox/010-Workspace/工作总结.md",
     "Calendar/Daily notes/2023-07-10.md",
     "Extras/Templates/_blog.md",
@@ -1744,7 +1817,6 @@
     "README.md",
     "Extras/个人资产/生活/驾考.md",
     "Extras/个人资产/生活/蜜月旅行🏝️.md",
-    "Extras/个人资产/生活/买房🏠.md",
     "renovate.json",
     "cedict_ts.u8",
     "_obsidian/zk-prefixer.json",
