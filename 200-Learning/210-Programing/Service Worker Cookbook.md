@@ -5,8 +5,7 @@ pubDate: "2023-07-21 19:06"
 heroImage: "https://images.unsplash.com/photo-1536319040287-757e83a8198e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80"
 date created: 2023-07-21
 date modified: 2023-07-21
-draft: true
-tags: 
+tags:
     - writings
     - W3C
 ---
@@ -14,7 +13,7 @@ tags:
 > The winner ain't the one with the fastest car it's the one who refuses to lose.  
 > — <cite>Dale Earnhardt</cite>
 
-:::tldr
+:::tldr 
 `Service Worker` 本质上充当 Web 应用程序、浏览器与网络（可用时）之间的代理服务器。这个 API 旨在创建有效的离线体验，它会拦截网络请求并根据网络是否可用来采取适当的动作、更新来自服务器的的资源。它还提供入口以推送通知和访问后台同步 API。  
 :::
 
@@ -29,7 +28,7 @@ tags:
 出于安全考量，`Service Worker` 只能由 `HTTPS` 承载，毕竟修改网络请求的能力暴露给中间人攻击会非常危险，如果允许访问这些强大的 API，此类攻击将会变得很严重。在 Firefox 浏览器的用户隐私模式，Service Worker 不可用。
 
 :::tip
-Service worker 大量使用 `Promise`，因为通常它们会等待响应后继续，并根据响应返回一个成功或者失败的操作。Promise 非常适合这种场景。
+Service worker 大量使用 `Promise`，因为通常它们会等待响应后继续，并根据响应返回一个成功或者失败的操作。Promise 非常适合这种场景。 
 :::
 
 ## 用法
@@ -46,16 +45,17 @@ Service worker 大量使用 `Promise`，因为通常它们会等待响应后继
 ![image.png](https://raw.githubusercontent.com/fw6/assets/main/toy_docs/20230721213529.png)
 
 以下是可用的 service worker 事件：
+
 - install
 - activate
-- message
+- message 
   受控页面可以使用 `ServiceWorker.postMessage()` 方法向 Service Worker 发送消息。 Service Worker 可以选择通过与受控页面相对应的 `Client.postMessage()` 发回响应。
 - 功能性事件
-    - fetch 
+    - fetch  
       当主应用线程发出网络请求时，会在 Service Worker 的全局范围内触发 `fetch` 事件。它能够拦截网络请求并发送自定义响应（例如，返回本地缓存）。
-    - sync
+    - sync  
       当向 `SyncManager` 注册事件的页面（或工作线程）正在运行且网络连接可用时，将触发 `ServiceWorkerGlobalScope` 接口的 `sync` 事件。
-    - push
+    - push  
       当 Service Worker 收到推送消息时， `push` 事件将发送到 Service Worker 的全局范围（由 `ServiceWorkerGlobalScope` 接口表示）。
 
 ```js
@@ -84,8 +84,8 @@ registerServiceWorker();
 
 ```
 
-:::warning
-service worker 代码只是一个驻留在我们的 app 内的一个 JavaScript 文件（注意，这个文件的 URL 是相对于源（origin）的，而不是相对于引用它的那个 JS 文件）。
+:::warning 
+service worker 代码只是一个驻留在我们的 app 内的一个 JavaScript 文件（注意，这个文件的 URL 是相对于源（origin）的，而不是相对于引用它的那个 JS 文件）。  
 :::
 
 单个 service worker 可以控制很多页面。每个作用域（scope）里的页面加载完的时候，安装在页面的 service worker 就可以控制它。需要小心 service worker 脚本里的全局变量：每个页面不会有自己独有的 worker。
