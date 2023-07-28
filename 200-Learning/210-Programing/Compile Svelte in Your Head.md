@@ -215,7 +215,7 @@ function update() {
 [Svelte REPL](https://svelte.dev/repl/3237a87f7da947cb845aa2cbc9d8ea2e?version=4.1.1)
 
 JavaScript Output:
-```js
+```js {2-4,10,17-19,28-36, 41}
 function create_fragment(ctx) {
 	let h1;
 	let t0;
@@ -260,3 +260,210 @@ class App extends SvelteComponent {
 	}
 }
 ```
+
+多出的地方：
+- `h1`的内容被拆分为两个文本元素
+- `create_fragment`返回的对象增加了一个新的方法`p`
+- 新的函数`instance`被创建
+- 在svelte组件的script内写的内容被放到了`instance`
+- 在`create_fragment`中被用到的数据`name`现在被替换为`ctx[0]`
+
+svelte编译器跟踪所有在script中定义的变量，它跟踪变量是否：
+1. 可以被改变，如：`count++`
+2. 可被重新赋值，如：`name = ‘svelte’`
+3. 是否在模板中被引用？如：`<h1>Hello {name}</h1>`
+4. 是否可写？例如：`const i = 1` vs `let i = 1`
+5. ...more
+
+当svelte编译器意识到变量名可被重新分配时，它会将h1的文本内容分解为多个部分，这样他就能动态更新部分文本。
+
+你可以看到新方法来更新文本节点：
+
+#### `p(ctx, dirty)`
+
+update的简写。它根据状态（dirty）和组件状态（ctx）的变化来更新元素
+
+#### instance variable
+
+变量名不能在不同组件实例上共享，这就是为什么它将变量名移动到一个名为instance的函数中。
+
+instance函数返回组件实例的变量列表，这些变量是：
+1. 在模板中被使用
+2. 被改变或重新赋值（在组件的实例内被更改）
+在组件中，这个列表被称为`ctx`
+在init函数中，svelte执行instance函数创建ctx，然后使用它创建fragment：
+```js
+const ctx = instance(/*...*/)
+const fragment = create_fragment(ctx)
+// create the fragment
+fragment.c()
+// mount the fragment onto the DOM
+fragment.m(target)
+```
+
+现在不访问组件实例的变量名，而是通过ctx拿到name的值：
+```js
+t1 = text(/*name*/ ctx[0])
+```
+ctx是数组而非对象或Map，与一项位掩码的优化技术有关，参考[相关讨论](https://github.com/sveltejs/svelte/issues/1922) [stackoverflow](https://stackoverflow.com/questions/59541070/how-is-svelte-making-a-component-dirty)
+``
+#### `$$invalidate`
+
+svelte响应式系统背后的秘密是`$$invalidate`函数，每一个变量如果可被：
+- `reassigned/mutated`
+- 被模板引用
+都会有`$$invalidate`函数被插入到`reassigned/mutated`所在位置的右侧:
+```js
+name = 'svelte';
+count++;
+foo.a = 1;
+
+// compiled
+name='svelte';
+$$invalidate(/* name */, name);
+
+count++;
+$$invalidate(/* count */, count);
+
+foo.a = 1;
+$$invalidate(/* foo */, foo);
+```
+
+`$$invalidate`函数将变量标记为`dirty`并安排组件的更新：
+```js
+// conceptually...
+const ctx = instance(/*...*/);
+const fragment = create_fragment(ctx);
+// to track which variable has changed
+const dirty = new Set();
+const $$invalidate = (variable, newValue) => {
+    // update ctx
+    ctx[variable] = newValue;
+    // mark variable as dirty
+    dirty.add(variable);
+    // schedules update for the component
+    scheduleUpdate(component);
+};
+
+// gets called when update is scheduled
+function flushUpdate() {
+    // update the fragment
+    fragment.p(ctx, dirty);
+    // clear the dirty
+    dirty.clear();
+}
+```
+
+### Adding event listeners
+
+在svelte组件中增加一个事件监听:
+```svelte {7}
+<script>
+	let name = 'world';
+	function update() {
+		name = 'Svelte';
+	}
+</script>
+<h1 on:click={update}>Hello {name}</h1>
+```
+[Svelte REPL](https://svelte.dev/repl/a9893863475049149ca72e1416eef7e5?version=4.1.1)
+
+JavaScript Output:
+```js {20,33,45}
+function create_fragment(ctx) {
+	let h1;
+	let t0;
+	let t1;
+	let mounted;
+	let dispose;
+
+	return {
+		c() {
+			h1 = element("h1");
+			t0 = text("Hello ");
+			t1 = text(/*name*/ ctx[0]);
+		},
+		m(target, anchor) {
+			insert(target, h1, anchor);
+			append(h1, t0);
+			append(h1, t1);
+
+			if (!mounted) {
+				dispose = listen(h1, "click", /*update*/ ctx[1]);
+				mounted = true;
+			}
+		},
+		p(ctx, [dirty]) {
+			if (dirty & /*name*/ 1) set_data(t1, /*name*/ ctx[0]);
+		},
+		d(detaching) {
+			if (detaching) {
+				detach(h1);
+			}
+
+			mounted = false;
+			dispose();
+		}
+	};
+}
+
+function instance($$self, $$props, $$invalidate) {
+	let name = 'world';
+
+	function update() {
+		$$invalidate(0, name = 'Svelte');
+	}
+
+	return [name, update];
+}
+
+class App extends SvelteComponent {
+	constructor(options) {
+		super();
+		init(this, options, instance, create_fragment, safe_not_equal, {});
+	}
+}
+```
+
+多出的地方：
+1. instance函数返回了内部的update函数
+2. 在mount时添加了事件监听，destroy时移除事件
+
+如上所述，instance函数返回模板中引用的变量，并且这些变量会被修改或重分配。
+因在template中引用了update函数，所以update也作为了ctx的一部分被返回
+
+svelte编译器尝试生成紧凑的JavaScript代码，如果非必要则不会返回额外的变量。
+
+#### listen & dispose
+
+每当在svelte组件中增加事件监听器时，svelte都会注入代码添加事件，并在DOM片段被移除时将事件移除。
+
+当有多个事件被绑定时，svelte编译器会压缩多个事件：
+```js {1-5,7}
+dispose = [
+  listen(h1, 'click', /*update*/ ctx[1]),
+  listen(h1, 'mousedown', /*update*/ ctx[1]),
+  listen(h1, 'touchstart', /*update*/ ctx[1], { passive: true }),
+];
+// ...
+run_all(dispose);
+```
+
+
+## 总结
+
+svelte语法是HTML的超集。
+
+一个svelte组件会通过svelte编译器分析并生成优化后的JavaScript代码。
+
+输出的JavaScript代码可分成3部分：
+### 1. create_fragment
+返回一个对象，包含了通过组件创建一个元素片段所需的方法。
+
+### 2. instance
+
+1. 写在script标签内的大多数代码作为instance的内容
+2. 返回一个数组表示组件实例的若干状态（可变动、且在template中被引用的变量）
+3. `$$invalidate`被插入到每个改变变量值的后面。
+
+### 3. class App extends SvelteComponent

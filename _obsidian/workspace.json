@@ -18,6 +18,18 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "一些通用的编程知识",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/一些通用的编程知识.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.8211382113821138}"
+                },
+                {
+                  "title": "Compile Svelte in Your Head",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Compile Svelte in Your Head.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":305,\"ch\":85},\"to\":{\"line\":305,\"ch\":85}},\"scroll\":283.3301365882011}"
+                },
+                {
                   "title": "Service Worker Cookbook",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Service Worker Cookbook.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -36,7 +48,7 @@
                   "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 },
                 {
-                  "title": "Compile Svelte in Your Head 1",
+                  "title": "Compile Svelte in Your Head",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Compile Svelte in Your Head.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":0},\"to\":{\"line\":15,\"ch\":0}},\"scroll\":0}"
@@ -60,7 +72,7 @@
                   "eState": "{\"cursor\":{\"from\":{\"line\":282,\"ch\":77},\"to\":{\"line\":282,\"ch\":77}},\"scroll\":263.3330078125}"
                 },
                 {
-                  "title": "Compile Svelte in Your Head 1",
+                  "title": "Compile Svelte in Your Head",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Compile Svelte in Your Head.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
@@ -120,7 +132,7 @@
                   "eState": "{\"cursor\":{\"from\":{\"line\":125,\"ch\":95},\"to\":{\"line\":125,\"ch\":95}},\"scroll\":110.37644859813084}"
                 },
                 {
-                  "title": "Compile Svelte in Your Head 1",
+                  "title": "Compile Svelte in Your Head",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Compile Svelte in Your Head.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
@@ -1911,10 +1923,11 @@
   },
   "active": "2b253c52ed61f4d7",
   "lastOpenFiles": [
+    "200-Learning/210-Programing/一些通用的编程知识.md",
+    "200-Learning/210-Programing/Compile Svelte in Your Head.md",
     "200-Learning/210-Programing/Service Worker Cookbook.md",
     "200-Learning/210-Programing/Rust入门之旅.md",
     "200-Learning/210-Programing/Magic of Tagged Templates Literals in JavaScript.md",
-    "200-Learning/210-Programing/Compile Svelte in Your Head.md",
     "200-Learning/210-Programing/一些有意思的Web API.md",
     "200-Learning/210-Programing/JavaScript尾后逗号.md",
     "200-Learning/210-Programing/JavaScript的词法文法.md",
@@ -1923,7 +1936,6 @@
     "200-Learning/210-Programing/富文本编辑器相关资源.md",
     "200-Learning/210-Programing/关于Web Performance.md",
     "200-Learning/210-Programing/你不知道的JS.md",
-    "200-Learning/210-Programing/一些通用的编程知识.md",
     "200-Learning/210-Programing/重学CSS.md",
     "200-Learning/210-Programing/算法入门.md",
     "000-Inbox/010-Workspace/工作总结.md",

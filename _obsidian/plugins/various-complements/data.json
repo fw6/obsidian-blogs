@@ -82,8 +82,8 @@
     "JavaScript": {
       "JavaScript": {
         "currentFile": {
-          "count": 23,
-          "lastUpdated": 1690530146791
+          "count": 25,
+          "lastUpdated": 1690536082246
         }
       }
     },
@@ -178,24 +178,32 @@
     "create_fragment": {
       "create_fragment": {
         "currentFile": {
-          "count": 5,
-          "lastUpdated": 1690529552743
+          "count": 8,
+          "lastUpdated": 1690534895818
         }
       }
     },
     "SvelteComponent": {
       "SvelteComponent": {
         "currentFile": {
-          "count": 1,
-          "lastUpdated": 1690528242313
+          "count": 2,
+          "lastUpdated": 1690537356802
         }
       }
     },
     "Output": {
       "Output": {
         "currentFile": {
+          "count": 3,
+          "lastUpdated": 1690535765785
+        }
+      }
+    },
+    "fragment": {
+      "fragment": {
+        "currentFile": {
           "count": 2,
-          "lastUpdated": 1690530148981
+          "lastUpdated": 1690534913412
         }
       }
     }
