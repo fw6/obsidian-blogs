@@ -1,11 +1,10 @@
 ---
-title: "Compile Svelte in Your Head"
+title: "Compile Svelte in Your Head（1）"
 description: ""
 pubDate: "2023-07-21 19:06"
 heroImage: "https://images.unsplash.com/photo-1536319040287-757e83a8198e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80"
 date created: "2023-07-21 19:05"
 date modified: "2023-07-21"
-draft: true
 tags:
     - writings
 ---
@@ -457,13 +456,17 @@ svelte语法是HTML的超集。
 一个svelte组件会通过svelte编译器分析并生成优化后的JavaScript代码。
 
 输出的JavaScript代码可分成3部分：
-### 1. create_fragment
+
+### create_fragment
 返回一个对象，包含了通过组件创建一个元素片段所需的方法。
 
-### 2. instance
+###  instance
 
 1. 写在script标签内的大多数代码作为instance的内容
 2. 返回一个数组表示组件实例的若干状态（可变动、且在template中被引用的变量）
 3. `$$invalidate`被插入到每个改变变量值的后面。
 
-### 3. class App extends SvelteComponent
+### class App extends SvelteComponent
+1. 初始化组件（create_fragment、instance）
+2. 设置组件内部结构
+3. 提供组件对外的API
