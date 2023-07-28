@@ -82,8 +82,8 @@
     "JavaScript": {
       "JavaScript": {
         "currentFile": {
-          "count": 21,
-          "lastUpdated": 1689775304007
+          "count": 23,
+          "lastUpdated": 1690530146791
         }
       }
     },
@@ -172,6 +172,30 @@
         "frontMatter": {
           "count": 1,
           "lastUpdated": 1689945124483
+        }
+      }
+    },
+    "create_fragment": {
+      "create_fragment": {
+        "currentFile": {
+          "count": 5,
+          "lastUpdated": 1690529552743
+        }
+      }
+    },
+    "SvelteComponent": {
+      "SvelteComponent": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1690528242313
+        }
+      }
+    },
+    "Output": {
+      "Output": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1690530148981
         }
       }
     }

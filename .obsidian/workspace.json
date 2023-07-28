@@ -18,6 +18,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Service Worker Cookbook",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Service Worker Cookbook.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":0},\"to\":{\"line\":18,\"ch\":0}},\"scroll\":0.7398373983739838}"
+                },
+                {
                   "title": "Rust入门之旅",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Rust入门之旅.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -32,7 +38,7 @@
                 {
                   "title": "Compile Svelte in Your Head 1",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Compile Svelte in Your Head 1.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Compile Svelte in Your Head.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":0},\"to\":{\"line\":15,\"ch\":0}},\"scroll\":0}"
                 },
                 {
@@ -56,7 +62,7 @@
                 {
                   "title": "Compile Svelte in Your Head 1",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Compile Svelte in Your Head 1.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Compile Svelte in Your Head.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 },
                 {
@@ -116,7 +122,7 @@
                 {
                   "title": "Compile Svelte in Your Head 1",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Compile Svelte in Your Head 1.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Compile Svelte in Your Head.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 },
                 {
@@ -1666,7 +1672,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200-Learning/210-Programing/Service Worker Cookbook.md",
+                "file": "200-Learning/210-Programing/Compile Svelte in Your Head.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -1775,7 +1781,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-Learning/210-Programing/Service Worker Cookbook.md",
+                "file": "200-Learning/210-Programing/Compile Svelte in Your Head.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1801,7 +1807,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-Learning/210-Programing/Service Worker Cookbook.md",
+                "file": "200-Learning/210-Programing/Compile Svelte in Your Head.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1842,7 +1848,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200-Learning/210-Programing/Service Worker Cookbook.md"
+                "file": "200-Learning/210-Programing/Compile Svelte in Your Head.md"
               }
             }
           },
@@ -1905,10 +1911,10 @@
   },
   "active": "2b253c52ed61f4d7",
   "lastOpenFiles": [
+    "200-Learning/210-Programing/Service Worker Cookbook.md",
     "200-Learning/210-Programing/Rust入门之旅.md",
     "200-Learning/210-Programing/Magic of Tagged Templates Literals in JavaScript.md",
-    "200-Learning/210-Programing/Compile Svelte in Your Head 1.md",
-    "200-Learning/210-Programing/Service Worker Cookbook.md",
+    "200-Learning/210-Programing/Compile Svelte in Your Head.md",
     "200-Learning/210-Programing/一些有意思的Web API.md",
     "200-Learning/210-Programing/JavaScript尾后逗号.md",
     "200-Learning/210-Programing/JavaScript的词法文法.md",
