@@ -18,15 +18,45 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Compile Svelte in Your Head（1）",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Compile Svelte in Your Head（1）.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":5},\"to\":{\"line\":7,\"ch\":5}},\"scroll\":0}"
+                },
+                {
+                  "title": "Compile Svelte in Your Head（2）",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Compile Svelte in Your Head（2）.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":38},\"to\":{\"line\":1,\"ch\":35}}}"
+                },
+                {
+                  "title": "Compile Svelte in Your Head（1）",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Compile Svelte in Your Head（1）.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":16},\"to\":{\"line\":15,\"ch\":16}},\"scroll\":0}"
+                },
+                {
+                  "title": "JavaScript尾后逗号",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/JavaScript尾后逗号.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "Compile Svelte in Your Head（1）",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Compile Svelte in Your Head（1）.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":460,\"ch\":0},\"to\":{\"line\":460,\"ch\":0}},\"scroll\":438.31005859375}"
+                },
+                {
                   "title": "一些通用的编程知识",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/一些通用的编程知识.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.8211382113821138}"
                 },
                 {
-                  "title": "Compile Svelte in Your Head",
+                  "title": "Compile Svelte in Your Head（1）",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Compile Svelte in Your Head.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Compile Svelte in Your Head（1）.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":305,\"ch\":85},\"to\":{\"line\":305,\"ch\":85}},\"scroll\":283.3301365882011}"
                 },
                 {
@@ -48,9 +78,9 @@
                   "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 },
                 {
-                  "title": "Compile Svelte in Your Head",
+                  "title": "Compile Svelte in Your Head（1）",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Compile Svelte in Your Head.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Compile Svelte in Your Head（1）.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":0},\"to\":{\"line\":15,\"ch\":0}},\"scroll\":0}"
                 },
                 {
@@ -72,9 +102,9 @@
                   "eState": "{\"cursor\":{\"from\":{\"line\":282,\"ch\":77},\"to\":{\"line\":282,\"ch\":77}},\"scroll\":263.3330078125}"
                 },
                 {
-                  "title": "Compile Svelte in Your Head",
+                  "title": "Compile Svelte in Your Head（1）",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Compile Svelte in Your Head.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Compile Svelte in Your Head（1）.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 },
                 {
@@ -132,9 +162,9 @@
                   "eState": "{\"cursor\":{\"from\":{\"line\":125,\"ch\":95},\"to\":{\"line\":125,\"ch\":95}},\"scroll\":110.37644859813084}"
                 },
                 {
-                  "title": "Compile Svelte in Your Head",
+                  "title": "Compile Svelte in Your Head（1）",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Compile Svelte in Your Head.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Compile Svelte in Your Head（1）.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 },
                 {
@@ -1684,7 +1714,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200-Learning/210-Programing/Compile Svelte in Your Head.md",
+                "file": "200-Learning/210-Programing/Compile Svelte in Your Head（2）.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -1793,7 +1823,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-Learning/210-Programing/Compile Svelte in Your Head.md",
+                "file": "200-Learning/210-Programing/Compile Svelte in Your Head（2）.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1819,7 +1849,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-Learning/210-Programing/Compile Svelte in Your Head.md",
+                "file": "200-Learning/210-Programing/Compile Svelte in Your Head（2）.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1860,7 +1890,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200-Learning/210-Programing/Compile Svelte in Your Head.md"
+                "file": "200-Learning/210-Programing/Compile Svelte in Your Head（2）.md"
               }
             }
           },
@@ -1923,13 +1953,14 @@
   },
   "active": "2b253c52ed61f4d7",
   "lastOpenFiles": [
+    "200-Learning/210-Programing/Compile Svelte in Your Head（1）.md",
+    "200-Learning/210-Programing/Compile Svelte in Your Head（2）.md",
+    "200-Learning/210-Programing/JavaScript尾后逗号.md",
     "200-Learning/210-Programing/一些通用的编程知识.md",
-    "200-Learning/210-Programing/Compile Svelte in Your Head.md",
     "200-Learning/210-Programing/Service Worker Cookbook.md",
     "200-Learning/210-Programing/Rust入门之旅.md",
     "200-Learning/210-Programing/Magic of Tagged Templates Literals in JavaScript.md",
     "200-Learning/210-Programing/一些有意思的Web API.md",
-    "200-Learning/210-Programing/JavaScript尾后逗号.md",
     "200-Learning/210-Programing/JavaScript的词法文法.md",
     "200-Learning/210-Programing/冒号课堂.md",
     "200-Learning/210-Programing/深入理解Generators.md",
@@ -1948,7 +1979,6 @@
     "200-Learning/220-English/Others.md",
     "Calendar/Daily notes/2023-07-04.md",
     "README.md",
-    "Extras/个人资产/生活/驾考.md",
     "renovate.json",
     "cedict_ts.u8",
     "_obsidian/zk-prefixer.json",
