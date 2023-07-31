@@ -18,6 +18,24 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Compile Svelte in Your Head（3）",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Compile Svelte in Your Head（3）.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":27},\"to\":{\"line\":6,\"ch\":27}},\"scroll\":0}"
+                },
+                {
+                  "title": "Proxy & Reflect",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Proxy & Reflect.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":26,\"ch\":52},\"to\":{\"line\":26,\"ch\":52}},\"scroll\":0.926829268292683}"
+                },
+                {
+                  "title": "Compile Svelte in Your Head（3）",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Compile Svelte in Your Head（3）.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":0},\"to\":{\"line\":19,\"ch\":0}},\"scroll\":5.916666666666667}"
+                },
+                {
                   "title": "Compile Svelte in Your Head（1）",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Compile Svelte in Your Head（1）.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -1792,7 +1810,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200-Learning/210-Programing/Compile Svelte in Your Head（3）.md",
+                "file": "200-Learning/210-Programing/Proxy & Reflect.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -1901,7 +1919,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-Learning/210-Programing/Compile Svelte in Your Head（3）.md",
+                "file": "200-Learning/210-Programing/Proxy & Reflect.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1927,7 +1945,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-Learning/210-Programing/Compile Svelte in Your Head（3）.md",
+                "file": "200-Learning/210-Programing/Proxy & Reflect.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1968,7 +1986,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200-Learning/210-Programing/Compile Svelte in Your Head（3）.md"
+                "file": "200-Learning/210-Programing/Proxy & Reflect.md"
               }
             }
           },
@@ -2011,8 +2029,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -2031,9 +2048,10 @@
   },
   "active": "2b253c52ed61f4d7",
   "lastOpenFiles": [
+    "200-Learning/210-Programing/Compile Svelte in Your Head（3）.md",
+    "200-Learning/210-Programing/Proxy & Reflect.md",
     "200-Learning/210-Programing/Compile Svelte in Your Head（1）.md",
     "200-Learning/210-Programing/Compile Svelte in Your Head（2）.md",
-    "200-Learning/210-Programing/Compile Svelte in Your Head（3）.md",
     "200-Learning/210-Programing/JavaScript尾后逗号.md",
     "200-Learning/210-Programing/一些通用的编程知识.md",
     "200-Learning/210-Programing/Service Worker Cookbook.md",
@@ -2056,7 +2074,6 @@
     "200-Learning/220-English/Dietcode Blog.md",
     "200-Learning/220-English/Serde.md",
     "200-Learning/220-English/Others.md",
-    "Calendar/Daily notes/2023-07-04.md",
     "renovate.json",
     "cedict_ts.u8",
     "_obsidian/zk-prefixer.json",
