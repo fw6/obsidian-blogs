@@ -13,6 +13,8 @@ tags:
 > The winner ain't the one with the fastest car it's the one who refuses to lose.
 > — <cite>Dale Earnhardt</cite>
 
+## TOC
+
 ## Svelte syntax
 
 下方展示svelte的基础语法

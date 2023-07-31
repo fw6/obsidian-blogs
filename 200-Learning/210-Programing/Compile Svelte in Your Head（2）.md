@@ -10,6 +10,8 @@ tags:
     - svelte
 ---
 
+## TOC
+
 ## `$$invalidate`
 
 `$$invalidate`在概念上的工作原理如下：
