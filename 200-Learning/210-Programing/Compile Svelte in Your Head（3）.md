@@ -18,7 +18,9 @@ tags:
 
 ## 在Svelte模板如何使用
 
-### `on:`
+### `on:`event name
+
+使用`on:`指令在DOM元素或Svelte组件上绑定事件
 
 ```svelte
 <script>
@@ -36,17 +38,47 @@ function handleClick(event) {}
 <div on:click|stopPropagation|once={handleClick}>
 ```
 
-### `bind:`
+### `bind:`property
+
+将变量绑定到元素的属性上，更新变量将更新元素的属性。表单元素绑定的值被修改也会导致变量更新。
 
 ```svelte
 <script>
-  let name, yes;
+  let value, name, yes, text, selected;
 </script>
 
-<!-- You can bind `name` to input.value -->
-<!-- Changing `name` will update input.value to be the value of `name` and -->
-<!-- changing input.value will update `name` to be input.value -->
+<input bind:value />
 <input bind:value={name} />
-<!-- You can bind input.checked for a checkbox input -->
+
+<textarea bind:value={text} />
+
 <input type="checkbox" bind:checked={yes} />
+
+<select bind:value={selected}>
+    <option value={a}>a</option>
+    <option value={b}>b</option>
+    <option value={c}>c</option>
+</select>
+```
+
+### `use:` actions
+
+`use:`指令用于绑定`action`，`action`提供了另一种方式增强元素功能，当与第三方库一起使用时可使用。
+`action`是一个函数，该函数将在绑定DOM元素创建时执行。
+该函数返回一个对象，`destroy`在绑定到DOM元素从文档树中被移除时触发；当给action传递参数时，`update`在参数被更新时触发。
+
+```svelte
+<script>
+/** @type {import('svelte/action').Action}  */
+function foo(node) {
+    // the node has been mounted in the DOM
+    return {
+        destroy() {
+        // the node has been removed from the DOM
+        }
+    };
+}
+</script>
+
+<div use:foo />
 ```
