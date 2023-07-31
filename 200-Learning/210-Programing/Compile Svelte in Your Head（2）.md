@@ -2,12 +2,12 @@
 title: "Compile Svelte in Your Head（2）"
 description: ""
 pubDate: "2023-07-28 19:06"
-heroImage: "https://images.unsplash.com/photo-1536319040287-757e83a8198e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80"
+heroImage: "https://images.unsplash.com/photo-1617791160536-598cf32026fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80"
 date created: "2023-07-28 19:03"
 date modified: "2023-07-28"
-draft: true
 tags:
     - writings
+    - svelte
 ---
 
 ## `$$invalidate`
@@ -330,4 +330,34 @@ $$self.$$.update = () => {
 ```
 
 ### 非响应式变量
+
+svelte编译器会跟踪`<script>`脚本中所有变量。如果响应式声明或语句中变量使用了但未发生`mutated`或`reassigned`，则该响应式声明或语句将不会被添加到`$$.update`中。
+
+```svelte
+<script>
+  let count = 0;
+  $: doubled = count * 2;
+</script>
+{ count } x 2 = {doubled}
+```
+[Svelte REPL](https://svelte.dev/repl/23b2476accac46608807c73539b03953?version=3.20.1)
+
+JavaScript output
+```js
+function instance($$self, $$props, $$invalidate) {
+	let doubled;
+	$: $$invalidate(0, doubled = count * 2);
+	return [doubled];
+}
+```
+
+由于`count`未被`mutated`或`reassigned`，svelte通过不定义`$$self.$$.update`来优化输出。
+
+
+## 总结
+
+1. Svelte在编译阶段追踪被`dirty`的变量并在DOM更新时批量更新
+2. Svelte使用位掩码技术生成更加紧凑的运行时JavaScript代码
+3. 响应式声明和语句和DOM更新类似，也是批量执行
+
 

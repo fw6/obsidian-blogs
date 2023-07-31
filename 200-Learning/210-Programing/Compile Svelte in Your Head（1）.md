@@ -7,6 +7,7 @@ date created: "2023-07-21 19:05"
 date modified: "2023-07-21"
 tags:
     - writings
+    - svelte
 ---
 
 > The winner ain't the one with the fastest car it's the one who refuses to lose.
