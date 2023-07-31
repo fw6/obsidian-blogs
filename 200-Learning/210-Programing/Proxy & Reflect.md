@@ -78,3 +78,36 @@ Reflect是一个内置对象，提供了拦截JavaScript操作的方法，这些
 `Reflect`不是一个构造函数，所以不能通过`new`操作符对其进行调用，或者将`Reflect`作为函数调用。`Reflect`所有属性和方法都是静态的（类似`Math`）
 :::
 
+单独使用`Reflect`用处不大，与直接执行JavaScript操作相比，有如下用处：
+1. 从Reflect对象上可以拿到语言内部的方法，如`Object.defineProperty`
+2. 操作对象失败时返回false
+3. 操作对象从命令式变为函数式
+4. 操作更易读
+
+```js
+// 旧写法
+try {
+  Object.defineProperty(target, property, attributes);
+} catch (err) {}
+
+// 新写法
+if (Reflect.defineProperty(target, property, attributes)){} 
+else {}
+
+// 老写法  
+"assign" in Object; // true  
+// 新写法  
+Reflect.has(Object, "assign"); //
+
+// 老写法  
+Function.prototype.apply.call(Math.floor, undefined, [1.75]) // 1  
+
+// 新写法  
+Reflect.apply(Math.floor, undefined, [1.75]) // 1
+```
+
+
+## Reflect在Proxy中的作用
+
+就功能而言，`Reflect.get()`和`Reflect.set()`方法和直接对象赋值没有区别，都是可以互相替代的。
+
