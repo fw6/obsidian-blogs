@@ -18,6 +18,42 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "聊聊第一性原理",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/220-Sociology/聊聊第一性原理.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":24,\"ch\":0},\"to\":{\"line\":24,\"ch\":0}},\"scroll\":14.21875}"
+                },
+                {
+                  "title": "浏览器工作原理",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/浏览器工作原理.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":5},\"to\":{\"line\":7,\"ch\":5}},\"scroll\":0.1951219512195122}"
+                },
+                {
+                  "title": "关于Web Performance",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/关于Web Performance.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":3},\"to\":{\"line\":19,\"ch\":3}},\"scroll\":1.7083333333333335}"
+                },
+                {
+                  "title": "浏览器工作原理",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/浏览器工作原理.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":269,\"ch\":156},\"to\":{\"line\":269,\"ch\":156}},\"scroll\":253.40872395833333}"
+                },
+                {
+                  "title": "关于Web Performance",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/关于Web Performance.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":0},\"to\":{\"line\":20,\"ch\":0}},\"scroll\":4.444444444444445}"
+                },
+                {
+                  "title": "浏览器工作原理",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/浏览器工作原理.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":196,\"ch\":0},\"to\":{\"line\":196,\"ch\":0}},\"scroll\":180.88834635416666}"
+                },
+                {
                   "title": "Proxy & Reflect",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Proxy & Reflect.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -1876,7 +1912,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200-Learning/210-Programing/浏览器实现原理.md",
+                "file": "200-Learning/210-Programing/浏览器工作原理.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -1985,7 +2021,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-Learning/210-Programing/浏览器实现原理.md",
+                "file": "200-Learning/210-Programing/浏览器工作原理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -2011,7 +2047,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-Learning/210-Programing/浏览器实现原理.md",
+                "file": "200-Learning/210-Programing/浏览器工作原理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -2052,7 +2088,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200-Learning/210-Programing/浏览器实现原理.md"
+                "file": "200-Learning/210-Programing/浏览器工作原理.md"
               }
             }
           },
@@ -2112,10 +2148,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "2b253c52ed61f4d7",
+  "active": "1307ceb73ad7bfaa",
   "lastOpenFiles": [
+    "200-Learning/220-Sociology/聊聊第一性原理.md",
+    "200-Learning/210-Programing/浏览器工作原理.md",
+    "200-Learning/210-Programing/关于Web Performance.md",
     "200-Learning/210-Programing/Proxy & Reflect.md",
-    "200-Learning/210-Programing/浏览器实现原理.md",
     "200-Learning/210-Programing/JavaScript的词法文法.md",
     "200-Learning/210-Programing/Reactive Web Framework.md",
     "200-Learning/210-Programing/Compile Svelte in Your Head（3）.md",
@@ -2130,7 +2168,6 @@
     "200-Learning/210-Programing/一些有意思的Web API.md",
     "200-Learning/210-Programing/深入理解Generators.md",
     "200-Learning/210-Programing/富文本编辑器相关资源.md",
-    "200-Learning/210-Programing/关于Web Performance.md",
     "200-Learning/210-Programing/你不知道的JS.md",
     "200-Learning/210-Programing/重学CSS.md",
     "200-Learning/210-Programing/算法入门.md",
@@ -2139,7 +2176,6 @@
     "Extras/Templates/_blog.md",
     "200-Learning/220-English/Blogs.md",
     "200-Learning/220-English/Dioxus.md",
-    "200-Learning/220-English/Dietcode Blog.md",
     "renovate.json",
     "cedict_ts.u8",
     "_obsidian/zk-prefixer.json",
