@@ -18,6 +18,24 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Proxy & Reflect",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Proxy & Reflect.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":3},\"to\":{\"line\":10,\"ch\":3}},\"scroll\":0.4959349593495935}"
+                },
+                {
+                  "title": "JavaScript的词法文法",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/JavaScript的词法文法.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":6},\"to\":{\"line\":13,\"ch\":6}},\"scroll\":0}"
+                },
+                {
+                  "title": "Reactive Web Framework",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Reactive Web Framework.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":495,\"ch\":0},\"to\":{\"line\":495,\"ch\":0}},\"scroll\":477.0865885416667}"
+                },
+                {
                   "title": "Compile Svelte in Your Head（3）",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Compile Svelte in Your Head（3）.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -1858,7 +1876,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200-Learning/210-Programing/Reactive Web Framework.md",
+                "file": "200-Learning/210-Programing/浏览器实现原理.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -1967,7 +1985,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-Learning/210-Programing/Reactive Web Framework.md",
+                "file": "200-Learning/210-Programing/浏览器实现原理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1993,7 +2011,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-Learning/210-Programing/Reactive Web Framework.md",
+                "file": "200-Learning/210-Programing/浏览器实现原理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -2034,7 +2052,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200-Learning/210-Programing/Reactive Web Framework.md"
+                "file": "200-Learning/210-Programing/浏览器实现原理.md"
               }
             }
           },
@@ -2096,14 +2114,15 @@
   },
   "active": "2b253c52ed61f4d7",
   "lastOpenFiles": [
-    "200-Learning/210-Programing/Compile Svelte in Your Head（3）.md",
+    "200-Learning/210-Programing/Proxy & Reflect.md",
+    "200-Learning/210-Programing/浏览器实现原理.md",
     "200-Learning/210-Programing/JavaScript的词法文法.md",
+    "200-Learning/210-Programing/Reactive Web Framework.md",
+    "200-Learning/210-Programing/Compile Svelte in Your Head（3）.md",
     "200-Learning/210-Programing/Rust入门之旅.md",
     "200-Learning/210-Programing/Service Worker Cookbook.md",
-    "200-Learning/210-Programing/Reactive Web Framework.md",
     "200-Learning/210-Programing/冒号课堂.md",
     "200-Learning/210-Programing/Magic of Tagged Templates Literals in JavaScript.md",
-    "200-Learning/210-Programing/Proxy & Reflect.md",
     "200-Learning/210-Programing/Compile Svelte in Your Head（1）.md",
     "200-Learning/210-Programing/Compile Svelte in Your Head（2）.md",
     "200-Learning/210-Programing/JavaScript尾后逗号.md",
@@ -2121,7 +2140,6 @@
     "200-Learning/220-English/Blogs.md",
     "200-Learning/220-English/Dioxus.md",
     "200-Learning/220-English/Dietcode Blog.md",
-    "200-Learning/220-English/Serde.md",
     "renovate.json",
     "cedict_ts.u8",
     "_obsidian/zk-prefixer.json",

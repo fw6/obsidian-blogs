@@ -252,7 +252,67 @@ var o = { a: a, b: b, c: c };
 
 ### 字符串字面量
 
+```js
+'foo'
+'bar'
+```
+
+十六进制转义序列
+```js
+"\xA9" // "©"
+```
+
+Unicode转义序列
+```js
+"\u00A9" // "©"
+```
+
+Unicode编码转义
+```js
+"\u{2F804}";
+
+// 使用单纯 Unicode 转义
+"\uD87E\uDC04";
+```
+
+:::info
+ECMAScript 6 新增特性。使用 Unicode 编码转义，任何字符都可以被转义为十六进制编码。最高可以用到`0x10FFFF`。使用单纯的 Unicode 转义通常需要写成分开的两半以达到相同的效果。
+:::
+
+### 正则表达式字面量
+
+```js
+/ab+c/g
+```
+
+### 模板字面量
+
+```js
+`string text`
+
+`string text line 1
+ string text line 2`
+
+`string text ${expression} string text`
+
+tag`string text ${expression} string text`
+```
 
 
 ## 自动分号补全
 
+一些JavaScript 语句必须用分号结束，所以会被自动分号补全 (ASI) 影响：
+
+- 空语句
+- `let`、`const`、变量声明
+- `import`、`export`、模块定义
+- 表达式语句
+- `debugger`
+- `continue`、`break`、`throw`
+- `return`
+
+ECMAScript 规格提到[自动分号补全的三个规则](https://people.mozilla.org/~jorendorff/es6-draft.html#sec-rules-of-automatic-semicolon-insertion)。
+
+1. 当出现一个不允许的行终止符或“}”时，会在其之前插入一个分号。
+2. 当捕获到标识符输入流的结尾，并且无法将单个输入流转换为一个完整的程序时，将在结尾插入一个分号。
+3. 当语句中包含语法限制后跟一个行终止符的时候，将会在结尾插入一个分号。

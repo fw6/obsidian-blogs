@@ -5,7 +5,6 @@ pubDate: "2023-08-01 10:39"
 heroImage: "https://raw.githubusercontent.com/fw6/assets/main/toy_docs/20230801105044.png"
 date created: "2023-08-01 10:39"
 date modified: "2023-08-01"
-draft: true
 tags:
     - writings
     - JavaScript
@@ -15,7 +14,10 @@ tags:
 
 Web端的响应式（`Reactive`）泛指应用状态改变，进而自动触发UI更新。对广大使用响应式框架的开发者而言，只需管理应用状态，而无需关心如何将状态映射到UI层以及何时触发UI更新。
 
+![image.png](https://raw.githubusercontent.com/fw6/assets/main/toy_docs/20230801153915.png)
 各个框架实现响应式的方式各不相同，这也对代码的性能和懒加载产生影响。本文将深入探讨响应式相关的内容。
+
+
 
 ## 何为`Reactivity`
 
@@ -84,13 +86,11 @@ function App() {
 
 所以接下来的主题：Web框架如何实现响应性的呢？
 
-## WHEN & WHAT
-
 为实现响应式，框架需清楚如下两个问题：
 1. 应用程序状态何时被改变？区分何时需要执行更新视图的任务
 2. 应用程序状态发生了什么变化？用于判断视图更新的范围
 
-### WHEN
+## WHEN
 
 `WHEN`通知框架应用程序状态已更改，以便框架知道它需要开始更新视图
 
@@ -118,7 +118,7 @@ function Todos () {
 
 那么该如何知道应用程序何时发生了变化呢？
 
-#### Mutation Tracking
+### Mutation Tracking
 
 正如其名，我们可以追踪状态突变。突变只能作用于对象，因为你无法改变`primitive`类型数据。
 
@@ -164,7 +164,7 @@ function render (data) {
 在JavaScript对象中有两种常见的对象类型：普通对象和数组。
 随之ES6 `Proxy`的引入，突变跟踪变得更加简单，现在，先让我们不使用`Proxy`来实现以下
 
-##### Prior Proxy
+#### Prior Proxy
 要在没有`Proxy`的情况下追踪变化，可以为对象的所有属性自定义`getter`和`setter`。每当框架用户更改属性值时，都会调用自定义`setter`，就会知道哪些内容发生了变化：
 ```js
 function getTrackableObject (obj) {
@@ -243,11 +243,11 @@ appState[0] = 'foo'; // log `'0' has changed.
 ```
 Inspired by [Vue.js 2.0's observer/array](https://github.com/vuejs/vue/blob/22790b250cd5239a8379b4ec8cc3a9b570dac4bc/src/core/observer/array.js)
 
-总结下，在没有Proxy的情况下跟踪数组和对象的突变，需要为所有属性自定义getter/setter，以便能够捕获何时修改了属性。此外，还要修补数组中会导致原数组产生突变的方法。
+总结下，在没有Proxy的情况下跟踪数组和对象的突变，需要为所有属性自定义`getter/setter`，以便能够捕获何时修改了属性。此外，还要修补数组中会导致原数组产生突变的方法。
 
 然而，还是有无法覆盖的操作，如新增或删除属性。
 
-##### With Proxy
+#### With Proxy
 
 Proxy允许我们定义目标对象上基本操作的自定义行为，如下：
 ```js
@@ -322,9 +322,9 @@ class UserComponent extends Component {
 一旦能跟踪到状态的变更，接下来要做的就是调用`schedule_update`。
 
 
-#### 不追踪突变的方式
+### 不追踪突变的方式
 
-受限于实现突变追踪的复杂性，与Proxy的兼容性，并非所有框架都使用该方案。
+受限于实现突变追踪的复杂性，与`Proxy`的兼容性，并非所有框架都使用该方案。
 某些框架不会在更新应用程序状态时要求调用`schedule_update`，而是强制使用其提供的API来更改应用程序状态：
 ```js
 // instead of
@@ -371,9 +371,9 @@ class MyComponent extends Component {
 ```
 
 另一种两全其美的方案是在您认为可能产生更改的地方插入`schedule_update`，如：
-- 事件处理程序event handler
-- Timeout（如：setTimeout、setInterval）
-- API handling，promise handling
+- 事件处理程序`event handler`
+- `Timeout`（如：`setTimeout`、`setInterval`）
+- `API handling`，`promise handling`
 - ...
 
 因此框架用户不应强制用户使用`setAppState`，而应使用自定义timeout、api handlers等：
@@ -407,5 +407,91 @@ Inspired by [AngularJS's $timeout](https://github.com/angular/angular.js/blob/ma
 
 现在框架用户可以按照自己想要的方式自由更改应用程序状态，只要在自定义处理函数内即可。因为在自定义处理程序之后，框架会调用`schedule_update`
 
-同样，这种方式也会让开发者产生困惑😖，产生了新的心智负担。（Try search ["AngularJS $timeout vs window.setTimeout"](https://www.google.com/search?q=angularjs%20$timeout%20vs%20window.setTimeout)）
+同样，这种方式又产生了新的心智负担😖，。（Try search ["AngularJS $timeout vs window.setTimeout"](https://www.google.com/search?q=angularjs%20$timeout%20vs%20window.setTimeout)）
+
+
+查看上方迄今为止我们探索的策略，您可能注意到这些共同的难题：
+- 允许框架使用者以任何他想要的方式更改应用程序状态
+- 在没有太多复杂运行时的情况下实现响应式
+
+如果困境在复杂的运行时与开发者表现力之间，那能否将复杂性从运行时转移到编译时来获得两全其美的效果呢？
+
+### Static analysis
+
+如果我们有个框架编译器，能将如下代码：
+```js
+class UserComponent {
+    someHandler() {
+        this.appState.one = '1';
+    }
+}
+```
+编译为：
+```js {4}
+class UserComponent {
+    someHandler() {
+        this.appState.one = '1';
+        scheduleUpdate();
+    }
+}
+```
+
+那么就两全其美了😎。
+
+假设如下场景代码🎬：
+```js
+class UserComponent {
+    someHandler () {
+        this.appState.one = '1'; // <-- ✅changes to application state
+        this.foo = 'bar'; // <-- ⛔️ not changing application state
+
+        const foo = this.appState;
+        foo.one = '1'; // 🤷‍♂️do we know that this is changing application state?
+
+        doSomethingMutable(this.appState);
+        function doSomethingMutable (foo) {
+            foo.one = '1'; // 🤷‍♂️do we know that this is changing application state?
+        }
+
+        this.appState.obj = {
+            data: 1,
+            increment () {
+                this.data = this.data + 1; // 🤷‍♂️do we know that this is changing application state?
+            },
+        };
+        this.appState.obj.increment();
+
+        this.appState.data.push('1'); // 🤷‍♂️is push mutable?
+        this.appState.list = {
+            push (item) {
+                console.log('nothing change');
+            },
+        };
+        this.appState.list.push('1'); // 🤷‍♂️is this push mutable?
+    }
+}
+```
+
+通过分析可知：
+- 跟踪应用程序状态的直接更改容易，但间接更改较难，例如：`foo.one` `doSomethingMutable(this.appState)` `this.appState.obj.increment()`
+- 通过赋值语句跟踪较容易，但跟踪会导致`reassignment`的方法很难，例如：`this.appState.list.push('1')`
+
+svelte是通过静态分析实现响应式的其中一个框架，它在语法层面仅允许赋值运算符（=，`+=`, ...）和一元表达式（`++` `--`）触发响应式更新
+
+## 总结
+
+我们可以使用不同的策略来了解应用程序何时发生变化：
+- 突变追踪
+- 框架提供更新状态的方式，并直接调用`schedule_update`
+- 静态分析🧐
+
+了解应用状态何时发生变化，让框架知道何时更新视图（`WHEN`）。然而为了优化更新，框架也需要知道应用程序状态发生了哪些变化（`WHAT`）。
+
+
+## References
+
+- [Unveiling the Magic: Exploring Reactivity Across Various Frameworks](https://www.builder.io/blog/reactivity-across-frameworks)
+- [About this Book - Reactive Web Applications: With Play, Akka, and Reactive Streams](https://livebook.manning.com/book/reactive-web-applications)
+- [Reactivity in Web Frameworks (Part 1) | Tan Li Hau](https://lihautan.com/reactivity-in-web-frameworks-the-when/)
+
 
