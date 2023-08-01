@@ -18,6 +18,24 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "冒号课堂",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/冒号课堂.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":25,\"ch\":0},\"to\":{\"line\":25,\"ch\":0}},\"scroll\":13.378037526914795}"
+                },
+                {
+                  "title": "Magic of Tagged Templates Literals in JavaScript",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Magic of Tagged Templates Literals in JavaScript.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":3},\"to\":{\"line\":11,\"ch\":3}},\"scroll\":1.7916666666666665}"
+                },
+                {
+                  "title": "Proxy & Reflect",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Proxy & Reflect.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":3},\"to\":{\"line\":10,\"ch\":3}},\"scroll\":0}"
+                },
+                {
                   "title": "Compile Svelte in Your Head（3）",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Compile Svelte in Your Head（3）.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -1810,7 +1828,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200-Learning/210-Programing/Proxy & Reflect.md",
+                "file": "200-Learning/210-Programing/Reactive Web Framework.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -1919,7 +1937,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-Learning/210-Programing/Proxy & Reflect.md",
+                "file": "200-Learning/210-Programing/Reactive Web Framework.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1945,7 +1963,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-Learning/210-Programing/Proxy & Reflect.md",
+                "file": "200-Learning/210-Programing/Reactive Web Framework.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1986,7 +2004,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200-Learning/210-Programing/Proxy & Reflect.md"
+                "file": "200-Learning/210-Programing/Reactive Web Framework.md"
               }
             }
           },
@@ -2048,18 +2066,19 @@
   },
   "active": "2b253c52ed61f4d7",
   "lastOpenFiles": [
-    "200-Learning/210-Programing/Compile Svelte in Your Head（3）.md",
+    "200-Learning/210-Programing/冒号课堂.md",
+    "200-Learning/210-Programing/Reactive Web Framework.md",
+    "200-Learning/210-Programing/Magic of Tagged Templates Literals in JavaScript.md",
     "200-Learning/210-Programing/Proxy & Reflect.md",
+    "200-Learning/210-Programing/Compile Svelte in Your Head（3）.md",
     "200-Learning/210-Programing/Compile Svelte in Your Head（1）.md",
     "200-Learning/210-Programing/Compile Svelte in Your Head（2）.md",
     "200-Learning/210-Programing/JavaScript尾后逗号.md",
     "200-Learning/210-Programing/一些通用的编程知识.md",
     "200-Learning/210-Programing/Service Worker Cookbook.md",
     "200-Learning/210-Programing/Rust入门之旅.md",
-    "200-Learning/210-Programing/Magic of Tagged Templates Literals in JavaScript.md",
     "200-Learning/210-Programing/一些有意思的Web API.md",
     "200-Learning/210-Programing/JavaScript的词法文法.md",
-    "200-Learning/210-Programing/冒号课堂.md",
     "200-Learning/210-Programing/深入理解Generators.md",
     "200-Learning/210-Programing/富文本编辑器相关资源.md",
     "200-Learning/210-Programing/关于Web Performance.md",
@@ -2073,7 +2092,6 @@
     "200-Learning/220-English/Dioxus.md",
     "200-Learning/220-English/Dietcode Blog.md",
     "200-Learning/220-English/Serde.md",
-    "200-Learning/220-English/Others.md",
     "renovate.json",
     "cedict_ts.u8",
     "_obsidian/zk-prefixer.json",

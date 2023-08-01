@@ -5,7 +5,6 @@ pubDate: "2023-07-31 16:20"
 heroImage: "https://images.unsplash.com/photo-1688311483778-077a2079e32b?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNjM5Nzd8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA3OTE2MTZ8&ixlib=rb-4.0.3&q=85"
 date created: 2023-07-31
 date modified: 2023-07-31
-draft: true
 tags: 
     - writings
     - JavaScript
@@ -114,7 +113,7 @@ Reflect.apply(Math.floor, undefined, [1.75]) // 1
 但在实践中，`Proxy`一般搭配`Reflect`使用，原因有以下三点：
 1. `Reflect`提供的静态方法和`Proxy`的`handler`参数方法一模一样
 2. `Proxy get/set`方法需要的返回值正是`Reflect`的`get/set`方法的返回值。可天然配合使用，比直接对象赋值/取值更方便和准确
-3. `receiver`参数具有不可替代性。
+3. `receiver`参数具有不可替代性，见下方⬇️
 
 ### 关于`receiver`参数
 
@@ -152,7 +151,38 @@ Object.setPrototypeOf(child, proxy);
 console.log(child.value); // parent name
 ```
 分析以上代码：
-1. 获取`obj.value`时，child本身没有value属性
-2. 在上一步显式指定了child的原型对象，此时应从proxy上找value属性
-3. proxy是代理对象，本身通过handler.get方法获取value属性
-4. 在handler.get中直接从目标对象中获取value属性，此时目标对象是parent
+1. 获取`child.value`时，`child`本身没有`value`属性
+2. 在上一步显式指定了`child`的原型对象，此时应从`proxy`上找`value`属性
+3. `proxy`是代理对象，本身通过`handler.get`方法获取`value`属性
+4. 在`handler.get`中直接从目标对象中获取`value`属性，此时目标对象是`parent`，返回的是`parent.value`
+
+可看到这与我们的预期不符，当访问`child.value`时，因原型对象上有`value`且根据`parent`上的定义，应返回自身的`name`属性即`child.name`
+
+要解决该问题，只需在Reflect.get时传递receiver：
+```js {10}
+const parent = {
+    name: 'parent name',
+    get value() {
+        return this.name;
+    },
+};
+
+const handler = {
+    get(target, key, receiver) {
+        return Reflect.get(target, key, receiver);
+    },
+};
+
+const proxy = new Proxy(parent, handler);
+
+const child = {
+  name: 'child name',
+};
+
+Object.setPrototypeOf(child, proxy);
+console.log(child.value); // child name
+```
+
+在`Reflect.get`的定义中，receiver表示：
+**如果`target`对象指定了`getter`，`receiver`则为调用时的`this`值**
+
