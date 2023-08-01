@@ -72,15 +72,15 @@ const p = new Proxy(target, handler)
 
 ## `Reflect`
 
-Reflect是一个内置对象，提供了拦截JavaScript操作的方法，这些方法与Proxy相同。
+`Reflec`t是一个内置对象，提供了拦截JavaScript操作的方法，这些方法与`Proxy`相同。
 
 :::warning
 `Reflect`不是一个构造函数，所以不能通过`new`操作符对其进行调用，或者将`Reflect`作为函数调用。`Reflect`所有属性和方法都是静态的（类似`Math`）
 :::
 
 单独使用`Reflect`用处不大，与直接执行JavaScript操作相比，有如下用处：
-1. 从Reflect对象上可以拿到语言内部的方法，如`Object.defineProperty`
-2. 操作对象失败时返回false
+1. 从`Reflect`对象上可以拿到语言内部的方法，如`Object.defineProperty`
+2. 操作对象失败时返回`false`
 3. 操作对象从命令式变为函数式
 4. 操作更易读
 
@@ -111,3 +111,48 @@ Reflect.apply(Math.floor, undefined, [1.75]) // 1
 
 就功能而言，`Reflect.get()`和`Reflect.set()`方法和直接对象赋值没有区别，都是可以互相替代的。
 
+但在实践中，`Proxy`一般搭配`Reflect`使用，原因有以下三点：
+1. `Reflect`提供的静态方法和`Proxy`的`handler`参数方法一模一样
+2. `Proxy get/set`方法需要的返回值正是`Reflect`的`get/set`方法的返回值。可天然配合使用，比直接对象赋值/取值更方便和准确
+3. `receiver`参数具有不可替代性。
+
+### 关于`receiver`参数
+
+`Proxy` `handler`的`get/set`方法都提供了第三个参数receiver，指代Proxy或继承Proxy的对象（但handler的set方法也可能在原型链上，或以其他方式被间接调用）。
+
+:::info
+备注： 假设有一段代码执行 `obj.name = "jen"`， `obj` 不是一个 proxy，且自身不含 `name` 属性，但是它的原型链上有一个 proxy，那么，那个 proxy 的 `set()` 处理器会被调用，而此时，`obj` 会作为 receiver 参数传进来。
+:::
+
+举个例子：
+```js
+const parent = {
+    name: 'parent name',
+    get value() {
+        return this.name;
+    },
+};
+
+const handler = {
+    get(target, key, receiver) {
+        return Reflect.get(target, key);
+        // 这里相当于 return target[key]
+    },
+};
+
+const proxy = new Proxy(parent, handler);
+
+const child = {
+  name: 'child name',
+};
+
+// 设置obj继承与parent的代理对象proxy
+Object.setPrototypeOf(child, proxy);
+
+console.log(child.value); // parent name
+```
+分析以上代码：
+1. 获取`obj.value`时，child本身没有value属性
+2. 在上一步显式指定了child的原型对象，此时应从proxy上找value属性
+3. proxy是代理对象，本身通过handler.get方法获取value属性
+4. 在handler.get中直接从目标对象中获取value属性，此时目标对象是parent
