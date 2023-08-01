@@ -18,6 +18,36 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Compile Svelte in Your Head（3）",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Compile Svelte in Your Head（3）.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":0},\"to\":{\"line\":19,\"ch\":0}},\"scroll\":0.5609756097560976}"
+                },
+                {
+                  "title": "JavaScript的词法文法",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/JavaScript的词法文法.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Rust入门之旅",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Rust入门之旅.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Service Worker Cookbook",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Service Worker Cookbook.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":21,\"ch\":0},\"to\":{\"line\":21,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "Reactive Web Framework",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Reactive Web Framework.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":92,\"ch\":0},\"to\":{\"line\":92,\"ch\":0}},\"scroll\":71.96523364485981}"
+                },
+                {
                   "title": "冒号课堂",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/冒号课堂.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -2066,19 +2096,19 @@
   },
   "active": "2b253c52ed61f4d7",
   "lastOpenFiles": [
-    "200-Learning/210-Programing/冒号课堂.md",
+    "200-Learning/210-Programing/Compile Svelte in Your Head（3）.md",
+    "200-Learning/210-Programing/JavaScript的词法文法.md",
+    "200-Learning/210-Programing/Rust入门之旅.md",
+    "200-Learning/210-Programing/Service Worker Cookbook.md",
     "200-Learning/210-Programing/Reactive Web Framework.md",
+    "200-Learning/210-Programing/冒号课堂.md",
     "200-Learning/210-Programing/Magic of Tagged Templates Literals in JavaScript.md",
     "200-Learning/210-Programing/Proxy & Reflect.md",
-    "200-Learning/210-Programing/Compile Svelte in Your Head（3）.md",
     "200-Learning/210-Programing/Compile Svelte in Your Head（1）.md",
     "200-Learning/210-Programing/Compile Svelte in Your Head（2）.md",
     "200-Learning/210-Programing/JavaScript尾后逗号.md",
     "200-Learning/210-Programing/一些通用的编程知识.md",
-    "200-Learning/210-Programing/Service Worker Cookbook.md",
-    "200-Learning/210-Programing/Rust入门之旅.md",
     "200-Learning/210-Programing/一些有意思的Web API.md",
-    "200-Learning/210-Programing/JavaScript的词法文法.md",
     "200-Learning/210-Programing/深入理解Generators.md",
     "200-Learning/210-Programing/富文本编辑器相关资源.md",
     "200-Learning/210-Programing/关于Web Performance.md",

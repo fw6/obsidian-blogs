@@ -2,7 +2,7 @@
 title: "Service Worker Cookbook"
 description: "本cookbook包含若干Service Worker相关技术的用例与相关API描述"
 pubDate: "2023-07-21 19:06"
-heroImage: "https://images.unsplash.com/photo-1536319040287-757e83a8198e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80"
+heroImage: "https://raw.githubusercontent.com/fw6/assets/main/toy_docs/20230801113904.png"
 date created: 2023-07-21
 date modified: 2023-07-21
 tags:
@@ -12,6 +12,7 @@ tags:
 
 > The winner ain't the one with the fastest car it's the one who refuses to lose.  
 > — <cite>Dale Earnhardt</cite>
+
 
 :::tldr 
 `Service Worker` 本质上充当 Web 应用程序、浏览器与网络（可用时）之间的代理服务器。这个 API 旨在创建有效的离线体验，它会拦截网络请求并根据网络是否可用来采取适当的动作、更新来自服务器的的资源。它还提供入口以推送通知和访问后台同步 API。  
