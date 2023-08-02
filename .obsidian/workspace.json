@@ -18,6 +18,66 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "一些通用的编程知识",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/一些通用的编程知识.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":38,\"ch\":45},\"to\":{\"line\":38,\"ch\":45}},\"scroll\":10.291666666666666}"
+                },
+                {
+                  "title": "随便整理的前端面试常考点",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/随便整理的前端面试常考点.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":225,\"ch\":0},\"to\":{\"line\":225,\"ch\":0}},\"scroll\":201.37383177570092}"
+                },
+                {
+                  "title": "一些通用的编程知识",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/一些通用的编程知识.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":36,\"ch\":1},\"to\":{\"line\":47,\"ch\":0}},\"scroll\":25.225420560747665}"
+                },
+                {
+                  "title": "随便整理的前端面试常考点",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/随便整理的前端面试常考点.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":216,\"ch\":0},\"to\":{\"line\":216,\"ch\":0}},\"scroll\":181.2578125}"
+                },
+                {
+                  "title": "一些通用的编程知识",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/一些通用的编程知识.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":32,\"ch\":3},\"to\":{\"line\":32,\"ch\":11}},\"scroll\":24.393150196218336}"
+                },
+                {
+                  "title": "随便整理的前端面试常考点",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/随便整理的前端面试常考点.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":211,\"ch\":0},\"to\":{\"line\":211,\"ch\":0}},\"scroll\":183.8828125}"
+                },
+                {
+                  "title": "你不知道的JS",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/你不知道的JS.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":517,\"ch\":16},\"to\":{\"line\":517,\"ch\":16}},\"scroll\":507.57906542056077}"
+                },
+                {
+                  "title": "随便整理的前端面试常考点",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/随便整理的前端面试常考点.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":124,\"ch\":15},\"to\":{\"line\":124,\"ch\":15}},\"scroll\":100.56995394632365}"
+                },
+                {
+                  "title": "浏览器工作原理",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/浏览器工作原理.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":283,\"ch\":0},\"to\":{\"line\":283,\"ch\":0}},\"scroll\":264.6848958333333}"
+                },
+                {
+                  "title": "随便整理的前端面试常考点",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/随便整理的前端面试常考点.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":15},\"to\":{\"line\":2,\"ch\":15}},\"scroll\":0}"
+                },
+                {
                   "title": "浏览器工作原理",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/浏览器工作原理.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -1918,7 +1978,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200-Learning/210-Programing/前端面试题.md",
+                "file": "200-Learning/210-Programing/随便整理的前端面试常考点.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -2002,7 +2062,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.5
+    "width": 295.5
   },
   "right": {
     "id": "839ab35236ed4929",
@@ -2027,7 +2087,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-Learning/210-Programing/前端面试题.md",
+                "file": "200-Learning/210-Programing/随便整理的前端面试常考点.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -2053,7 +2113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-Learning/210-Programing/前端面试题.md",
+                "file": "200-Learning/210-Programing/随便整理的前端面试常考点.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -2094,7 +2154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200-Learning/210-Programing/前端面试题.md"
+                "file": "200-Learning/210-Programing/随便整理的前端面试常考点.md"
               }
             }
           },
@@ -2156,8 +2216,10 @@
   },
   "active": "2b253c52ed61f4d7",
   "lastOpenFiles": [
+    "200-Learning/210-Programing/一些通用的编程知识.md",
+    "200-Learning/210-Programing/随便整理的前端面试常考点.md",
+    "200-Learning/210-Programing/你不知道的JS.md",
     "200-Learning/210-Programing/浏览器工作原理.md",
-    "200-Learning/210-Programing/前端面试题.md",
     "200-Learning/220-Sociology/聊聊第一性原理.md",
     "200-Learning/210-Programing/关于Web Performance.md",
     "200-Learning/210-Programing/Proxy & Reflect.md",
@@ -2171,11 +2233,9 @@
     "200-Learning/210-Programing/Compile Svelte in Your Head（1）.md",
     "200-Learning/210-Programing/Compile Svelte in Your Head（2）.md",
     "200-Learning/210-Programing/JavaScript尾后逗号.md",
-    "200-Learning/210-Programing/一些通用的编程知识.md",
     "200-Learning/210-Programing/一些有意思的Web API.md",
     "200-Learning/210-Programing/深入理解Generators.md",
     "200-Learning/210-Programing/富文本编辑器相关资源.md",
-    "200-Learning/210-Programing/你不知道的JS.md",
     "200-Learning/210-Programing/重学CSS.md",
     "200-Learning/210-Programing/算法入门.md",
     "000-Inbox/010-Workspace/工作总结.md",
