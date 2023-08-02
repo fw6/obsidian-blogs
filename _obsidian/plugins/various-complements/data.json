@@ -82,8 +82,8 @@
     "JavaScript": {
       "JavaScript": {
         "currentFile": {
-          "count": 31,
-          "lastUpdated": 1690869513195
+          "count": 35,
+          "lastUpdated": 1690943756451
         },
         "frontMatter": {
           "count": 2,
@@ -208,6 +208,14 @@
         "currentFile": {
           "count": 2,
           "lastUpdated": 1690534913412
+        }
+      }
+    },
+    "通过": {
+      "通过": {
+        "currentVault": {
+          "count": 1,
+          "lastUpdated": 1690945428228
         }
       }
     }
