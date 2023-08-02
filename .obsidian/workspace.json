@@ -18,6 +18,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "浏览器工作原理",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/浏览器工作原理.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":11},\"to\":{\"line\":20,\"ch\":11}},\"scroll\":7.333333333333333}"
+                },
+                {
                   "title": "聊聊第一性原理",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/220-Sociology/聊聊第一性原理.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -1912,7 +1918,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200-Learning/210-Programing/浏览器工作原理.md",
+                "file": "200-Learning/210-Programing/前端面试题.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -2021,7 +2027,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-Learning/210-Programing/浏览器工作原理.md",
+                "file": "200-Learning/210-Programing/前端面试题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -2047,7 +2053,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-Learning/210-Programing/浏览器工作原理.md",
+                "file": "200-Learning/210-Programing/前端面试题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -2088,7 +2094,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200-Learning/210-Programing/浏览器工作原理.md"
+                "file": "200-Learning/210-Programing/前端面试题.md"
               }
             }
           },
@@ -2148,10 +2154,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "1307ceb73ad7bfaa",
+  "active": "2b253c52ed61f4d7",
   "lastOpenFiles": [
-    "200-Learning/220-Sociology/聊聊第一性原理.md",
     "200-Learning/210-Programing/浏览器工作原理.md",
+    "200-Learning/210-Programing/前端面试题.md",
+    "200-Learning/220-Sociology/聊聊第一性原理.md",
     "200-Learning/210-Programing/关于Web Performance.md",
     "200-Learning/210-Programing/Proxy & Reflect.md",
     "200-Learning/210-Programing/JavaScript的词法文法.md",
@@ -2175,7 +2182,6 @@
     "Calendar/Daily notes/2023-07-10.md",
     "Extras/Templates/_blog.md",
     "200-Learning/220-English/Blogs.md",
-    "200-Learning/220-English/Dioxus.md",
     "renovate.json",
     "cedict_ts.u8",
     "_obsidian/zk-prefixer.json",
