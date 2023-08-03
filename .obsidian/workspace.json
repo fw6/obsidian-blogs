@@ -18,6 +18,18 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "How to do great work",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/How to do great work.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":149},\"to\":{\"line\":14,\"ch\":43}},\"scroll\":13.875}"
+                },
+                {
+                  "title": "随便整理的前端面试常考点",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/随便整理的前端面试常考点.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":407,\"ch\":0},\"to\":{\"line\":407,\"ch\":0}},\"scroll\":389.271283904127}"
+                },
+                {
                   "title": "一些通用的编程知识",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/一些通用的编程知识.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -1978,7 +1990,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200-Learning/210-Programing/随便整理的前端面试常考点.md",
+                "file": "200-Learning/210-Programing/JavaScript尾后逗号.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -2087,7 +2099,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-Learning/210-Programing/随便整理的前端面试常考点.md",
+                "file": "200-Learning/210-Programing/JavaScript尾后逗号.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -2113,7 +2125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-Learning/210-Programing/随便整理的前端面试常考点.md",
+                "file": "200-Learning/210-Programing/JavaScript尾后逗号.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -2154,7 +2166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200-Learning/210-Programing/随便整理的前端面试常考点.md"
+                "file": "200-Learning/210-Programing/JavaScript尾后逗号.md"
               }
             }
           },
@@ -2214,10 +2226,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "2b253c52ed61f4d7",
+  "active": "1307ceb73ad7bfaa",
   "lastOpenFiles": [
-    "200-Learning/210-Programing/一些通用的编程知识.md",
+    "200-Learning/210-Programing/How to do great work.md",
     "200-Learning/210-Programing/随便整理的前端面试常考点.md",
+    "200-Learning/210-Programing/一些通用的编程知识.md",
     "200-Learning/210-Programing/你不知道的JS.md",
     "200-Learning/210-Programing/浏览器工作原理.md",
     "200-Learning/220-Sociology/聊聊第一性原理.md",
@@ -2241,7 +2254,6 @@
     "000-Inbox/010-Workspace/工作总结.md",
     "Calendar/Daily notes/2023-07-10.md",
     "Extras/Templates/_blog.md",
-    "200-Learning/220-English/Blogs.md",
     "renovate.json",
     "cedict_ts.u8",
     "_obsidian/zk-prefixer.json",
