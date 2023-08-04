@@ -18,6 +18,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "JavaScript尾后逗号",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/JavaScript尾后逗号.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
                   "title": "How to do great work",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/How to do great work.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -1990,7 +1996,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200-Learning/210-Programing/JavaScript尾后逗号.md",
+                "file": "200-Learning/210-Programing/随便整理的前端面试常考点.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -2074,7 +2080,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 295.5
+    "width": 200
   },
   "right": {
     "id": "839ab35236ed4929",
@@ -2099,7 +2105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-Learning/210-Programing/JavaScript尾后逗号.md",
+                "file": "200-Learning/210-Programing/随便整理的前端面试常考点.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -2125,7 +2131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-Learning/210-Programing/JavaScript尾后逗号.md",
+                "file": "200-Learning/210-Programing/随便整理的前端面试常考点.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -2166,7 +2172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200-Learning/210-Programing/JavaScript尾后逗号.md"
+                "file": "200-Learning/210-Programing/随便整理的前端面试常考点.md"
               }
             }
           },
@@ -2226,8 +2232,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "1307ceb73ad7bfaa",
+  "active": "2b253c52ed61f4d7",
   "lastOpenFiles": [
+    "200-Learning/210-Programing/JavaScript尾后逗号.md",
     "200-Learning/210-Programing/How to do great work.md",
     "200-Learning/210-Programing/随便整理的前端面试常考点.md",
     "200-Learning/210-Programing/一些通用的编程知识.md",
@@ -2245,7 +2252,6 @@
     "200-Learning/210-Programing/Magic of Tagged Templates Literals in JavaScript.md",
     "200-Learning/210-Programing/Compile Svelte in Your Head（1）.md",
     "200-Learning/210-Programing/Compile Svelte in Your Head（2）.md",
-    "200-Learning/210-Programing/JavaScript尾后逗号.md",
     "200-Learning/210-Programing/一些有意思的Web API.md",
     "200-Learning/210-Programing/深入理解Generators.md",
     "200-Learning/210-Programing/富文本编辑器相关资源.md",
