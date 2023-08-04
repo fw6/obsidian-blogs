@@ -18,6 +18,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "保存下有空看",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"000-Inbox/040-Idea Incubator/保存下有空看.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":0},\"to\":{\"line\":19,\"ch\":0}},\"scroll\":0.04878048780487805}"
+                },
+                {
                   "title": "随便整理的前端面试常考点",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/随便整理的前端面试常考点.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -2002,7 +2008,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000-Inbox/040-Idea Incubator/保存下有空看.md",
+                "file": "200-Learning/210-Programing/随便整理的前端面试常考点.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -2111,7 +2117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-Inbox/040-Idea Incubator/保存下有空看.md",
+                "file": "200-Learning/210-Programing/随便整理的前端面试常考点.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -2137,7 +2143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-Inbox/040-Idea Incubator/保存下有空看.md",
+                "file": "200-Learning/210-Programing/随便整理的前端面试常考点.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -2178,7 +2184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000-Inbox/040-Idea Incubator/保存下有空看.md"
+                "file": "200-Learning/210-Programing/随便整理的前端面试常考点.md"
               }
             }
           },
@@ -2240,8 +2246,8 @@
   },
   "active": "2b253c52ed61f4d7",
   "lastOpenFiles": [
-    "200-Learning/210-Programing/随便整理的前端面试常考点.md",
     "000-Inbox/040-Idea Incubator/保存下有空看.md",
+    "200-Learning/210-Programing/随便整理的前端面试常考点.md",
     "200-Learning/210-Programing/JavaScript尾后逗号.md",
     "200-Learning/210-Programing/How to do great work.md",
     "200-Learning/210-Programing/一些通用的编程知识.md",
