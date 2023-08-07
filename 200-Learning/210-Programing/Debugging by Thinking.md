@@ -5,9 +5,9 @@ pubDate: "2023-08-06 11:27"
 heroImage: "https://images.unsplash.com/photo-1690947332692-070bd9f2ad2e?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNjM5Nzd8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEyOTI0NTl8&ixlib=rb-4.0.3&q=85"
 date created: "2023-08-06 11:26"
 date modified: "2023-08-06"
-draft: true
 tags:
     - notes
+    - Programming
 ---
 
 对该分享的记录：[Debugging Software, June 2023](https://blog.isquaredsoftware.com/presentations/2023-06-debugging-js/?slideIndex=0&stepIndex=0)
