@@ -2062,6 +2062,42 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "随便整理的前端面试常考点",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/随便整理的前端面试常考点.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":593,\"ch\":7},\"to\":{\"line\":593,\"ch\":7}},\"scroll\":580.9804618117229}"
+                },
+                {
+                  "title": "新手管理者面临的9个问题🙋",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/220-Sociology/新手管理者面临的9个问题🙋.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":14},\"to\":{\"line\":16,\"ch\":14}},\"scroll\":105.13151041666667}"
+                },
+                {
+                  "title": "聊聊第一性原理",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/220-Sociology/聊聊第一性原理.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "JavaScript尾后逗号",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/JavaScript尾后逗号.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":108},\"to\":{\"line\":13,\"ch\":108}},\"scroll\":3.875}"
+                },
+                {
+                  "title": "How to do great work",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/How to do great work.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.6910569105691057}"
+                },
+                {
+                  "title": "Debugging by Thinking",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Debugging by Thinking.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":0},\"to\":{\"line\":13,\"ch\":0}},\"scroll\":3.5}"
+                },
+                {
                   "title": "Blogs",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/220-English/Blogs.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -2072,15 +2108,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200-Learning/210-Programing/Debugging by Thinking.md",
+                "file": "000-Inbox/040-Idea Incubator/保存下有空看.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -2182,7 +2217,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-Learning/210-Programing/Debugging by Thinking.md",
+                "file": "200-Learning/210-Programing/随便整理的前端面试常考点.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -2208,7 +2243,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-Learning/210-Programing/Debugging by Thinking.md",
+                "file": "200-Learning/210-Programing/随便整理的前端面试常考点.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -2249,7 +2284,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200-Learning/210-Programing/Debugging by Thinking.md"
+                "file": "200-Learning/210-Programing/随便整理的前端面试常考点.md"
               }
             }
           },
@@ -2309,20 +2344,20 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "310b5760108810ab",
+  "active": "2b253c52ed61f4d7",
   "lastOpenFiles": [
-    "200-Learning/220-English/Blogs.md",
-    "200-Learning/210-Programing/Debugging by Thinking.md",
-    "200-Learning/210-Programing/随便整理的前端面试常考点.md",
-    "200-Learning/210-Programing/算法入门.md",
-    "200-Learning/220-Sociology/新手管理者面临的9个问题🙋.md",
     "000-Inbox/040-Idea Incubator/保存下有空看.md",
+    "200-Learning/210-Programing/随便整理的前端面试常考点.md",
+    "200-Learning/220-Sociology/新手管理者面临的9个问题🙋.md",
+    "200-Learning/220-Sociology/聊聊第一性原理.md",
     "200-Learning/210-Programing/JavaScript尾后逗号.md",
     "200-Learning/210-Programing/How to do great work.md",
+    "200-Learning/210-Programing/Debugging by Thinking.md",
+    "200-Learning/220-English/Blogs.md",
+    "200-Learning/210-Programing/算法入门.md",
     "200-Learning/210-Programing/一些通用的编程知识.md",
     "200-Learning/210-Programing/你不知道的JS.md",
     "200-Learning/210-Programing/浏览器工作原理.md",
-    "200-Learning/220-Sociology/聊聊第一性原理.md",
     "200-Learning/210-Programing/关于Web Performance.md",
     "200-Learning/210-Programing/Proxy & Reflect.md",
     "200-Learning/210-Programing/JavaScript的词法文法.md",
