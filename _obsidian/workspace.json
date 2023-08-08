@@ -18,6 +18,30 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Proxy & Reflect",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Proxy & Reflect.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":165.9644859813084}"
+                },
+                {
+                  "title": "随便整理的前端面试常考点",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/随便整理的前端面试常考点.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":336,\"ch\":67},\"to\":{\"line\":336,\"ch\":67}},\"scroll\":320.9675968992248}"
+                },
+                {
+                  "title": "重学CSS",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/重学CSS.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "随便整理的前端面试常考点",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/随便整理的前端面试常考点.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":330,\"ch\":0},\"to\":{\"line\":330,\"ch\":0}},\"scroll\":311.5885416666667}"
+                },
+                {
                   "title": "Debugging by Thinking",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Debugging by Thinking.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -2353,11 +2377,11 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 200.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -2376,11 +2400,13 @@
   },
   "active": "2b253c52ed61f4d7",
   "lastOpenFiles": [
+    "200-Learning/210-Programing/Proxy & Reflect.md",
+    "200-Learning/210-Programing/随便整理的前端面试常考点.md",
+    "200-Learning/210-Programing/重学CSS.md",
     "200-Learning/210-Programing/Debugging by Thinking.md",
     "200-Learning/210-Programing/Reactive Web Framework.md",
     "200-Learning/210-Programing/How to do great work.md",
     "200-Learning/210-Programing/JavaScript尾后逗号.md",
-    "200-Learning/210-Programing/随便整理的前端面试常考点.md",
     "000-Inbox/040-Idea Incubator/保存下有空看.md",
     "200-Learning/220-Sociology/新手管理者面临的9个问题🙋.md",
     "200-Learning/220-Sociology/聊聊第一性原理.md",
@@ -2390,7 +2416,6 @@
     "200-Learning/210-Programing/你不知道的JS.md",
     "200-Learning/210-Programing/浏览器工作原理.md",
     "200-Learning/210-Programing/关于Web Performance.md",
-    "200-Learning/210-Programing/Proxy & Reflect.md",
     "200-Learning/210-Programing/JavaScript的词法文法.md",
     "200-Learning/210-Programing/Compile Svelte in Your Head（3）.md",
     "200-Learning/210-Programing/Rust入门之旅.md",
@@ -2401,7 +2426,6 @@
     "200-Learning/210-Programing/Compile Svelte in Your Head（2）.md",
     "200-Learning/210-Programing/一些有意思的Web API.md",
     "200-Learning/210-Programing/深入理解Generators.md",
-    "200-Learning/210-Programing/富文本编辑器相关资源.md",
     "renovate.json",
     "cedict_ts.u8",
     "_obsidian/zk-prefixer.json",
