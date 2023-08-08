@@ -18,6 +18,36 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Debugging by Thinking",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Debugging by Thinking.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":23},\"to\":{\"line\":17,\"ch\":23}},\"scroll\":1.125}"
+                },
+                {
+                  "title": "Reactive Web Framework",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Reactive Web Framework.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "How to do great work",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/How to do great work.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "JavaScript尾后逗号",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/JavaScript尾后逗号.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":8},\"to\":{\"line\":1,\"ch\":23}}}"
+                },
+                {
+                  "title": "随便整理的前端面试常考点",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/随便整理的前端面试常考点.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":178},\"to\":{\"line\":4,\"ch\":178}},\"scroll\":0}"
+                },
+                {
                   "title": "算法入门",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/算法入门.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -2162,7 +2192,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Programming",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -2192,7 +2222,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 228.5
+    "width": 226.5
   },
   "right": {
     "id": "839ab35236ed4929",
@@ -2346,13 +2376,14 @@
   },
   "active": "2b253c52ed61f4d7",
   "lastOpenFiles": [
-    "000-Inbox/040-Idea Incubator/保存下有空看.md",
+    "200-Learning/210-Programing/Debugging by Thinking.md",
+    "200-Learning/210-Programing/Reactive Web Framework.md",
+    "200-Learning/210-Programing/How to do great work.md",
+    "200-Learning/210-Programing/JavaScript尾后逗号.md",
     "200-Learning/210-Programing/随便整理的前端面试常考点.md",
+    "000-Inbox/040-Idea Incubator/保存下有空看.md",
     "200-Learning/220-Sociology/新手管理者面临的9个问题🙋.md",
     "200-Learning/220-Sociology/聊聊第一性原理.md",
-    "200-Learning/210-Programing/JavaScript尾后逗号.md",
-    "200-Learning/210-Programing/How to do great work.md",
-    "200-Learning/210-Programing/Debugging by Thinking.md",
     "200-Learning/220-English/Blogs.md",
     "200-Learning/210-Programing/算法入门.md",
     "200-Learning/210-Programing/一些通用的编程知识.md",
@@ -2361,7 +2392,6 @@
     "200-Learning/210-Programing/关于Web Performance.md",
     "200-Learning/210-Programing/Proxy & Reflect.md",
     "200-Learning/210-Programing/JavaScript的词法文法.md",
-    "200-Learning/210-Programing/Reactive Web Framework.md",
     "200-Learning/210-Programing/Compile Svelte in Your Head（3）.md",
     "200-Learning/210-Programing/Rust入门之旅.md",
     "200-Learning/210-Programing/Service Worker Cookbook.md",
