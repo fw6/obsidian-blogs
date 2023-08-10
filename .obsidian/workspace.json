@@ -18,6 +18,30 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "新手管理者面临的9个问题🙋",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/220-Sociology/新手管理者面临的9个问题🙋.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "聊聊第一性原理",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/220-Sociology/聊聊第一性原理.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "浏览器工作原理",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/浏览器工作原理.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":15},\"to\":{\"line\":18,\"ch\":15}},\"scroll\":8.333333333333334}"
+                },
+                {
+                  "title": "随便整理的前端面试常考点",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/随便整理的前端面试常考点.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":739,\"ch\":77},\"to\":{\"line\":739,\"ch\":77}},\"scroll\":713.0380859375}"
+                },
+                {
                   "title": "你不知道的JS",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/你不知道的JS.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -2466,6 +2490,10 @@
   },
   "active": "2b253c52ed61f4d7",
   "lastOpenFiles": [
+    "200-Learning/220-Sociology/新手管理者面临的9个问题🙋.md",
+    "200-Learning/220-Sociology/聊聊第一性原理.md",
+    "200-Learning/210-Programing/浏览器工作原理.md",
+    "200-Learning/210-Programing/随便整理的前端面试常考点.md",
     "200-Learning/210-Programing/你不知道的JS.md",
     "200-Learning/210-Programing/Compile Svelte in Your Head（1）.md",
     "200-Learning/210-Programing/Compile Svelte in Your Head（2）.md",
@@ -2475,13 +2503,9 @@
     "200-Learning/210-Programing/JavaScript尾后逗号.md",
     "200-Learning/210-Programing/JavaScript的词法文法.md",
     "200-Learning/210-Programing/Reactive Web Framework.md",
-    "200-Learning/210-Programing/浏览器工作原理.md",
-    "200-Learning/210-Programing/随便整理的前端面试常考点.md",
     "200-Learning/210-Programing/Proxy & Reflect.md",
     "200-Learning/210-Programing/重学CSS.md",
     "000-Inbox/040-Idea Incubator/保存下有空看.md",
-    "200-Learning/220-Sociology/新手管理者面临的9个问题🙋.md",
-    "200-Learning/220-Sociology/聊聊第一性原理.md",
     "200-Learning/220-English/Blogs.md",
     "200-Learning/210-Programing/算法入门.md",
     "200-Learning/210-Programing/一些通用的编程知识.md",
