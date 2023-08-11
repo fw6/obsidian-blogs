@@ -2,7 +2,7 @@
 title: "Proxy & Reflect"
 description: ""
 pubDate: "2023-07-31 16:20"
-heroImage: "https://images.unsplash.com/photo-1688311483778-077a2079e32b?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNjM5Nzd8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA3OTE2MTZ8&ixlib=rb-4.0.3&q=85"
+heroImage: "https://images.unsplash.com/photo-1533284614853-bc4fe23f0824?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80"
 date created: 2023-07-31
 date modified: 2023-07-31
 tags: 
