@@ -18,6 +18,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Optimize for Core Web Vitals",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Optimize for Core Web Vitals.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":8},\"to\":{\"line\":20,\"ch\":8}},\"scroll\":1.25}"
+                },
+                {
                   "title": "浏览器中的预加载扫描器",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/浏览器中的预加载扫描器.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -2530,7 +2536,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200-Learning/210-Programing/Optimize for Core Web Vitals.md",
+                "file": "200-Learning/210-Programing/随便整理的前端面试常考点.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -2703,7 +2709,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-Learning/210-Programing/Optimize for Core Web Vitals.md",
+                "file": "200-Learning/210-Programing/随便整理的前端面试常考点.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -2729,7 +2735,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-Learning/210-Programing/Optimize for Core Web Vitals.md",
+                "file": "200-Learning/210-Programing/随便整理的前端面试常考点.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -2770,7 +2776,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200-Learning/210-Programing/Optimize for Core Web Vitals.md"
+                "file": "200-Learning/210-Programing/随便整理的前端面试常考点.md"
               }
             }
           },
@@ -2832,10 +2838,10 @@
   },
   "active": "2b253c52ed61f4d7",
   "lastOpenFiles": [
+    "200-Learning/210-Programing/Optimize for Core Web Vitals.md",
     "200-Learning/210-Programing/浏览器中的预加载扫描器.md",
     "200-Learning/210-Programing/浏览器中的模块预加载.md",
     "200-Learning/210-Programing/随便整理的前端面试常考点.md",
-    "200-Learning/210-Programing/Optimize for Core Web Vitals.md",
     "200-Learning/210-Programing/Proxy & Reflect.md",
     "200-Learning/210-Programing/关于Web Performance.md",
     "200-Learning/210-Programing/浏览器工作原理.md",
