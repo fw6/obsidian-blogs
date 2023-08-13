@@ -18,6 +18,36 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Optimize for Core Web Vitals",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Optimize for Core Web Vitals.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":114,\"ch\":0},\"to\":{\"line\":114,\"ch\":0}},\"scroll\":99.25577264653641}"
+                },
+                {
+                  "title": "Proxy & Reflect",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Proxy & Reflect.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "Optimize for Core Web Vitals",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Optimize for Core Web Vitals.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":36,\"ch\":0},\"to\":{\"line\":36,\"ch\":0}},\"scroll\":14.300130208333334}"
+                },
+                {
+                  "title": "关于Web Performance",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/关于Web Performance.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":108.02018229166667}"
+                },
+                {
+                  "title": "Optimize for Core Web Vitals",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Optimize for Core Web Vitals.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":21,\"ch\":5},\"to\":{\"line\":21,\"ch\":9}},\"scroll\":0.2764227642276423}"
+                },
+                {
                   "title": "浏览器工作原理",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/浏览器工作原理.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -2464,7 +2494,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200-Learning/210-Programing/Optimize for Core Web Vitals.md",
+                "file": "200-Learning/210-Programing/随便整理的前端面试常考点.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -2637,7 +2667,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-Learning/210-Programing/Optimize for Core Web Vitals.md",
+                "file": "200-Learning/210-Programing/随便整理的前端面试常考点.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -2663,7 +2693,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-Learning/210-Programing/Optimize for Core Web Vitals.md",
+                "file": "200-Learning/210-Programing/随便整理的前端面试常考点.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -2704,7 +2734,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200-Learning/210-Programing/Optimize for Core Web Vitals.md"
+                "file": "200-Learning/210-Programing/随便整理的前端面试常考点.md"
               }
             }
           },
@@ -2766,8 +2796,10 @@
   },
   "active": "2b253c52ed61f4d7",
   "lastOpenFiles": [
-    "200-Learning/210-Programing/浏览器工作原理.md",
     "200-Learning/210-Programing/Optimize for Core Web Vitals.md",
+    "200-Learning/210-Programing/Proxy & Reflect.md",
+    "200-Learning/210-Programing/关于Web Performance.md",
+    "200-Learning/210-Programing/浏览器工作原理.md",
     "200-Learning/210-Programing/浏览器中的模块预加载.md",
     "200-Learning/210-Programing/浏览器中的预加载扫描器.md",
     "200-Learning/210-Programing/CSS逻辑属性与逻辑值.md",
@@ -2777,7 +2809,6 @@
     "200-Learning/210-Programing/打造无缝博客搭建流程：从Obsidian到GitHub Pages.md",
     "000-Inbox/040-Idea Incubator/保存下有空看.md",
     "200-Learning/220-Sociology/新手管理者面临的9个问题🙋.md",
-    "200-Learning/210-Programing/Proxy & Reflect.md",
     "200-Learning/210-Programing/冒号课堂.md",
     "200-Learning/210-Programing/Reactive Web Framework.md",
     "200-Learning/210-Programing/重学CSS.md",
@@ -2791,7 +2822,6 @@
     "200-Learning/210-Programing/JavaScript的词法文法.md",
     "200-Learning/220-English/Blogs.md",
     "200-Learning/210-Programing/算法入门.md",
-    "200-Learning/210-Programing/一些通用的编程知识.md",
     "renovate.json",
     "cedict_ts.u8",
     "_obsidian/zk-prefixer.json",
