@@ -19,3 +19,5 @@ tags:
 - [Optimize Cumulative Layout Shift](https://web.dev/optimize-cls/)
 - [Optimize for Core Web Vitals - YouTube](https://www.youtube.com/watch?v=AQqFZ5t8uNc&t=1073s)
 
+### 优化FCP
+
