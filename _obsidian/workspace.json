@@ -18,6 +18,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "打造无缝博客搭建流程：从Obsidian到GitHub Pages",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/打造无缝博客搭建流程：从Obsidian到GitHub Pages.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":24,\"ch\":0},\"to\":{\"line\":24,\"ch\":0}},\"scroll\":5.333333333333333}"
+                },
+                {
                   "title": "随便整理的前端面试常考点",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/随便整理的前端面试常考点.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -2260,7 +2266,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200-Learning/210-Programing/打造无缝博客搭建流程：从Obsidian到GitHub Pages.md",
+                "file": "200-Learning/210-Programing/浏览器中的模块预加载.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -2433,7 +2439,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-Learning/210-Programing/打造无缝博客搭建流程：从Obsidian到GitHub Pages.md",
+                "file": "200-Learning/210-Programing/浏览器中的模块预加载.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -2459,7 +2465,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-Learning/210-Programing/打造无缝博客搭建流程：从Obsidian到GitHub Pages.md",
+                "file": "200-Learning/210-Programing/浏览器中的模块预加载.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -2500,7 +2506,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200-Learning/210-Programing/打造无缝博客搭建流程：从Obsidian到GitHub Pages.md"
+                "file": "200-Learning/210-Programing/浏览器中的模块预加载.md"
               }
             }
           },
@@ -2562,8 +2568,9 @@
   },
   "active": "2b253c52ed61f4d7",
   "lastOpenFiles": [
-    "200-Learning/210-Programing/随便整理的前端面试常考点.md",
     "200-Learning/210-Programing/打造无缝博客搭建流程：从Obsidian到GitHub Pages.md",
+    "200-Learning/210-Programing/浏览器中的模块预加载.md",
+    "200-Learning/210-Programing/随便整理的前端面试常考点.md",
     "200-Learning/210-Programing/富文本编辑器相关资源.md",
     "200-Learning/220-Sociology/新手管理者面临的9个问题🙋.md",
     "200-Learning/210-Programing/Proxy & Reflect.md",
@@ -2587,7 +2594,6 @@
     "200-Learning/210-Programing/关于Web Performance.md",
     "200-Learning/210-Programing/Rust入门之旅.md",
     "200-Learning/210-Programing/Service Worker Cookbook.md",
-    "200-Learning/210-Programing/Magic of Tagged Templates Literals in JavaScript.md",
     "renovate.json",
     "cedict_ts.u8",
     "_obsidian/zk-prefixer.json",
