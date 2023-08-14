@@ -18,6 +18,30 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "深入理解Generators",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/深入理解Generators.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "《程序人生》",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/《程序人生》.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "《冒号课堂》",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/《冒号课堂》.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "《程序人生》",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/《程序人生》.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":28,\"ch\":15},\"to\":{\"line\":28,\"ch\":15}},\"scroll\":20.500325520833332}"
+                },
+                {
                   "title": "《冒号课堂》",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/《冒号课堂》.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -2614,7 +2638,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200-Learning/210-Programing/《程序人生》.md",
+                "file": "200-Learning/210-Programing/随便整理的前端面试常考点.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -2787,7 +2811,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-Learning/210-Programing/《程序人生》.md",
+                "file": "200-Learning/210-Programing/随便整理的前端面试常考点.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -2813,7 +2837,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-Learning/210-Programing/《程序人生》.md",
+                "file": "200-Learning/210-Programing/随便整理的前端面试常考点.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -2854,7 +2878,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200-Learning/210-Programing/《程序人生》.md"
+                "file": "200-Learning/210-Programing/随便整理的前端面试常考点.md"
               }
             }
           },
@@ -2916,8 +2940,9 @@
   },
   "active": "2b253c52ed61f4d7",
   "lastOpenFiles": [
-    "200-Learning/210-Programing/《冒号课堂》.md",
+    "200-Learning/210-Programing/深入理解Generators.md",
     "200-Learning/210-Programing/《程序人生》.md",
+    "200-Learning/210-Programing/《冒号课堂》.md",
     "200-Learning/210-Programing/Compile Svelte in Your Head（2）.md",
     "200-Learning/210-Programing/Compile Svelte in Your Head（1）.md",
     "200-Learning/210-Programing/随便整理的前端面试常考点.md",
@@ -2941,7 +2966,6 @@
     "200-Learning/210-Programing/How to do great work.md",
     "200-Learning/210-Programing/JavaScript尾后逗号.md",
     "200-Learning/210-Programing/JavaScript的词法文法.md",
-    "200-Learning/220-English/Blogs.md",
     "renovate.json",
     "cedict_ts.u8",
     "_obsidian/zk-prefixer.json",
