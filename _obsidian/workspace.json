@@ -18,6 +18,48 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "重学CSS",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/重学CSS.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "随便整理的前端面试常考点",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/随便整理的前端面试常考点.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1344,\"ch\":0},\"to\":{\"line\":1344,\"ch\":0}},\"scroll\":1326.3783177570094}"
+                },
+                {
+                  "title": "《程序人生》",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/《程序人生》.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":195.13248697916666}"
+                },
+                {
+                  "title": "Compile Svelte in Your Head（1）",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Compile Svelte in Your Head（1）.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "《程序人生》",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/《程序人生》.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":170,\"ch\":6},\"to\":{\"line\":170,\"ch\":6}},\"scroll\":149.26341085271318}"
+                },
+                {
+                  "title": "《冒号课堂》",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/《冒号课堂》.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "随便整理的前端面试常考点",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/随便整理的前端面试常考点.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1341,\"ch\":0},\"to\":{\"line\":1341,\"ch\":0}},\"scroll\":1321.9893457943924}"
+                },
+                {
                   "title": "深入理解Generators",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/深入理解Generators.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -2940,12 +2982,13 @@
   },
   "active": "2b253c52ed61f4d7",
   "lastOpenFiles": [
-    "200-Learning/210-Programing/深入理解Generators.md",
-    "200-Learning/210-Programing/《程序人生》.md",
-    "200-Learning/210-Programing/《冒号课堂》.md",
-    "200-Learning/210-Programing/Compile Svelte in Your Head（2）.md",
-    "200-Learning/210-Programing/Compile Svelte in Your Head（1）.md",
+    "200-Learning/210-Programing/重学CSS.md",
     "200-Learning/210-Programing/随便整理的前端面试常考点.md",
+    "200-Learning/210-Programing/《程序人生》.md",
+    "200-Learning/210-Programing/Compile Svelte in Your Head（1）.md",
+    "200-Learning/210-Programing/《冒号课堂》.md",
+    "200-Learning/210-Programing/深入理解Generators.md",
+    "200-Learning/210-Programing/Compile Svelte in Your Head（2）.md",
     "200-Learning/210-Programing/Optimize for Core Web Vitals.md",
     "200-Learning/210-Programing/浏览器中的预加载扫描器.md",
     "200-Learning/210-Programing/浏览器中的模块预加载.md",
@@ -2959,7 +3002,6 @@
     "000-Inbox/040-Idea Incubator/保存下有空看.md",
     "200-Learning/220-Sociology/新手管理者面临的9个问题🙋.md",
     "200-Learning/210-Programing/Reactive Web Framework.md",
-    "200-Learning/210-Programing/重学CSS.md",
     "200-Learning/210-Programing/你不知道的JS.md",
     "200-Learning/220-Sociology/聊聊第一性原理.md",
     "200-Learning/210-Programing/Compile Svelte in Your Head（3）.md",

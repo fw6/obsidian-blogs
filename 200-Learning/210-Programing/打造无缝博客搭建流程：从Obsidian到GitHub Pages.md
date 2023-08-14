@@ -14,7 +14,7 @@ tags:
 > True knowledge exists in knowing that you know nothing.
 > — <cite>Isocrates</cite>
 
-:::tips
+:::tip
 以下内容通过[ChatGPT生成](https://chat.openai.com/share/86232a67-ea2d-4975-8989-a620d6c11b26)+微调（懒得写了😄）
 :::
 
