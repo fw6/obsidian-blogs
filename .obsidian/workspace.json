@@ -18,6 +18,48 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Compile Svelte in Your Head（2）",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Compile Svelte in Your Head（2）.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "《程序人生》",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/《程序人生》.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":115,\"ch\":31},\"to\":{\"line\":115,\"ch\":31}},\"scroll\":100.01241629464286}"
+                },
+                {
+                  "title": "Compile Svelte in Your Head（1）",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Compile Svelte in Your Head（1）.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "《程序人生》",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/《程序人生》.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":31,\"ch\":21},\"to\":{\"line\":31,\"ch\":21}},\"scroll\":8.125}"
+                },
+                {
+                  "title": "Compile Svelte in Your Head（1）",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Compile Svelte in Your Head（1）.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "《程序人生》",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/《程序人生》.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":154,\"ch\":12},\"to\":{\"line\":154,\"ch\":12}},\"scroll\":127.77490234375}"
+                },
+                {
+                  "title": "随便整理的前端面试常考点",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/随便整理的前端面试常考点.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":673,\"ch\":15},\"to\":{\"line\":673,\"ch\":15}},\"scroll\":651.2007104795737}"
+                },
+                {
                   "title": "Optimize for Core Web Vitals",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Optimize for Core Web Vitals.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -2536,7 +2578,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200-Learning/210-Programing/随便整理的前端面试常考点.md",
+                "file": "200-Learning/210-Programing/《程序人生》.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -2709,7 +2751,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-Learning/210-Programing/随便整理的前端面试常考点.md",
+                "file": "200-Learning/210-Programing/《程序人生》.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -2735,7 +2777,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-Learning/210-Programing/随便整理的前端面试常考点.md",
+                "file": "200-Learning/210-Programing/《程序人生》.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -2776,7 +2818,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200-Learning/210-Programing/随便整理的前端面试常考点.md"
+                "file": "200-Learning/210-Programing/《程序人生》.md"
               }
             }
           },
@@ -2838,10 +2880,13 @@
   },
   "active": "2b253c52ed61f4d7",
   "lastOpenFiles": [
+    "200-Learning/210-Programing/Compile Svelte in Your Head（2）.md",
+    "200-Learning/210-Programing/《程序人生》.md",
+    "200-Learning/210-Programing/Compile Svelte in Your Head（1）.md",
+    "200-Learning/210-Programing/随便整理的前端面试常考点.md",
     "200-Learning/210-Programing/Optimize for Core Web Vitals.md",
     "200-Learning/210-Programing/浏览器中的预加载扫描器.md",
     "200-Learning/210-Programing/浏览器中的模块预加载.md",
-    "200-Learning/210-Programing/随便整理的前端面试常考点.md",
     "200-Learning/210-Programing/Proxy & Reflect.md",
     "200-Learning/210-Programing/关于Web Performance.md",
     "200-Learning/210-Programing/浏览器工作原理.md",
@@ -2856,14 +2901,11 @@
     "200-Learning/210-Programing/重学CSS.md",
     "200-Learning/210-Programing/你不知道的JS.md",
     "200-Learning/220-Sociology/聊聊第一性原理.md",
-    "200-Learning/210-Programing/Compile Svelte in Your Head（1）.md",
-    "200-Learning/210-Programing/Compile Svelte in Your Head（2）.md",
     "200-Learning/210-Programing/Compile Svelte in Your Head（3）.md",
     "200-Learning/210-Programing/How to do great work.md",
     "200-Learning/210-Programing/JavaScript尾后逗号.md",
     "200-Learning/210-Programing/JavaScript的词法文法.md",
     "200-Learning/220-English/Blogs.md",
-    "200-Learning/210-Programing/算法入门.md",
     "renovate.json",
     "cedict_ts.u8",
     "_obsidian/zk-prefixer.json",
