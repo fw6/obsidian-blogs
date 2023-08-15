@@ -18,6 +18,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "随便整理的前端面试常考点",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/随便整理的前端面试常考点.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1920,\"ch\":0},\"to\":{\"line\":1920,\"ch\":0}},\"scroll\":1900.878034339846}"
+                },
+                {
                   "title": "重学CSS",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/重学CSS.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -2680,7 +2686,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200-Learning/210-Programing/随便整理的前端面试常考点.md",
+                "file": "200-Learning/210-Programing/Things you forgot (or never knew) because of React.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -2828,7 +2834,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 226.5
+    "width": 370.5
   },
   "right": {
     "id": "839ab35236ed4929",
@@ -2853,7 +2859,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-Learning/210-Programing/随便整理的前端面试常考点.md",
+                "file": "200-Learning/210-Programing/Things you forgot (or never knew) because of React.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -2879,7 +2885,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-Learning/210-Programing/随便整理的前端面试常考点.md",
+                "file": "200-Learning/210-Programing/Things you forgot (or never knew) because of React.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -2920,7 +2926,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200-Learning/210-Programing/随便整理的前端面试常考点.md"
+                "file": "200-Learning/210-Programing/Things you forgot (or never knew) because of React.md"
               }
             }
           },
@@ -2982,8 +2988,9 @@
   },
   "active": "2b253c52ed61f4d7",
   "lastOpenFiles": [
-    "200-Learning/210-Programing/重学CSS.md",
     "200-Learning/210-Programing/随便整理的前端面试常考点.md",
+    "200-Learning/210-Programing/Things you forgot (or never knew) because of React.md",
+    "200-Learning/210-Programing/重学CSS.md",
     "200-Learning/210-Programing/《程序人生》.md",
     "200-Learning/210-Programing/Compile Svelte in Your Head（1）.md",
     "200-Learning/210-Programing/《冒号课堂》.md",
@@ -3007,7 +3014,6 @@
     "200-Learning/210-Programing/Compile Svelte in Your Head（3）.md",
     "200-Learning/210-Programing/How to do great work.md",
     "200-Learning/210-Programing/JavaScript尾后逗号.md",
-    "200-Learning/210-Programing/JavaScript的词法文法.md",
     "renovate.json",
     "cedict_ts.u8",
     "_obsidian/zk-prefixer.json",
