@@ -207,7 +207,7 @@ function instance($$self) {
 }
 ```
 
-- svelte在`mount`时添加时间处理程序`listen(...)`
+- svelte在`mount`时添加事件处理程序`listen(...)`
 - svelte在`destroy`时删除了事件处理程序`dispose()`
 
 ### 事件修饰符
