@@ -82,6 +82,36 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Compile Svelte in Your Head（1）",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Compile Svelte in Your Head（1）.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "《程序人生》",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/《程序人生》.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":251,\"ch\":36},\"to\":{\"line\":251,\"ch\":36}},\"scroll\":241.21487130600573}"
+                },
+                {
+                  "title": "《冒号课堂》",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/《冒号课堂》.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "《程序人生》",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/《程序人生》.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "随便整理的前端面试常考点",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/随便整理的前端面试常考点.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1959,\"ch\":10},\"to\":{\"line\":1959,\"ch\":10}},\"scroll\":1938.8949602546904}"
+                },
+                {
                   "title": "Rust入门之旅",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Rust入门之旅.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -2804,7 +2834,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200-Learning/210-Programing/随便整理的前端面试常考点.md",
+                "file": "200-Learning/210-Programing/《程序人生》.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -2948,7 +2978,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-Learning/210-Programing/随便整理的前端面试常考点.md",
+                "file": "200-Learning/210-Programing/《程序人生》.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -2974,7 +3004,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-Learning/210-Programing/随便整理的前端面试常考点.md",
+                "file": "200-Learning/210-Programing/《程序人生》.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -3015,7 +3045,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200-Learning/210-Programing/随便整理的前端面试常考点.md"
+                "file": "200-Learning/210-Programing/《程序人生》.md"
               }
             }
           },
@@ -3077,13 +3107,13 @@
   },
   "active": "2b253c52ed61f4d7",
   "lastOpenFiles": [
+    "200-Learning/210-Programing/Compile Svelte in Your Head（1）.md",
+    "200-Learning/210-Programing/《程序人生》.md",
+    "200-Learning/210-Programing/《冒号课堂》.md",
+    "200-Learning/210-Programing/随便整理的前端面试常考点.md",
     "000-Inbox/040-Idea Incubator/保存下有空看.md",
     "200-Learning/210-Programing/重学CSS.md",
-    "200-Learning/210-Programing/随便整理的前端面试常考点.md",
     "200-Learning/210-Programing/Rust入门之旅.md",
-    "200-Learning/210-Programing/《冒号课堂》.md",
-    "200-Learning/210-Programing/《程序人生》.md",
-    "200-Learning/210-Programing/Compile Svelte in Your Head（1）.md",
     "200-Learning/210-Programing/Compile Svelte in Your Head（2）.md",
     "200-Learning/210-Programing/Compile Svelte in Your Head（3）.md",
     "200-Learning/210-Programing/Debugging by Thinking.md",
