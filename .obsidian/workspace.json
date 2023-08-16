@@ -2845,7 +2845,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -2947,7 +2948,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-Inbox/040-Idea Incubator/保存下有空看.md",
+                "file": "200-Learning/210-Programing/随便整理的前端面试常考点.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -2973,7 +2974,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-Inbox/040-Idea Incubator/保存下有空看.md",
+                "file": "200-Learning/210-Programing/随便整理的前端面试常考点.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -3014,7 +3015,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000-Inbox/040-Idea Incubator/保存下有空看.md"
+                "file": "200-Learning/210-Programing/随便整理的前端面试常考点.md"
               }
             }
           },
@@ -3074,8 +3075,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "310b5760108810ab",
+  "active": "2b253c52ed61f4d7",
   "lastOpenFiles": [
+    "000-Inbox/040-Idea Incubator/保存下有空看.md",
     "200-Learning/210-Programing/重学CSS.md",
     "200-Learning/210-Programing/随便整理的前端面试常考点.md",
     "200-Learning/210-Programing/Rust入门之旅.md",
@@ -3086,7 +3088,6 @@
     "200-Learning/210-Programing/Compile Svelte in Your Head（3）.md",
     "200-Learning/210-Programing/Debugging by Thinking.md",
     "200-Learning/210-Programing/算法套路.md",
-    "000-Inbox/040-Idea Incubator/保存下有空看.md",
     "200-Learning/210-Programing/Things you forgot (or never knew) because of React.md",
     "200-Learning/210-Programing/深入理解Generators.md",
     "200-Learning/210-Programing/Optimize for Core Web Vitals.md",
