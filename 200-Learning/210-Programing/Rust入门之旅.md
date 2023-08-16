@@ -25,14 +25,15 @@ tags:
 
 ## Rust FFI
 
-C/C++/Swift: Cbindgen
-C++: autocxx
-Java: jni-rs、flapigen-rs、robusta
-Erlanh/Elixir：rustler
-Python: pyo3
-JavaScript: 
-    - nodejs: neon
-    - browser: WebAssembly
+- C/C++/Swift: Cbindgen
+- C++: autocxx
+- Java: jni-rs、flapigen-rs、robusta
+- Erlanh/Elixir：rustler
+- Python: pyo3
+- JavaScript: 
+    - [neon-bindings/neon](https://github.com/neon-bindings/neon)
+    - WebAssembly
+    - [mozilla/uniffi-rs](https://github.com/mozilla/uniffi-rs) Mozilla的UniFFI库新增对JS绑定的生成支持（详情: https://hacks.mozilla.org/2023/08/autogenerating-rust-js-bindings-with-uniffi/）
 
 ## Rust 对网络协议的支持
 
