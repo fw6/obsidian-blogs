@@ -34,31 +34,17 @@ tags:
 `:where()` CSS 伪类函数接受选择器列表作为它的参数，将会选择所有能被该选择器列表中任何一条规则选中的元素。
 
 ```css
-
 /** 给二级列表添加样式 */
-
 :is(ol, ul) :is(ol, ul) ol {
-
     list-style-type: lower-greek;
-
     color: chocolate;
-
 }
 
-
-
-/* Selects any paragraph inside a header, main
-
-   or footer element that is being hovered */
-
+/* Selects any paragraph inside a header, main or footer element that is being hovered */
 :where(header, main, footer) p:hover {
-
   color: red;
-
   cursor: pointer;
-
 }
-
 ```
 
 两者之间的区别在于，`:is()` 会计入整个选择器的优先级（它采用其最具体参数的优先级），而 `:where()` 的优先级为 0。这可以通过 `:where()` 参考页面上的示例来演示。

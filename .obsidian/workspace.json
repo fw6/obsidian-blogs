@@ -82,6 +82,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "算法套路",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/算法套路.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":3},\"to\":{\"line\":11,\"ch\":3}},\"scroll\":0}"
+                },
+                {
                   "title": "Things you forgot (or never knew) because of React",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Things you forgot (or never knew) because of React.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -2756,7 +2762,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200-Learning/210-Programing/算法套路.md",
+                "file": "200-Learning/210-Programing/Debugging by Thinking.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -2798,7 +2804,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -2900,7 +2906,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-Learning/210-Programing/重学CSS.md",
+                "file": "200-Learning/210-Programing/Debugging by Thinking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -2926,7 +2932,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-Learning/210-Programing/重学CSS.md",
+                "file": "200-Learning/210-Programing/Debugging by Thinking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -2967,7 +2973,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200-Learning/210-Programing/重学CSS.md"
+                "file": "200-Learning/210-Programing/Debugging by Thinking.md"
               }
             }
           },
@@ -3027,14 +3033,14 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "e56057715419eca8",
+  "active": "2b253c52ed61f4d7",
   "lastOpenFiles": [
+    "200-Learning/210-Programing/算法套路.md",
+    "200-Learning/210-Programing/重学CSS.md",
     "200-Learning/210-Programing/Compile Svelte in Your Head（3）.md",
     "200-Learning/210-Programing/随便整理的前端面试常考点.md",
-    "200-Learning/210-Programing/算法套路.md",
     "000-Inbox/040-Idea Incubator/保存下有空看.md",
     "200-Learning/210-Programing/Things you forgot (or never knew) because of React.md",
-    "200-Learning/210-Programing/重学CSS.md",
     "200-Learning/210-Programing/《程序人生》.md",
     "200-Learning/210-Programing/Compile Svelte in Your Head（1）.md",
     "200-Learning/210-Programing/《冒号课堂》.md",

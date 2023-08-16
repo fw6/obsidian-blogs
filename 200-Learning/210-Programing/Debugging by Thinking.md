@@ -12,7 +12,8 @@ tags:
 
 对该分享的记录：[Debugging Software, June 2023](https://blog.isquaredsoftware.com/presentations/2023-06-debugging-js/?slideIndex=0&stepIndex=0)
 
-## WHAT 什么是Debug？
+
+## WHAT: 什么是Debug？
 
 :::tldr
 debugging is the process of finding and resolving _bugs_ (defects or problems that prevent correct operation) within computer programs, software, or systems.
@@ -23,7 +24,7 @@ debugging is the process of finding and resolving _bugs_ (defects or problems 
 
 Debug是关于「为啥出问题，以及我们如何修复」的过程。
 
-## WHY 为何Debug能力如此重要？
+## WHY: 为何Debug能力如此重要？
 
 编程不只是写代码，还包括：
 1. Planning/design
@@ -38,7 +39,7 @@ Debug如此重要，但很多开发者却对此不熟悉，为啥？
 2. 大量知识来自经验
 3. 边走边学的艰难的路
 
-## HOW 如何Debug？
+## HOW: 如何Debug？
 
 Debug的一些核心原则:
 1. 每个问题都有根源（但可能并不容易，比如会遇到环境复杂、难以复现等问题）
@@ -58,7 +59,7 @@ Debug的一些核心原则:
 5. 修复问题（添加测试或错误处理，确保不会再发生）
 6. 完善文档，尽可能多地记录下来
 
-## 一些Tips
+## TIPS
 
 1. 🔧善用工具
 2. 📦深入底层实现（必要时翻源码，如三方库）
