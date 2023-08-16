@@ -8,6 +8,70 @@
         "type": "tabs",
         "children": [
           {
+            "id": "310b5760108810ab",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "随便整理的前端面试常考点",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/随便整理的前端面试常考点.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":593,\"ch\":7},\"to\":{\"line\":593,\"ch\":7}},\"scroll\":580.9804618117229}"
+                },
+                {
+                  "title": "新手管理者面临的9个问题🙋",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/220-Sociology/新手管理者面临的9个问题🙋.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":14},\"to\":{\"line\":16,\"ch\":14}},\"scroll\":105.13151041666667}"
+                },
+                {
+                  "title": "聊聊第一性原理",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/220-Sociology/聊聊第一性原理.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "JavaScript尾后逗号",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/JavaScript尾后逗号.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":108},\"to\":{\"line\":13,\"ch\":108}},\"scroll\":3.875}"
+                },
+                {
+                  "title": "How to do great work",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/How to do great work.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.6910569105691057}"
+                },
+                {
+                  "title": "Debugging by Thinking",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Debugging by Thinking.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":0},\"to\":{\"line\":13,\"ch\":0}},\"scroll\":3.5}"
+                },
+                {
+                  "title": "Blogs",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/220-English/Blogs.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":3},\"to\":{\"line\":8,\"ch\":3}},\"scroll\":0}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000-Inbox/040-Idea Incubator/保存下有空看.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "2b253c52ed61f4d7",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -2700,7 +2764,7 @@
             }
           },
           {
-            "id": "310b5760108810ab",
+            "id": "e56057715419eca8",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -2708,62 +2772,21 @@
                 {
                   "state": "{}",
                   "eState": "{}"
-                },
-                {
-                  "title": "随便整理的前端面试常考点",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/随便整理的前端面试常考点.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":593,\"ch\":7},\"to\":{\"line\":593,\"ch\":7}},\"scroll\":580.9804618117229}"
-                },
-                {
-                  "title": "新手管理者面临的9个问题🙋",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/220-Sociology/新手管理者面临的9个问题🙋.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":14},\"to\":{\"line\":16,\"ch\":14}},\"scroll\":105.13151041666667}"
-                },
-                {
-                  "title": "聊聊第一性原理",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/220-Sociology/聊聊第一性原理.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "JavaScript尾后逗号",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/JavaScript尾后逗号.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":108},\"to\":{\"line\":13,\"ch\":108}},\"scroll\":3.875}"
-                },
-                {
-                  "title": "How to do great work",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/How to do great work.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.6910569105691057}"
-                },
-                {
-                  "title": "Debugging by Thinking",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Debugging by Thinking.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":0},\"to\":{\"line\":13,\"ch\":0}},\"scroll\":3.5}"
-                },
-                {
-                  "title": "Blogs",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/220-English/Blogs.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":3},\"to\":{\"line\":8,\"ch\":3}},\"scroll\":0}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000-Inbox/040-Idea Incubator/保存下有空看.md",
+                "file": "200-Learning/210-Programing/随便整理的前端面试常考点.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -2865,7 +2888,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-Learning/210-Programing/算法套路.md",
+                "file": "200-Learning/210-Programing/随便整理的前端面试常考点.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -2891,7 +2914,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-Learning/210-Programing/算法套路.md",
+                "file": "200-Learning/210-Programing/随便整理的前端面试常考点.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -2932,7 +2955,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200-Learning/210-Programing/算法套路.md"
+                "file": "200-Learning/210-Programing/随便整理的前端面试常考点.md"
               }
             }
           },
@@ -2992,11 +3015,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "2b253c52ed61f4d7",
+  "active": "e56057715419eca8",
   "lastOpenFiles": [
-    "200-Learning/210-Programing/Things you forgot (or never knew) because of React.md",
     "200-Learning/210-Programing/算法套路.md",
+    "000-Inbox/040-Idea Incubator/保存下有空看.md",
     "200-Learning/210-Programing/随便整理的前端面试常考点.md",
+    "200-Learning/210-Programing/Things you forgot (or never knew) because of React.md",
     "200-Learning/210-Programing/重学CSS.md",
     "200-Learning/210-Programing/《程序人生》.md",
     "200-Learning/210-Programing/Compile Svelte in Your Head（1）.md",
@@ -3013,7 +3037,6 @@
     "200-Learning/210-Programing/Debugging by Thinking.md",
     "200-Learning/210-Programing/富文本编辑器相关资源.md",
     "200-Learning/210-Programing/打造无缝博客搭建流程：从Obsidian到GitHub Pages.md",
-    "000-Inbox/040-Idea Incubator/保存下有空看.md",
     "200-Learning/220-Sociology/新手管理者面临的9个问题🙋.md",
     "200-Learning/210-Programing/Reactive Web Framework.md",
     "200-Learning/210-Programing/你不知道的JS.md",
