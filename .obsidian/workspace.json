@@ -144,8 +144,31 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3dbfd2df0381c7ca",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "200-Learning/210-Programing/《程序人生》.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -247,7 +270,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-Learning/210-Programing/算法入门.md",
+                "file": "200-Learning/210-Programing/《程序人生》.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -273,7 +296,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-Learning/210-Programing/算法入门.md",
+                "file": "200-Learning/210-Programing/《程序人生》.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -314,7 +337,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200-Learning/210-Programing/算法入门.md"
+                "file": "200-Learning/210-Programing/《程序人生》.md"
               }
             }
           },
@@ -375,8 +398,9 @@
       "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
-  "active": "2f7408e4935b7bfa",
+  "active": "3dbfd2df0381c7ca",
   "lastOpenFiles": [
+    "200-Learning/210-Programing/算法入门.md",
     "README.md",
     "200-Learning/210-Programing/Rust入门之旅.md",
     "Calendar/Daily notes/2023-08-21.md",
@@ -402,7 +426,6 @@
     "200-Learning/210-Programing/关于Web Performance.md",
     "200-Learning/210-Programing/富文本编辑器相关资源.md",
     "200-Learning/210-Programing/打造无缝博客搭建流程：从Obsidian到GitHub Pages.md",
-    "200-Learning/220-Sociology/新手管理者面临的9个问题🙋.md",
     "renovate.json",
     "cedict_ts.u8",
     "_obsidian/zk-prefixer.json",

@@ -1,4 +1,4 @@
 {
-  "folders": "\\.json$\nREADME\\.md",
-  "enable": true
+  "folders": "README\nrenovate",
+  "enable": false
 }
