@@ -26,5 +26,7 @@
   "templater-obsidian",
   "obsidian-style-settings",
   "supercharged-links-obsidian",
-  "obsidian-tasks-plugin"
+  "obsidian-tasks-plugin",
+  "obsidian-banners",
+  "hidden-folder-obsidian"
 ]
