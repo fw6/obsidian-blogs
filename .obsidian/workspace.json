@@ -82,6 +82,18 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "《冒号课堂》",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/《冒号课堂》.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "《程序人生》",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/《程序人生》.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":271,\"ch\":495},\"to\":{\"line\":271,\"ch\":495}},\"scroll\":258.9755859375}"
+                },
+                {
                   "title": "Compile Svelte in Your Head（1）",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Compile Svelte in Your Head（1）.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -2842,6 +2854,34 @@
             }
           },
           {
+            "id": "2f7408e4935b7bfa",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Release Notes 1.3.7",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"release-notes\",\"state\":{\"currentVersion\":\"1.3.7\"}}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Calendar/Daily notes/2023-08-21.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "e56057715419eca8",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -2876,7 +2916,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -2978,7 +3018,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-Learning/210-Programing/《程序人生》.md",
+                "file": "Calendar/Daily notes/2023-08-21.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -3004,7 +3044,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-Learning/210-Programing/《程序人生》.md",
+                "file": "Calendar/Daily notes/2023-08-21.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -3045,7 +3085,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200-Learning/210-Programing/《程序人生》.md"
+                "file": "Calendar/Daily notes/2023-08-21.md"
               }
             }
           },
@@ -3105,14 +3145,15 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "2b253c52ed61f4d7",
+  "active": "2f7408e4935b7bfa",
   "lastOpenFiles": [
-    "200-Learning/210-Programing/Compile Svelte in Your Head（1）.md",
-    "200-Learning/210-Programing/《程序人生》.md",
+    "Calendar/Daily notes/2023-08-21.md",
     "200-Learning/210-Programing/《冒号课堂》.md",
+    "200-Learning/210-Programing/《程序人生》.md",
+    "200-Learning/210-Programing/重学CSS.md",
+    "200-Learning/210-Programing/Compile Svelte in Your Head（1）.md",
     "200-Learning/210-Programing/随便整理的前端面试常考点.md",
     "000-Inbox/040-Idea Incubator/保存下有空看.md",
-    "200-Learning/210-Programing/重学CSS.md",
     "200-Learning/210-Programing/Rust入门之旅.md",
     "200-Learning/210-Programing/Compile Svelte in Your Head（2）.md",
     "200-Learning/210-Programing/Compile Svelte in Your Head（3）.md",
@@ -3132,7 +3173,6 @@
     "200-Learning/220-Sociology/新手管理者面临的9个问题🙋.md",
     "200-Learning/210-Programing/Reactive Web Framework.md",
     "200-Learning/210-Programing/你不知道的JS.md",
-    "200-Learning/220-Sociology/聊聊第一性原理.md",
     "renovate.json",
     "cedict_ts.u8",
     "_obsidian/zk-prefixer.json",
