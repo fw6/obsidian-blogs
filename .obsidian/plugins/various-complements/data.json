@@ -47,38 +47,6 @@
   },
   "showLogAboutPerformanceInConsole": false,
   "selectionHistoryTree": {
-    "callout": {
-      "callout": {
-        "currentVault": {
-          "count": 1,
-          "lastUpdated": 1688028043357
-        }
-      }
-    },
-    "WindiCSS": {
-      "WindiCSS": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1688035624805
-        }
-      }
-    },
-    "盒子": {
-      "盒子": {
-        "currentVault": {
-          "count": 1,
-          "lastUpdated": 1688452721229
-        }
-      }
-    },
-    "进行": {
-      "进行": {
-        "currentVault": {
-          "count": 1,
-          "lastUpdated": 1688452899980
-        }
-      }
-    },
     "JavaScript": {
       "JavaScript": {
         "currentFile": {
@@ -88,30 +56,6 @@
         "frontMatter": {
           "count": 2,
           "lastUpdated": 1690858037925
-        }
-      }
-    },
-    "-Infinity": {
-      "-Infinity": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1689558594405
-        }
-      }
-    },
-    "int32": {
-      "int32": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1689558704417
-        }
-      }
-    },
-    "JS": {
-      "JS": {
-        "frontMatter": {
-          "count": 2,
-          "lastUpdated": 1689684088770
         }
       }
     },
@@ -126,24 +70,8 @@
     "Programming": {
       "Programming": {
         "frontMatter": {
-          "count": 6,
-          "lastUpdated": 1692109051909
-        }
-      }
-    },
-    "writing": {
-      "writing": {
-        "currentVault": {
-          "count": 1,
-          "lastUpdated": 1689756119904
-        }
-      }
-    },
-    "Javascript": {
-      "Javascript": {
-        "currentVault": {
-          "count": 3,
-          "lastUpdated": 1689776095054
+          "count": 7,
+          "lastUpdated": 1693394925540
         }
       }
     },
@@ -155,59 +83,11 @@
         }
       }
     },
-    "WebAPI": {
-      "WebAPI": {
-        "frontMatter": {
-          "count": 2,
-          "lastUpdated": 1689757192021
-        }
-      }
-    },
-    "al": {
-      "al": {
-        "currentVault": {
-          "count": 1,
-          "lastUpdated": 1689774304141
-        }
-      }
-    },
     "W3C": {
       "W3C": {
         "frontMatter": {
           "count": 3,
           "lastUpdated": 1691912278089
-        }
-      }
-    },
-    "create_fragment": {
-      "create_fragment": {
-        "currentFile": {
-          "count": 9,
-          "lastUpdated": 1690541670676
-        }
-      }
-    },
-    "SvelteComponent": {
-      "SvelteComponent": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1690537356802
-        }
-      }
-    },
-    "Output": {
-      "Output": {
-        "currentFile": {
-          "count": 3,
-          "lastUpdated": 1690535765785
-        }
-      }
-    },
-    "fragment": {
-      "fragment": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1690534913412
         }
       }
     },
