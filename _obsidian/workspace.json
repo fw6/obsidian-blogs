@@ -132,69 +132,11 @@
                 {
                   "state": "{}",
                   "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "200-Learning/210-Programing/CSS逻辑属性与逻辑值.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3dbfd2df0381c7ca",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
                 },
                 {
-                  "title": "《Software Engineering at Google》",
+                  "title": "CSS逻辑属性与逻辑值",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/《Software Engineering at Google》.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":54,\"ch\":0},\"to\":{\"line\":54,\"ch\":0}},\"scroll\":38.96923828125}"
-                },
-                {
-                  "title": "《冒号课堂》",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/《冒号课堂》.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "《Software Engineering at Google》",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/《Software Engineering at Google》.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":3},\"to\":{\"line\":17,\"ch\":3}},\"scroll\":0.9255014326647565}"
-                },
-                {
-                  "title": "《程序人生》",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/《程序人生》.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":83,\"ch\":467},\"to\":{\"line\":83,\"ch\":467}},\"scroll\":79.37582236842105}"
-                },
-                {
-                  "title": "《Software Engineering at Google》",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/《Software Engineering at Google》.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":29,\"ch\":3},\"to\":{\"line\":29,\"ch\":10}},\"scroll\":17.564356435643564}"
-                },
-                {
-                  "title": "2023-08-30",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Calendar/Daily notes/2023-08-30.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":0},\"to\":{\"line\":7,\"ch\":0}},\"scroll\":0.1489971346704871}"
-                },
-                {
-                  "title": "《程序人生》",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/《程序人生》.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/CSS逻辑属性与逻辑值.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 }
               ]
@@ -210,7 +152,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -440,10 +382,11 @@
       "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
-  "active": "3dbfd2df0381c7ca",
+  "active": "deb920cd7e9af4e4",
   "lastOpenFiles": [
-    "200-Learning/210-Programing/《Software Engineering at Google》.md",
+    "200-Learning/210-Programing/CSS逻辑属性与逻辑值.md",
     "200-Learning/210-Programing/AWS re_Invent 2022.md",
+    "200-Learning/210-Programing/《Software Engineering at Google》.md",
     "200-Learning/210-Programing/《冒号课堂》.md",
     "200-Learning/210-Programing/《程序人生》.md",
     "Calendar/Daily notes/2023-08-30.md",
@@ -452,7 +395,6 @@
     "200-Learning/210-Programing/Rust入门之旅.md",
     "Calendar/Daily notes/2023-08-21.md",
     "200-Learning/210-Programing/随便整理的前端面试常考点.md",
-    "200-Learning/210-Programing/CSS逻辑属性与逻辑值.md",
     "200-Learning/210-Programing/深入理解Generators.md",
     "200-Learning/210-Programing/浏览器工作原理.md",
     "200-Learning/210-Programing/Compile Svelte in Your Head（1）.md",
