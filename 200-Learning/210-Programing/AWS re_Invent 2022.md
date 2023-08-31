@@ -1,4 +1,3 @@
-
 ---
 title: "Dr. Werner in AWS re:Invent 2022"
 description: "re:Invent 2022中，Dr. Werner的主题演讲"
