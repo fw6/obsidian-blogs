@@ -156,6 +156,18 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "《程序人生》",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/《程序人生》.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":83,\"ch\":467},\"to\":{\"line\":83,\"ch\":467}},\"scroll\":79.37582236842105}"
+                },
+                {
+                  "title": "《Software Engineering at Google》",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/《Software Engineering at Google》.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":29,\"ch\":3},\"to\":{\"line\":29,\"ch\":10}},\"scroll\":17.564356435643564}"
+                },
+                {
                   "title": "2023-08-30",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Calendar/Daily notes/2023-08-30.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -412,9 +424,9 @@
   },
   "active": "3dbfd2df0381c7ca",
   "lastOpenFiles": [
-    "Calendar/Daily notes/2023-08-30.md",
-    "200-Learning/210-Programing/《Software Engineering at Google》.md",
     "200-Learning/210-Programing/《程序人生》.md",
+    "200-Learning/210-Programing/《Software Engineering at Google》.md",
+    "Calendar/Daily notes/2023-08-30.md",
     "200-Learning/210-Programing/算法入门.md",
     "README.md",
     "200-Learning/210-Programing/Rust入门之旅.md",
