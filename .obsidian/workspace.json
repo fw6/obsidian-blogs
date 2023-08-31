@@ -156,6 +156,24 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "《Software Engineering at Google》",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/《Software Engineering at Google》.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":54,\"ch\":0},\"to\":{\"line\":54,\"ch\":0}},\"scroll\":38.96923828125}"
+                },
+                {
+                  "title": "《冒号课堂》",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/《冒号课堂》.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "《Software Engineering at Google》",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/《Software Engineering at Google》.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":3},\"to\":{\"line\":17,\"ch\":3}},\"scroll\":0.9255014326647565}"
+                },
+                {
                   "title": "《程序人生》",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/《程序人生》.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -184,7 +202,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200-Learning/210-Programing/《Software Engineering at Google》.md",
+                "file": "200-Learning/210-Programing/AWS re_Invent 2022.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -294,7 +312,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-Learning/210-Programing/《Software Engineering at Google》.md",
+                "file": "200-Learning/210-Programing/AWS re_Invent 2022.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -320,7 +338,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-Learning/210-Programing/《Software Engineering at Google》.md",
+                "file": "200-Learning/210-Programing/AWS re_Invent 2022.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -361,7 +379,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200-Learning/210-Programing/《Software Engineering at Google》.md"
+                "file": "200-Learning/210-Programing/AWS re_Invent 2022.md"
               }
             }
           },
@@ -424,8 +442,10 @@
   },
   "active": "3dbfd2df0381c7ca",
   "lastOpenFiles": [
-    "200-Learning/210-Programing/《程序人生》.md",
     "200-Learning/210-Programing/《Software Engineering at Google》.md",
+    "200-Learning/210-Programing/AWS re_Invent 2022.md",
+    "200-Learning/210-Programing/《冒号课堂》.md",
+    "200-Learning/210-Programing/《程序人生》.md",
     "Calendar/Daily notes/2023-08-30.md",
     "200-Learning/210-Programing/算法入门.md",
     "README.md",
@@ -436,7 +456,6 @@
     "200-Learning/210-Programing/深入理解Generators.md",
     "200-Learning/210-Programing/浏览器工作原理.md",
     "200-Learning/210-Programing/Compile Svelte in Your Head（1）.md",
-    "200-Learning/210-Programing/《冒号课堂》.md",
     "200-Learning/210-Programing/重学CSS.md",
     "000-Inbox/040-Idea Incubator/保存下有空看.md",
     "Calendar/Daily notes/2023-08-22.md",
@@ -449,7 +468,6 @@
     "200-Learning/210-Programing/浏览器中的预加载扫描器.md",
     "200-Learning/210-Programing/浏览器中的模块预加载.md",
     "200-Learning/210-Programing/Proxy & Reflect.md",
-    "200-Learning/210-Programing/关于Web Performance.md",
     "renovate.json",
     "cedict_ts.u8",
     "_obsidian/zk-prefixer.json",

@@ -10,10 +10,13 @@ tags:
     - Programming
 ---
 
-# 《Software Engineering at Google》
-
 > Mountains cannot be surmounted except by winding paths.
 > — <cite>Johann Wolfgang von Goethe</cite>
+
+- 在线版本：[abseil / Software Engineering at Google](https://abseil.io/resources/swe-book)。
+- 中文翻译：[Software Engineering at Google](https://qiangmzsx.github.io/Software-Engineering-at-Google/#/)
+
+## TOC
 
 ## What is software engineering?
 
@@ -41,7 +44,13 @@ tags:
 
 :::
 
-
 :::note
+Hyrum’s Law: *With a sufficient number of users of an API, it does not matter what you promise in the contract: all observable behaviors of your system will be depended on by somebody.*
+
+>有了足够数量的 API 用户，在约定中承诺什么并不重要：你的系统的所有可观察行为都将取决于某人。
 
 :::
+
+海勒姆定律代表了一种实践知识，即使有最好的规划、最好的工程师和可靠的代码评审实践，我们也不能假设完全遵守已发布的契约或最佳实践。作为API所有者，通过明确地接口约定，你将获得一定的灵活性和自由度，但在实践中，给定更改的复杂性和难度还取决于用户对你的API的一些可观察行为的有用程度。如果用户不能依赖这些东西，那么你的API将很容易更改。如果有足够的时间和足够的用户，即使是最无害的变更也会破坏某些东西；你对变更价值的分析必须包含调查、识别和解决这些缺陷的难度。
+
+
