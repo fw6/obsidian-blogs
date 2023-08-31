@@ -134,6 +134,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "AWS re_Invent 2022",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/AWS re_Invent 2022.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":65,\"ch\":22},\"to\":{\"line\":65,\"ch\":22}},\"scroll\":54.823567708333336}"
+                },
+                {
                   "title": "CSS逻辑属性与逻辑值",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/CSS逻辑属性与逻辑值.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -144,7 +150,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200-Learning/210-Programing/AWS re_Invent 2022.md",
+                "file": "200-Learning/210-Programing/《Software Engineering at Google》.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -254,7 +260,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-Learning/210-Programing/AWS re_Invent 2022.md",
+                "file": "200-Learning/210-Programing/《Software Engineering at Google》.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -280,7 +286,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-Learning/210-Programing/AWS re_Invent 2022.md",
+                "file": "200-Learning/210-Programing/《Software Engineering at Google》.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -321,7 +327,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200-Learning/210-Programing/AWS re_Invent 2022.md"
+                "file": "200-Learning/210-Programing/《Software Engineering at Google》.md"
               }
             }
           },
@@ -384,8 +390,8 @@
   },
   "active": "deb920cd7e9af4e4",
   "lastOpenFiles": [
-    "200-Learning/210-Programing/CSS逻辑属性与逻辑值.md",
     "200-Learning/210-Programing/AWS re_Invent 2022.md",
+    "200-Learning/210-Programing/CSS逻辑属性与逻辑值.md",
     "200-Learning/210-Programing/《Software Engineering at Google》.md",
     "200-Learning/210-Programing/《冒号课堂》.md",
     "200-Learning/210-Programing/《程序人生》.md",
