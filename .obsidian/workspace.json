@@ -198,9 +198,37 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "29028c94f0690d64",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Release Notes 1.4.5",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"release-notes\",\"state\":{\"currentVersion\":\"1.4.5\"}}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Calendar/Daily notes/2023-09-12.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -302,7 +330,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-Learning/210-Programing/随便整理的前端面试常考点.md",
+                "file": "Calendar/Daily notes/2023-09-12.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -328,7 +356,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-Learning/210-Programing/随便整理的前端面试常考点.md",
+                "file": "Calendar/Daily notes/2023-09-12.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -369,7 +397,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200-Learning/210-Programing/随便整理的前端面试常考点.md"
+                "file": "Calendar/Daily notes/2023-09-12.md"
               }
             }
           },
@@ -430,8 +458,9 @@
       "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
-  "active": "deb920cd7e9af4e4",
+  "active": "29028c94f0690d64",
   "lastOpenFiles": [
+    "Calendar/Daily notes/2023-09-12.md",
     "200-Learning/210-Programing/算法入门.md",
     "200-Learning/210-Programing/《Software Engineering at Google》.md",
     "200-Learning/210-Programing/AWS re_Invent 2022.md",
@@ -457,7 +486,6 @@
     "200-Learning/210-Programing/Optimize for Core Web Vitals.md",
     "200-Learning/210-Programing/浏览器中的预加载扫描器.md",
     "200-Learning/210-Programing/浏览器中的模块预加载.md",
-    "200-Learning/210-Programing/Proxy & Reflect.md",
     "renovate.json",
     "cedict_ts.u8",
     "_obsidian/zk-prefixer.json",
