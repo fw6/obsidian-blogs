@@ -210,6 +210,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "2023-09-12",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Calendar/Daily notes/2023-09-12.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":4},\"to\":{\"line\":9,\"ch\":4}},\"scroll\":7}"
+                },
+                {
                   "title": "Release Notes 1.4.5",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"release-notes\",\"state\":{\"currentVersion\":\"1.4.5\"}}",
@@ -220,7 +226,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Calendar/Daily notes/2023-09-12.md",
+                "file": "200-Learning/210-Programing/《计算机科学速成课》.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -305,7 +311,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 213.5
+    "width": 213.5,
+    "collapsed": true
   },
   "right": {
     "id": "839ab35236ed4929",
@@ -330,7 +337,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Calendar/Daily notes/2023-09-12.md",
+                "file": "200-Learning/210-Programing/《计算机科学速成课》.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -356,7 +363,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Calendar/Daily notes/2023-09-12.md",
+                "file": "200-Learning/210-Programing/《计算机科学速成课》.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -397,7 +404,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Calendar/Daily notes/2023-09-12.md"
+                "file": "200-Learning/210-Programing/《计算机科学速成课》.md"
               }
             }
           },
@@ -440,7 +447,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -460,12 +468,14 @@
   },
   "active": "29028c94f0690d64",
   "lastOpenFiles": [
+    "200-Learning/210-Programing/随便整理的前端面试常考点.md",
+    "200-Learning/210-Programing/《计算机科学速成课》.md",
     "Calendar/Daily notes/2023-09-12.md",
+    "200-Learning/210-Programing/未命名",
     "200-Learning/210-Programing/算法入门.md",
     "200-Learning/210-Programing/《Software Engineering at Google》.md",
     "200-Learning/210-Programing/AWS re_Invent 2022.md",
     "200-Learning/210-Programing/Things you forgot (or never knew) because of React.md",
-    "200-Learning/210-Programing/随便整理的前端面试常考点.md",
     "200-Learning/210-Programing/CSS逻辑属性与逻辑值.md",
     "200-Learning/210-Programing/《冒号课堂》.md",
     "200-Learning/210-Programing/《程序人生》.md",
@@ -485,7 +495,6 @@
     "200-Learning/210-Programing/算法套路.md",
     "200-Learning/210-Programing/Optimize for Core Web Vitals.md",
     "200-Learning/210-Programing/浏览器中的预加载扫描器.md",
-    "200-Learning/210-Programing/浏览器中的模块预加载.md",
     "renovate.json",
     "cedict_ts.u8",
     "_obsidian/zk-prefixer.json",
@@ -494,7 +503,6 @@
     "_obsidian/workspace",
     "_obsidian/themes/Shimmering Focus/theme.css",
     "_obsidian/themes/Shimmering Focus/manifest.json",
-    "_obsidian/themes/Obsidian Nord/theme.css",
-    "_obsidian/themes/Obsidian Nord/manifest.json"
+    "_obsidian/themes/Obsidian Nord/theme.css"
   ]
 }
