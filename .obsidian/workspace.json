@@ -134,6 +134,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "随便整理的前端面试常考点",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/随便整理的前端面试常考点.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":517,\"ch\":14},\"to\":{\"line\":517,\"ch\":14}},\"scroll\":507.62608506944446}"
+                },
+                {
                   "title": "算法入门",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/算法入门.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -192,7 +198,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200-Learning/210-Programing/随便整理的前端面试常考点.md",
+                "file": "000-Inbox/040-Idea Incubator/保存下有空看.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -234,7 +240,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -311,8 +317,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 213.5,
-    "collapsed": true
+    "width": 213.5
   },
   "right": {
     "id": "839ab35236ed4929",
@@ -337,7 +342,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-Learning/210-Programing/《计算机科学速成课》.md",
+                "file": "000-Inbox/040-Idea Incubator/保存下有空看.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -363,7 +368,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-Learning/210-Programing/《计算机科学速成课》.md",
+                "file": "000-Inbox/040-Idea Incubator/保存下有空看.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -404,7 +409,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200-Learning/210-Programing/《计算机科学速成课》.md"
+                "file": "000-Inbox/040-Idea Incubator/保存下有空看.md"
               }
             }
           },
@@ -466,7 +471,7 @@
       "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
-  "active": "29028c94f0690d64",
+  "active": "deb920cd7e9af4e4",
   "lastOpenFiles": [
     "200-Learning/210-Programing/随便整理的前端面试常考点.md",
     "200-Learning/210-Programing/《计算机科学速成课》.md",
