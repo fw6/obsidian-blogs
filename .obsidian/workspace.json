@@ -206,6 +206,34 @@
             }
           },
           {
+            "id": "658e3e43c454acb2",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Release Notes 1.4.13",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"release-notes\",\"state\":{\"currentVersion\":\"1.4.13\"}}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Calendar/Daily notes/2023-09-19.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "29028c94f0690d64",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -240,7 +268,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -342,7 +370,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-Inbox/040-Idea Incubator/保存下有空看.md",
+                "file": "Calendar/Daily notes/2023-09-19.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -368,7 +396,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-Inbox/040-Idea Incubator/保存下有空看.md",
+                "file": "Calendar/Daily notes/2023-09-19.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -409,7 +437,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000-Inbox/040-Idea Incubator/保存下有空看.md"
+                "file": "Calendar/Daily notes/2023-09-19.md"
               }
             }
           },
@@ -446,6 +474,16 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "356de6252da280fc",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
           }
         ],
         "currentTab": 5
@@ -471,8 +509,9 @@
       "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
-  "active": "deb920cd7e9af4e4",
+  "active": "658e3e43c454acb2",
   "lastOpenFiles": [
+    "Calendar/Daily notes/2023-09-19.md",
     "200-Learning/210-Programing/随便整理的前端面试常考点.md",
     "200-Learning/210-Programing/《计算机科学速成课》.md",
     "Calendar/Daily notes/2023-09-12.md",
@@ -499,7 +538,6 @@
     "200-Learning/210-Programing/Debugging by Thinking.md",
     "200-Learning/210-Programing/算法套路.md",
     "200-Learning/210-Programing/Optimize for Core Web Vitals.md",
-    "200-Learning/210-Programing/浏览器中的预加载扫描器.md",
     "renovate.json",
     "cedict_ts.u8",
     "_obsidian/zk-prefixer.json",
