@@ -316,7 +316,8 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:New Excalidraw drawing": false,
       "omnisearch:Omnisearch": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "hidden-folder-obsidian:Hidden Folders": false
     }
   },
   "active": "658e3e43c454acb2",
