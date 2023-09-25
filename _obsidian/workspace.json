@@ -8,50 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2f7408e4935b7bfa",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "200-Learning/210-Programing/算法入门.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e56057715419eca8",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "200-Learning/210-Programing/随便整理的前端面试常考点.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "deb920cd7e9af4e4",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -84,6 +40,18 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "2023-W-6",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Calendar/Weekly/2023-W-6.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":25,\"ch\":4},\"to\":{\"line\":25,\"ch\":4}},\"scroll\":9}"
+                },
+                {
+                  "title": "2023-09-25",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Calendar/Daily notes/2023-09-25.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":4},\"to\":{\"line\":9,\"ch\":4}},\"scroll\":0}"
+                },
+                {
                   "title": "2023-09-19",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Calendar/Daily notes/2023-09-19.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -100,31 +68,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "29028c94f0690d64",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "200-Learning/210-Programing/《计算机科学速成课》.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -369,18 +315,21 @@
       "obsidian-spaced-repetition:Review flashcards": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:New Excalidraw drawing": false,
-      "omnisearch:Omnisearch": false
+      "omnisearch:Omnisearch": false,
+      "templater-obsidian:Templater": false
     }
   },
   "active": "658e3e43c454acb2",
   "lastOpenFiles": [
-    "Calendar/Daily notes/2023-09-19.md",
+    "000-Inbox/040-Idea Incubator/保存下有空看.md",
     "Calendar/Daily notes/2023-09-25.md",
+    "200-Learning/210-Programing/算法入门.md",
     "200-Learning/210-Programing/随便整理的前端面试常考点.md",
     "200-Learning/210-Programing/《计算机科学速成课》.md",
+    "Calendar/Weekly/2023-W-6.md",
+    "Calendar/Daily notes/2023-09-19.md",
     "Calendar/Daily notes/2023-09-12.md",
     "200-Learning/210-Programing/未命名",
-    "200-Learning/210-Programing/算法入门.md",
     "200-Learning/210-Programing/《Software Engineering at Google》.md",
     "200-Learning/210-Programing/AWS re_Invent 2022.md",
     "200-Learning/210-Programing/Things you forgot (or never knew) because of React.md",
@@ -395,12 +344,10 @@
     "200-Learning/210-Programing/浏览器工作原理.md",
     "200-Learning/210-Programing/Compile Svelte in Your Head（1）.md",
     "200-Learning/210-Programing/重学CSS.md",
-    "000-Inbox/040-Idea Incubator/保存下有空看.md",
     "Calendar/Daily notes/2023-08-22.md",
     "200-Learning/210-Programing/Compile Svelte in Your Head（2）.md",
     "200-Learning/210-Programing/Compile Svelte in Your Head（3）.md",
     "200-Learning/210-Programing/Debugging by Thinking.md",
-    "200-Learning/210-Programing/算法套路.md",
     "renovate.json",
     "cedict_ts.u8",
     "_obsidian/zk-prefixer.json",
