@@ -46,6 +46,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "2023-09-28",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Calendar/Daily notes/2023-09-28.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":0},\"to\":{\"line\":7,\"ch\":0}}}"
+                },
+                {
                   "title": "Release Notes 1.4.14",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"release-notes\",\"state\":{\"currentVersion\":\"1.4.14\"}}",
@@ -56,7 +62,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Calendar/Daily notes/2023-09-28.md",
+                "file": "Calendar/Daily notes/2023-11-20.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -166,7 +172,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Calendar/Daily notes/2023-09-28.md",
+                "file": "Calendar/Daily notes/2023-11-20.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,7 +198,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Calendar/Daily notes/2023-09-28.md",
+                "file": "Calendar/Daily notes/2023-11-20.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -233,7 +239,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Calendar/Daily notes/2023-09-28.md"
+                "file": "Calendar/Daily notes/2023-11-20.md"
               }
             }
           },
@@ -317,6 +323,7 @@
   "active": "1909d521881d091b",
   "lastOpenFiles": [
     "Calendar/Daily notes/2023-09-28.md",
+    "Calendar/Daily notes/2023-11-20.md",
     "000-Inbox/040-Idea Incubator/保存下有空看.md",
     "Calendar/Daily notes/2023-09-25.md",
     "200-Learning/210-Programing/算法入门.md",
@@ -342,7 +349,6 @@
     "200-Learning/210-Programing/重学CSS.md",
     "Calendar/Daily notes/2023-08-22.md",
     "200-Learning/210-Programing/Compile Svelte in Your Head（2）.md",
-    "200-Learning/210-Programing/Compile Svelte in Your Head（3）.md",
     "renovate.json",
     "cedict_ts.u8",
     "_obsidian/zk-prefixer.json",
