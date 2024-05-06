@@ -18,6 +18,24 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "2024-05-06",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Calendar/Daily notes/2024-05-06.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":15},\"to\":{\"line\":8,\"ch\":15}},\"scroll\":7}"
+                },
+                {
+                  "title": "Monorepo开发实践",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"300-work/310-sharing/Monorepo开发实践.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":0},\"to\":{\"line\":11,\"ch\":0}}}"
+                },
+                {
+                  "title": "2023-11-22",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Calendar/Daily notes/2023-11-22.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":0},\"to\":{\"line\":7,\"ch\":0}}}"
+                },
+                {
                   "title": "Monorepo开发实践",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"300-work/310-sharing/Monorepo开发实践.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -94,7 +112,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Calendar/Daily notes/2023-11-22.md",
+                "file": "Calendar/Daily notes/《Rust程序设计》E2.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -102,7 +120,7 @@
             }
           },
           {
-            "id": "ce70c87117f71cf8",
+            "id": "c1a8cbb230c4b7d8",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -110,27 +128,17 @@
                 {
                   "state": "{}",
                   "eState": "{}"
-                },
-                {
-                  "title": "Release Notes 1.5.11",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"release-notes\",\"state\":{\"currentVersion\":\"1.5.11\"}}",
-                  "eState": "{}"
                 }
               ]
             },
             "state": {
-              "type": "markdown",
+              "type": "release-notes",
               "state": {
-                "file": "Calendar/Daily notes/2024-05-06.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "currentVersion": "1.5.12"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -207,7 +215,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 233.5,
     "collapsed": true
   },
   "right": {
@@ -233,7 +241,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Calendar/Daily notes/2024-05-06.md",
+                "file": "Calendar/Daily notes/《Rust程序设计》E2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -259,7 +267,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Calendar/Daily notes/2024-05-06.md",
+                "file": "Calendar/Daily notes/《Rust程序设计》E2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -300,7 +308,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Calendar/Daily notes/2024-05-06.md"
+                "file": "Calendar/Daily notes/《Rust程序设计》E2.md"
               }
             }
           },
@@ -383,11 +391,14 @@
       "hidden-folder-obsidian:Hidden Folders": false
     }
   },
-  "active": "ce70c87117f71cf8",
+  "active": "1909d521881d091b",
   "lastOpenFiles": [
     "Calendar/Daily notes/2024-05-06.md",
-    "300-work/310-sharing/Monorepo开发实践.md",
+    "Calendar/Daily notes/《Rust程序设计》E2.md",
     "Calendar/Daily notes/2023-11-22.md",
+    "Untitled.canvas",
+    "200-Learning/210-Programing/《计算机科学速成课》.md",
+    "300-work/310-sharing/Monorepo开发实践.md",
     "Extras/Templates/_blog.md",
     "Calendar/Daily notes/2023-09-25.md",
     "Calendar/Daily notes/2023-11-20.md",
@@ -397,7 +408,6 @@
     "000-Inbox/040-Idea Incubator/保存下有空看.md",
     "200-Learning/210-Programing/算法入门.md",
     "200-Learning/210-Programing/随便整理的前端面试常考点.md",
-    "200-Learning/210-Programing/《计算机科学速成课》.md",
     "Calendar/Weekly/2023-W-6.md",
     "Calendar/Daily notes/2023-09-19.md",
     "Calendar/Daily notes/2023-09-12.md",
@@ -413,7 +423,6 @@
     "200-Learning/210-Programing/Rust入门之旅.md",
     "Calendar/Daily notes/2023-08-21.md",
     "200-Learning/210-Programing/深入理解Generators.md",
-    "200-Learning/210-Programing/浏览器工作原理.md",
     "renovate.json",
     "cedict_ts.u8",
     "_obsidian/zk-prefixer.json",
