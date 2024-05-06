@@ -2,7 +2,7 @@
 title: Untitled
 description: ""
 pubDate: 2023-11-20 10:53
-heroImage: https://images.unsplash.com/photo-1549735651-77a5e0e7954b?q=80&w=1200&auto=format&fit=crop
+heroImage: "https://images.unsplash.com/photo-1549735651-77a5e0e7954b?q=80&w=1200&auto=format&fit=crop"
 date created: 2023-11-20 10:53
 date modified: 2023-11-20
 draft: true
