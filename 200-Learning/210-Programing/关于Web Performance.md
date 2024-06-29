@@ -5,7 +5,7 @@ pubDate: "2023-07-19 12:12"
 heroImage: "https://web-dev.imgix.net/image/ZDZVuXt6QqfXtxkpXcPGfnygYjd2/m80oUd2zASInyKJJ7QNc.png?auto=format&w=1600"
 date created: 2023-07-19
 date modified: 2023-07-19
-tags: 
+tags:
     - writings
     - Programming
     - FE
@@ -31,7 +31,7 @@ Web 指标是 Google 开创的一项新计划，旨在为网络质量信号提�
 
 网站所有者要想了解他们提供给用户的体验质量，并非需要成为性能专家。 Web 指标计划旨在简化场景，帮助网站专注于最重要的指标，即**核心 Web 指标** 。
 
->[!info]  
+> [!info]
 >核心性能指标：核心 Web 指标是适用于所有网页的 Web 指标子集，每位网站所有者都应该测量这些指标，并且这些指标还将显示在所有 Google 工具中。每项核心 Web 指标代表用户体验的一个不同方面，能够进行[实际](https://web.dev/user-centric-performance-metrics/#how-metrics-are-measured)测量，并且反映出[以用户为中心](https://web.dev/user-centric-performance-metrics/#how-metrics-are-measured)的关键结果的真实体验。
 
 核心Web指标的构成会随着时间的推移而发展。当前针对2020年的指标构成侧重于用户体验的三个方面——加载性能、交互性、和视觉稳定性——并包括一下指标（及各指标的阀值）：
@@ -57,18 +57,18 @@ Web 指标是 Google 开创的一项新计划，旨在为网络质量信号提�
 
 import {getCLS, getFID, getLCP} from 'web-vitals';
 
-function sendToAnalytics(metric) {  
-  const body = JSON.stringify(metric);  
-  // Use `navigator.sendBeacon()` if available, falling back to `fetch()`.  
-  (navigator.sendBeacon && navigator.sendBeacon('/analytics', body)) ||  
-      fetch('/analytics', {body, method: 'POST', keepalive: true});  
+function sendToAnalytics(metric) {
+  const body = JSON.stringify(metric);
+  // Use `navigator.sendBeacon()` if available, falling back to `fetch()`.
+  (navigator.sendBeacon && navigator.sendBeacon('/analytics', body)) ||
+      fetch('/analytics', {body, method: 'POST', keepalive: true});
 }
 
-getCLS(sendToAnalytics);  
-getFID(sendToAnalytics);  
-getLCP(sendToAnalytics);  
-    ```  
-3. 可以使用[Web 指标 Chrome 扩展程序](https://github.com/GoogleChrome/web-vitals-extension)来报告每项核心 Web 指标，且无需编写任何代码。该扩展程序使用[web-vitals](https://github.com/GoogleChrome/web-vitals)库来测量每一项指标，并在用户浏览网页时呈现给用户。  
+getCLS(sendToAnalytics);
+getFID(sendToAnalytics);
+getLCP(sendToAnalytics);
+    ```
+3. 可以使用[Web 指标 Chrome 扩展程序](https://github.com/GoogleChrome/web-vitals-extension)来报告每项核心 Web 指标，且无需编写任何代码。该扩展程序使用[web-vitals](https://github.com/GoogleChrome/web-vitals)库来测量每一项指标，并在用户浏览网页时呈现给用户。
 4. Chrome开发者工具、Lighthouse
 
 ### 提高分数的建议
@@ -114,7 +114,7 @@ getLCP(sendToAnalytics);
 
 ## Performance 使用指南
 
-1. 打开新的隐私窗口  
+1. 打开新的隐私窗口
     隐私窗口运行在一个纯净的浏览器环境，不会加载多余的浏览器扩展。
 2. 在隐私窗口打开如下地址：用于测试Profile的demo，包含了一系列运动的小球
     [Janky Animation](https://googlechrome.github.io/devtools-samples/jank/)

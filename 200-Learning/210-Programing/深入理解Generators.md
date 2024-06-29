@@ -220,7 +220,7 @@ console.log(cards);
     无参数或者接受一个参数的函数，并返回符合 `IteratorResult` 接口的对象，通常 `done` 等于 `true`。调用这个方法表明迭代器的调用者监测到错误的状况，并且 `exception` 通常是一个 [`Error`](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Error) 实例。
 
 
->[!warning]
+> [!warning]
 >无法通过反射的方法确定（例如，没有实际调用 `next()` 并验证返回的结果）一个特定的对象是否实现了迭代器协议。
 
 几乎所有语法和API都期待可迭代对象而非迭代器，见如下例子：
@@ -232,7 +232,7 @@ const aGeneratorObject = (function* () {
 })();
 
 console.log(typeof aGeneratorObject.next);
-// "function"——它有 next 方法（返回正确的值），所以它是迭代器 
+// "function"——它有 next 方法（返回正确的值），所以它是迭代器
 
 console.log(typeof aGeneratorObject[Symbol.iterator]);
 // "function"——它有 @@iterator 方法（返回正确的迭代器），所以它是可迭代的
