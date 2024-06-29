@@ -18,6 +18,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "2024-06-29",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Calendar/Daily notes/2024-06-29.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}}}"
+                },
+                {
                   "title": "《Rust编程第一课》笔记",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/《Rust编程第一课》笔记.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -58,7 +64,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Calendar/Daily notes/2024-06-29.md",
+                "file": "Calendar/Daily notes/2023-09-25.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -358,8 +364,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 213.5,
-    "collapsed": true
+    "width": 213.5
   },
   "right": {
     "id": "839ab35236ed4929",
@@ -384,7 +389,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Calendar/Daily notes/2024-06-29.md",
+                "file": "Calendar/Daily notes/2023-09-25.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -410,7 +415,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Calendar/Daily notes/2024-06-29.md",
+                "file": "Calendar/Daily notes/2023-09-25.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -451,7 +456,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Calendar/Daily notes/2024-06-29.md"
+                "file": "Calendar/Daily notes/2023-09-25.md"
               }
             }
           },
@@ -534,11 +539,11 @@
   },
   "active": "2f7408e4935b7bfa",
   "lastOpenFiles": [
+    "Calendar/Daily notes/2024-06-29.md",
     "200-Learning/210-Programing/算法入门.md",
     "200-Learning/210-Programing/随便整理的前端面试常考点.md",
     "200-Learning/210-Programing/关于Web Performance.md",
     "200-Learning/210-Programing/《Rust编程第一课》笔记.md",
-    "Calendar/Daily notes/2024-06-29.md",
     "200-Learning/210-Programing/算法套路.md",
     "Untitled.canvas",
     "Calendar/Daily notes/《Rust程序设计》E2.md",
