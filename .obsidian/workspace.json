@@ -18,6 +18,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "《Rust编程第一课》笔记",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/《Rust编程第一课》笔记.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}}}"
+                },
+                {
                   "title": "算法入门",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/算法入门.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -52,7 +58,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200-Learning/210-Programing/《Rust编程第一课》笔记.md",
+                "file": "Calendar/Daily notes/2024-06-29.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -378,7 +384,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-Learning/210-Programing/《Rust编程第一课》笔记.md",
+                "file": "Calendar/Daily notes/2024-06-29.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -404,7 +410,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-Learning/210-Programing/《Rust编程第一课》笔记.md",
+                "file": "Calendar/Daily notes/2024-06-29.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -445,7 +451,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200-Learning/210-Programing/《Rust编程第一课》笔记.md"
+                "file": "Calendar/Daily notes/2024-06-29.md"
               }
             }
           },
