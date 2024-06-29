@@ -23,64 +23,41 @@ tags: writings Rust Programming
 
 一个值是符合一个特定类型的数据的某个实体.
 
-
-> [!note]+ Note
+> [!note]+ Note  
 > Note callout
 
-  
-> [!abstract]+ Abstract
+> [!abstract]+ Abstract  
 > Alias: Abstract + summary + tldr
 
-  
-> [!info]+ Info
+> [!info]+ Info  
 > Info callout
 
-  
-> [!todo]+ Todo
+> [!todo]+ Todo  
 > TODO callout
 
-  
-
-> [!tip]+ Tip
+> [!tip]+ Tip  
 > Alias: tip + hint + important
 
-  
-
-> [!success]+ Success
+> [!success]+ Success  
 > Alias: success + check + done
 
-  
-
-> [!question]+ Question
+> [!question]+ Question  
 > Alias: question + help + faq
 
-  
-
-> [!warning]+ Warning
+> [!warning]+ Warning  
 > Alias: warning + caution + attention
 
-  
-
-> [!fail]+ Failure
+> [!fail]+ Failure  
 > alias: missing + fail + failure
 
-  
-
-> [!error]+ Error
+> [!error]+ Error  
 > alias: danger + error
 
-  
-
-> [!bug]+ Bug
+> [!bug]+ Bug  
 > bug callout
 
-  
-  
-
-> [!example]+ Examplebug
+> [!example]+ Examplebug  
 > example callout
 
-  
-
-> [!quote]+ Quote
+> [!quote]+ Quote  
 > Alias: quote + cite
