@@ -4,7 +4,7 @@
   "templates_pairs": [
     [
       "random_picture",
-      "curl -s \"https://templater-unsplash.fly.dev?w=1200&h=400\" | jq -r '.full'"
+      "curl -s \"https://templater-unsplash.fly.dev?w=1200&h=400\" | jq -r '.full'\n"
     ]
   ],
   "trigger_on_file_creation": true,
