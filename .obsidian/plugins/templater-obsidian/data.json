@@ -1,16 +1,16 @@
 {
-  "command_timeout": 5,
+  "command_timeout": 10,
   "templates_folder": "Extras/Templates",
   "templates_pairs": [
     [
       "random_picture",
-      "curl -s \"https://templater-unsplash.fly.dev?w=1200&h=400\" | jq -r '.full'\n"
+      "curl -s 'https://api.unsplash.com/photos/random?client_id=HGkAn1Qudg9D94acrDLRpns4T-DASkEwZqFhnJRUZn8&count=1&orientation=landscape' | jq -r '.[0].urls.full' | sed 's/$/\\&w=1200&h=400/'\n"
     ]
   ],
   "trigger_on_file_creation": true,
   "auto_jump_to_cursor": false,
   "enable_system_commands": true,
-  "shell_path": "/usr/local/bin/fish",
+  "shell_path": "/opt/homebrew/bin/fish",
   "user_scripts_folder": "",
   "enable_folder_templates": true,
   "folder_templates": [

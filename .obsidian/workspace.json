@@ -222,7 +222,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200-Learning/210-Programing/未命名.md",
+                "file": "200-Learning/210-Programing/《Rust编程第一课》笔记.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -341,7 +341,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 213.5
+    "width": 213.5,
+    "collapsed": true
   },
   "right": {
     "id": "839ab35236ed4929",
@@ -366,7 +367,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-Learning/210-Programing/未命名.md",
+                "file": "200-Learning/210-Programing/《Rust编程第一课》笔记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -392,7 +393,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-Learning/210-Programing/未命名.md",
+                "file": "200-Learning/210-Programing/《Rust编程第一课》笔记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -433,7 +434,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200-Learning/210-Programing/未命名.md"
+                "file": "200-Learning/210-Programing/《Rust编程第一课》笔记.md"
               }
             }
           },
@@ -474,6 +475,15 @@
           {
             "id": "356de6252da280fc",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "all-properties",
               "state": {
@@ -508,7 +518,7 @@
   "active": "deb920cd7e9af4e4",
   "lastOpenFiles": [
     "Calendar/Daily notes/2024-06-29.md",
-    "200-Learning/210-Programing/未命名.md",
+    "200-Learning/210-Programing/《Rust编程第一课》笔记.md",
     "200-Learning/210-Programing/算法套路.md",
     "Untitled.canvas",
     "Calendar/Daily notes/《Rust程序设计》E2.md",
