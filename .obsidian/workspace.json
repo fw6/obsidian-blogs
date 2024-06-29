@@ -18,6 +18,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "《Rust编程第一课》笔记",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/《Rust编程第一课》笔记.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}},\"scroll\":10}"
+                },
+                {
                   "title": "2023-09-25",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Calendar/Daily notes/2023-09-25.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -70,7 +76,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200-Learning/210-Programing/《Rust编程第一课》笔记.md",
+                "file": "200-Learning/210-Programing/《冒号课堂》.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -395,7 +401,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-Learning/210-Programing/《Rust编程第一课》笔记.md",
+                "file": "200-Learning/210-Programing/《冒号课堂》.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -421,7 +427,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-Learning/210-Programing/《Rust编程第一课》笔记.md",
+                "file": "200-Learning/210-Programing/《冒号课堂》.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -462,7 +468,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200-Learning/210-Programing/《Rust编程第一课》笔记.md"
+                "file": "200-Learning/210-Programing/《冒号课堂》.md"
               }
             }
           },
@@ -545,12 +551,12 @@
   },
   "active": "2f7408e4935b7bfa",
   "lastOpenFiles": [
+    "200-Learning/210-Programing/《Rust编程第一课》笔记.md",
     "Calendar/Daily notes/2023-09-25.md",
     "Calendar/Daily notes/2024-06-29.md",
     "200-Learning/210-Programing/算法入门.md",
     "200-Learning/210-Programing/随便整理的前端面试常考点.md",
     "200-Learning/210-Programing/关于Web Performance.md",
-    "200-Learning/210-Programing/《Rust编程第一课》笔记.md",
     "200-Learning/210-Programing/算法套路.md",
     "Untitled.canvas",
     "Calendar/Daily notes/《Rust程序设计》E2.md",
