@@ -4,7 +4,7 @@
   "templates_pairs": [
     [
       "random_picture",
-      "curl -s 'https://api.unsplash.com/photos/random?client_id=HGkAn1Qudg9D94acrDLRpns4T-DASkEwZqFhnJRUZn8&count=1&orientation=landscape' | jq -r '.[0].urls.full' | sed 's/$/\\&w=1200&h=400/'\n"
+      "curl -s 'https://api.unsplash.com/photos/random?client_id=HGkAn1Qudg9D94acrDLRpns4T-DASkEwZqFhnJRUZn8&count=1&orientation=landscape' | jq -r '.[0].urls.full' | sed 's/$/\\&w=1200&h=400/'"
     ]
   ],
   "trigger_on_file_creation": true,

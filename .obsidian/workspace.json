@@ -8,158 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2f7408e4935b7bfa",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "《冒号课堂》",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/《冒号课堂》.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "《Rust编程第一课》笔记",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/《Rust编程第一课》笔记.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}},\"scroll\":10}"
-                },
-                {
-                  "title": "2023-09-25",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Calendar/Daily notes/2023-09-25.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}},\"scroll\":9}"
-                },
-                {
-                  "title": "2024-06-29",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Calendar/Daily notes/2024-06-29.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}}}"
-                },
-                {
-                  "title": "《Rust编程第一课》笔记",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/《Rust编程第一课》笔记.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}}}"
-                },
-                {
-                  "title": "算法入门",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/算法入门.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":0},\"to\":{\"line\":13,\"ch\":0}}}"
-                },
-                {
-                  "title": "README",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"README.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "Rust入门之旅",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Rust入门之旅.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":49,\"ch\":0},\"to\":{\"line\":49,\"ch\":0}},\"scroll\":39.48114717367646}"
-                },
-                {
-                  "title": "2023-08-21",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Calendar/Daily notes/2023-08-21.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":11},\"to\":{\"line\":5,\"ch\":11}},\"scroll\":0}"
-                },
-                {
-                  "title": "Release Notes 1.3.7",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"release-notes\",\"state\":{\"currentVersion\":\"1.3.7\"}}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Calendar/Daily notes/2024-09-23.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "e56057715419eca8",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "深入理解Generators",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/深入理解Generators.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "浏览器工作原理",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/浏览器工作原理.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "Compile Svelte in Your Head（1）",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Compile Svelte in Your Head（1）.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":459.142578125}"
-                },
-                {
-                  "title": "《程序人生》",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/《程序人生》.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "《冒号课堂》",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/《冒号课堂》.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "重学CSS",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/重学CSS.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":0},\"to\":{\"line\":13,\"ch\":0}},\"scroll\":0.2922636103151863}"
-                },
-                {
-                  "title": "Compile Svelte in Your Head（3）",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Compile Svelte in Your Head（3）.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":215,\"ch\":0},\"to\":{\"line\":215,\"ch\":0}},\"scroll\":153.00934579439252}"
-                },
-                {
-                  "title": "随便整理的前端面试常考点",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/随便整理的前端面试常考点.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":1756,\"ch\":0},\"to\":{\"line\":1756,\"ch\":0}},\"scroll\":1735.6044859813085}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "200-Learning/210-Programing/随便整理的前端面试常考点.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "deb920cd7e9af4e4",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -168,6 +16,12 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "关于Web Performance",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/关于Web Performance.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":0},\"to\":{\"line\":12,\"ch\":0}}}"
                 },
                 {
                   "title": "《Rust编程第一课》笔记",
@@ -264,49 +118,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200-Learning/210-Programing/关于Web Performance.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "29028c94f0690d64",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "2023-09-12",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Calendar/Daily notes/2023-09-12.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":4},\"to\":{\"line\":9,\"ch\":4}},\"scroll\":7}"
-                },
-                {
-                  "title": "Release Notes 1.4.5",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"release-notes\",\"state\":{\"currentVersion\":\"1.4.5\"}}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "200-Learning/210-Programing/《计算机科学速成课》.md",
+                "file": "200-Learning/210-Programing/iHub：目标选才.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -383,7 +202,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 213.5
+    "width": 213.5,
+    "collapsed": true
   },
   "right": {
     "id": "839ab35236ed4929",
@@ -408,7 +228,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-Learning/210-Programing/随便整理的前端面试常考点.md",
+                "file": "200-Learning/210-Programing/iHub：目标选才.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -434,7 +254,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-Learning/210-Programing/随便整理的前端面试常考点.md",
+                "file": "200-Learning/210-Programing/iHub：目标选才.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -475,7 +295,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200-Learning/210-Programing/随便整理的前端面试常考点.md"
+                "file": "200-Learning/210-Programing/iHub：目标选才.md"
               }
             }
           },
@@ -558,16 +378,18 @@
       "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
-  "active": "e56057715419eca8",
+  "active": "deb920cd7e9af4e4",
   "lastOpenFiles": [
+    "200-Learning/210-Programing/关于Web Performance.md",
+    "200-Learning/210-Programing/《程序人生》.md",
     "Calendar/Daily notes/2024-09-23.md",
+    "200-Learning/210-Programing/iHub：目标选才.md",
+    "200-Learning/210-Programing/随便整理的前端面试常考点.md",
     "200-Learning/210-Programing/《冒号课堂》.md",
     "200-Learning/210-Programing/《Rust编程第一课》笔记.md",
     "Calendar/Daily notes/2023-09-25.md",
     "Calendar/Daily notes/2024-06-29.md",
     "200-Learning/210-Programing/算法入门.md",
-    "200-Learning/210-Programing/随便整理的前端面试常考点.md",
-    "200-Learning/210-Programing/关于Web Performance.md",
     "200-Learning/210-Programing/算法套路.md",
     "Untitled.canvas",
     "Calendar/Daily notes/《Rust程序设计》E2.md",
@@ -588,8 +410,6 @@
     "200-Learning/210-Programing/AWS re_Invent 2022.md",
     "200-Learning/210-Programing/Things you forgot (or never knew) because of React.md",
     "200-Learning/210-Programing/CSS逻辑属性与逻辑值.md",
-    "200-Learning/210-Programing/《程序人生》.md",
-    "Calendar/Daily notes/2023-08-30.md",
     "renovate.json",
     "cedict_ts.u8",
     "_obsidian/zk-prefixer.json",
