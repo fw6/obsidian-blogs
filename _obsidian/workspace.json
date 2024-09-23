@@ -18,6 +18,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "《冒号课堂》",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/《冒号课堂》.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
                   "title": "《Rust编程第一课》笔记",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/《Rust编程第一课》笔记.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":true}}",
@@ -76,7 +82,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200-Learning/210-Programing/《冒号课堂》.md",
+                "file": "Calendar/Daily notes/2024-09-23.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -299,7 +305,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -401,7 +408,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-Learning/210-Programing/《冒号课堂》.md",
+                "file": "200-Learning/210-Programing/随便整理的前端面试常考点.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -427,7 +434,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-Learning/210-Programing/《冒号课堂》.md",
+                "file": "200-Learning/210-Programing/随便整理的前端面试常考点.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -468,7 +475,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200-Learning/210-Programing/《冒号课堂》.md"
+                "file": "200-Learning/210-Programing/随便整理的前端面试常考点.md"
               }
             }
           },
@@ -521,7 +528,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -536,21 +545,23 @@
   "left-ribbon": {
     "hiddenItems": {
       "obsidian-spaced-repetition:复习卡片": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
-      "omnisearch:Omnisearch": false,
-      "templater-obsidian:Templater": false,
-      "zk-prefixer:创建时间戳笔记": false,
-      "workspaces:管理工作区布局": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "command-palette:打开命令面板": false,
+      "zk-prefixer:创建时间戳笔记": false,
+      "workspaces:管理工作区布局": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "omnisearch:Omnisearch": false,
+      "templater-obsidian:Templater": false,
       "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
-  "active": "2f7408e4935b7bfa",
+  "active": "e56057715419eca8",
   "lastOpenFiles": [
+    "Calendar/Daily notes/2024-09-23.md",
+    "200-Learning/210-Programing/《冒号课堂》.md",
     "200-Learning/210-Programing/《Rust编程第一课》笔记.md",
     "Calendar/Daily notes/2023-09-25.md",
     "Calendar/Daily notes/2024-06-29.md",
@@ -577,10 +588,8 @@
     "200-Learning/210-Programing/AWS re_Invent 2022.md",
     "200-Learning/210-Programing/Things you forgot (or never knew) because of React.md",
     "200-Learning/210-Programing/CSS逻辑属性与逻辑值.md",
-    "200-Learning/210-Programing/《冒号课堂》.md",
     "200-Learning/210-Programing/《程序人生》.md",
     "Calendar/Daily notes/2023-08-30.md",
-    "README.md",
     "renovate.json",
     "cedict_ts.u8",
     "_obsidian/zk-prefixer.json",
