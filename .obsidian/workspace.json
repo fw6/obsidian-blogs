@@ -18,6 +18,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "iHub：目标选才",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/iHub：目标选才.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}}}"
+                },
+                {
                   "title": "关于Web Performance",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/关于Web Performance.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -118,7 +124,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200-Learning/210-Programing/iHub：目标选才.md",
+                "file": "Calendar/Daily notes/2024-09-25.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -228,7 +234,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-Learning/210-Programing/iHub：目标选才.md",
+                "file": "Calendar/Daily notes/2024-09-25.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -254,7 +260,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-Learning/210-Programing/iHub：目标选才.md",
+                "file": "Calendar/Daily notes/2024-09-25.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -295,7 +301,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200-Learning/210-Programing/iHub：目标选才.md"
+                "file": "Calendar/Daily notes/2024-09-25.md"
               }
             }
           },
@@ -359,7 +365,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -379,10 +386,11 @@
   },
   "active": "deb920cd7e9af4e4",
   "lastOpenFiles": [
+    "200-Learning/210-Programing/iHub：目标选才.md",
+    "Calendar/Daily notes/2024-09-25.md",
     "200-Learning/210-Programing/关于Web Performance.md",
     "200-Learning/210-Programing/《程序人生》.md",
     "Calendar/Daily notes/2024-09-23.md",
-    "200-Learning/210-Programing/iHub：目标选才.md",
     "200-Learning/210-Programing/随便整理的前端面试常考点.md",
     "200-Learning/210-Programing/《冒号课堂》.md",
     "200-Learning/210-Programing/《Rust编程第一课》笔记.md",
@@ -408,7 +416,6 @@
     "200-Learning/210-Programing/《Software Engineering at Google》.md",
     "200-Learning/210-Programing/AWS re_Invent 2022.md",
     "200-Learning/210-Programing/Things you forgot (or never knew) because of React.md",
-    "200-Learning/210-Programing/CSS逻辑属性与逻辑值.md",
     "renovate.json",
     "cedict_ts.u8",
     "_obsidian/zk-prefixer.json",
