@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5e93c25b25779172",
+        "id": "108c964d7712c085",
         "type": "tabs",
         "children": [
           {
-            "id": "deb920cd7e9af4e4",
+            "id": "e711f6185411d414",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -18,113 +18,17 @@
                   "eState": "{}"
                 },
                 {
-                  "title": "iHub：目标选才",
+                  "title": "Monorepo开发实践",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/iHub：目标选才.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}}}"
-                },
-                {
-                  "title": "关于Web Performance",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/关于Web Performance.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":0},\"to\":{\"line\":12,\"ch\":0}}}"
-                },
-                {
-                  "title": "《Rust编程第一课》笔记",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/《Rust编程第一课》笔记.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":29,\"ch\":0},\"to\":{\"line\":29,\"ch\":0}},\"scroll\":11.375}"
-                },
-                {
-                  "title": "2024-06-29",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Calendar/Daily notes/2024-06-29.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":0},\"to\":{\"line\":7,\"ch\":0}}}"
-                },
-                {
-                  "title": "算法套路",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/算法套路.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":0},\"to\":{\"line\":12,\"ch\":0}}}"
-                },
-                {
-                  "title": "2024-06-29",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Calendar/Daily notes/2024-06-29.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":13},\"to\":{\"line\":19,\"ch\":13}},\"scroll\":9.845581395348837}"
-                },
-                {
-                  "title": "保存下有空看",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"000-Inbox/040-Idea Incubator/保存下有空看.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":0},\"to\":{\"line\":11,\"ch\":0}}}"
-                },
-                {
-                  "title": "随便整理的前端面试常考点",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/随便整理的前端面试常考点.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":517,\"ch\":14},\"to\":{\"line\":517,\"ch\":14}},\"scroll\":507.62608506944446}"
-                },
-                {
-                  "title": "算法入门",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/算法入门.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "《Software Engineering at Google》",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/《Software Engineering at Google》.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":21,\"ch\":0},\"to\":{\"line\":21,\"ch\":0}},\"scroll\":0.9799426934097422}"
-                },
-                {
-                  "title": "AWS re_Invent 2022",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/AWS re_Invent 2022.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":12},\"to\":{\"line\":4,\"ch\":12}}}"
-                },
-                {
-                  "title": "Things you forgot (or never knew) because of React",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/Things you forgot (or never knew) because of React.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "随便整理的前端面试常考点",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/随便整理的前端面试常考点.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":389,\"ch\":0},\"to\":{\"line\":389,\"ch\":0}},\"scroll\":373.0656734569778}"
-                },
-                {
-                  "title": "AWS re_Invent 2022",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/AWS re_Invent 2022.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":25,\"ch\":13},\"to\":{\"line\":25,\"ch\":13}},\"scroll\":7.166666666666667}"
-                },
-                {
-                  "title": "《Software Engineering at Google》",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/《Software Engineering at Google》.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":52,\"ch\":0},\"to\":{\"line\":52,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "AWS re_Invent 2022",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/AWS re_Invent 2022.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":65,\"ch\":22},\"to\":{\"line\":65,\"ch\":22}},\"scroll\":54.823567708333336}"
-                },
-                {
-                  "title": "CSS逻辑属性与逻辑值",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"200-Learning/210-Programing/CSS逻辑属性与逻辑值.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"300-work/310-sharing/Monorepo开发实践.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":26,\"ch\":0},\"to\":{\"line\":26,\"ch\":0}},\"scroll\":12.333333333333334}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Calendar/Daily notes/2024-09-25.md",
+                "file": "200-Learning/210-Programing/iHub：目标选才.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -208,8 +112,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 213.5,
-    "collapsed": true
+    "width": 213.5
   },
   "right": {
     "id": "839ab35236ed4929",
@@ -234,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Calendar/Daily notes/2024-09-25.md",
+                "file": "200-Learning/210-Programing/iHub：目标选才.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -260,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Calendar/Daily notes/2024-09-25.md",
+                "file": "200-Learning/210-Programing/iHub：目标选才.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -301,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Calendar/Daily notes/2024-09-25.md"
+                "file": "200-Learning/210-Programing/iHub：目标选才.md"
               }
             }
           },
@@ -384,10 +287,12 @@
       "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
-  "active": "deb920cd7e9af4e4",
+  "active": "e711f6185411d414",
   "lastOpenFiles": [
-    "200-Learning/210-Programing/iHub：目标选才.md",
+    "300-work/310-sharing/Monorepo开发实践.md",
+    "Extras/Templates/_blog.md",
     "Calendar/Daily notes/2024-09-25.md",
+    "200-Learning/210-Programing/iHub：目标选才.md",
     "200-Learning/210-Programing/关于Web Performance.md",
     "200-Learning/210-Programing/《程序人生》.md",
     "Calendar/Daily notes/2024-09-23.md",
@@ -405,7 +310,6 @@
     "Calendar/Daily notes/2023-11-22.md",
     "Calendar/Daily notes/2023-11-20.md",
     "Calendar/Daily notes/2023-09-28.md",
-    "300-work/310-sharing/Monorepo开发实践.md",
     "300-work/310-sharing",
     "300-work",
     "000-Inbox/040-Idea Incubator/保存下有空看.md",
@@ -415,7 +319,6 @@
     "200-Learning/210-Programing/未命名",
     "200-Learning/210-Programing/《Software Engineering at Google》.md",
     "200-Learning/210-Programing/AWS re_Invent 2022.md",
-    "200-Learning/210-Programing/Things you forgot (or never knew) because of React.md",
     "renovate.json",
     "cedict_ts.u8",
     "_obsidian/zk-prefixer.json",
