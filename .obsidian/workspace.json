@@ -126,6 +126,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "驾考",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Extras/个人资产/生活/驾考.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"驾考\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}}}"
+                },
+                {
                   "title": "保存下有空看",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"000-Inbox/040-Idea Incubator/保存下有空看.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"保存下有空看\"}",
@@ -388,13 +394,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Extras/个人资产/生活/驾考.md",
+                "file": "Calendar/Daily notes/2025-01-06.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "驾考"
+              "title": "2025-01-06"
             }
           }
         ],
@@ -661,12 +667,31 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "插件不再活动"
+            }
+          },
+          {
+            "id": "f48511a40732bee9",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "笔记复习序列"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
@@ -691,6 +716,8 @@
   },
   "active": "e8320b89a37b5619",
   "lastOpenFiles": [
+    "Extras/个人资产/生活/驾考.md",
+    "Calendar/Daily notes/2025-01-06.md",
     "000-Inbox/040-Idea Incubator/保存下有空看.md",
     "Extras/个人资产/生活/买房🏠.md",
     "Extras/个人资产/生活/蜜月旅行🏝️.md",
@@ -707,7 +734,6 @@
     "Calendar/Daily notes/2024-05-06.md",
     "Calendar/Daily notes/2024-09-23.md",
     "Calendar/Weekly/2023-W-6.md",
-    "Calendar/Daily notes/2025-01-06.md",
     "Extras/Templates/其他/dict/_dict.md",
     "Extras/Templates/Calendar模板/_Daily notes模板.md",
     "Extras/Templates/Calendar模板/_Daily notes模板周六.md",
@@ -717,7 +743,6 @@
     "Calendar/Daily notes/《Rust程序设计》E2.md",
     "200-Learning/210-Programing/《程序人生》.md",
     "Untitled.canvas",
-    "README.md",
     "300-work/310-sharing",
     "300-work",
     "200-Learning/210-Programing/未命名",
