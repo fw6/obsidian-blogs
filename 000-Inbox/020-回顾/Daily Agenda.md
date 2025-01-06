@@ -1,32 +1,35 @@
 
 ## Tasks
 ### Overdue
+
 ```tasks
 not done
-due before {{date:YYYY-MM-DD}}
+due before today
 ```
 
 ### Due today
+
 ```tasks
 not done
-due on {{date:YYYY-MM-DD}}
+due on today
 ```
 
 ### Due in the next two weeks
 
 ```tasks
 not done
-due after {{date:YYYY-MM-DD}}
-due before {{date+14d:YYYY-MM-DD}}
+(due after yesterday) AND (due before in two weeks)
 ```
 
 ### No due date
+
 ```tasks
 not done
 no due date
 ```
 
 ### Done today
+
 ```tasks
-done on {{date:YYYY-MM-DD}}
+done on today
 ```
