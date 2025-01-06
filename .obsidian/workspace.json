@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Calendar/Daily notes/2025-01-06.md",
+                "file": "Calendar/2024年目标.md",
                 "mode": "source",
                 "backlinks": true,
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-01-06"
+              "title": "2024年目标"
             }
           }
         ],
@@ -94,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 213.5
+    "width": 200
   },
   "right": {
     "id": "839ab35236ed4929",
@@ -175,32 +175,45 @@
               "icon": "lucide-archive",
               "title": "添加笔记属性"
             }
+          },
+          {
+            "id": "009e88da361551b4",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 504.5
   },
   "left-ribbon": {
     "hiddenItems": {
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
-      "command-palette:打开命令面板": false,
       "zk-prefixer:创建时间戳笔记": false,
       "workspaces:管理工作区布局": false,
       "omnisearch:Omnisearch": false,
       "templater-obsidian:Templater": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "command-palette:打开命令面板": false
     }
   },
-  "active": "e8320b89a37b5619",
+  "active": "009e88da361551b4",
   "lastOpenFiles": [
-    "Calendar/Daily notes/2023-02-11.md",
+    "Calendar/2023 目标.md",
+    "Calendar/2024年目标.md",
+    "Calendar/未命名.md",
+    "Calendar/2024 书单.md",
     "Calendar/Daily notes/2025-01-06.md",
+    "Calendar/Daily notes/2023-02-11.md",
     "README.md",
     "Extras/Templates/_blog.md",
     "Untitled.canvas",
@@ -214,7 +227,6 @@
     "Extras/个人资产/生活/买房🏠.md",
     "Extras/个人资产/生活/蜜月旅行🏝️.md",
     "000-Inbox/010-Workspace/工作总结.md",
-    "Calendar/2023 目标.md",
     "Calendar/Daily notes/2024-09-25.md",
     "Calendar/Daily notes/2023-07-04.md",
     "Calendar/Daily notes/2023-11-22.md",
@@ -223,9 +235,6 @@
     "Calendar/Daily notes/2023-08-21.md",
     "Calendar/Daily notes/2023-07-10.md",
     "Calendar/Daily notes/2024-05-06.md",
-    "Calendar/Daily notes/2024-09-23.md",
-    "Calendar/Weekly/2023-W-6.md",
-    "300-work/310-sharing/Monorepo开发实践.md",
     "300-work/310-sharing",
     "300-work",
     "200-Learning/210-Programing/未命名",

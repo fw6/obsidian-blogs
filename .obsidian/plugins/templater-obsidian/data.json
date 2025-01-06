@@ -10,7 +10,7 @@
   "trigger_on_file_creation": true,
   "auto_jump_to_cursor": false,
   "enable_system_commands": true,
-  "shell_path": "/opt/homebrew/bin/fish",
+  "shell_path": "/usr/local/bin/fish",
   "user_scripts_folder": "",
   "enable_folder_templates": true,
   "folder_templates": [
@@ -19,7 +19,15 @@
       "template": "Extras/Templates/blog.md"
     }
   ],
+  "enable_file_templates": false,
+  "file_templates": [
+    {
+      "regex": ".*",
+      "template": ""
+    }
+  ],
   "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [
     ""
   ],
