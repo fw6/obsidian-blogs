@@ -1,5 +1,5 @@
 {
-  "command_timeout": 10,
+  "command_timeout": 5,
   "templates_folder": "Extras/Templates",
   "templates_pairs": [
     [
@@ -32,7 +32,7 @@
     ""
   ],
   "startup_templates": [
-    "Extras/Templates/Calendar模板/_Daily notes模板.md"
+    ""
   ],
   "enable_ribbon_icon": true
 }
