@@ -2,7 +2,7 @@
 title: <% tp.file.title %>
 description:
 pubDate: <% tp.file.last_modified_date("dddd MM YYYY") %>
-heroImage: <% tp.user.hero_image() %>
+heroImage: "<% tp.user.hero_image() %>"
 draft: true
 ---
 
