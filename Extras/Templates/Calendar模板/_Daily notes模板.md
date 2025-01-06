@@ -2,7 +2,7 @@
 title: "<% tp.file.title %>"
 description: ""
 pubDate: "<% tp.file.last_modified_date("dddd MM YYYY") %>"
-heroImage: "<% tp.web.random_picture("1200x400") %>"
+heroImage: "<% tp.user.random_picture() %>"
 draft: true
 ---
 
