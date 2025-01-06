@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Calendar/2024年目标.md",
+                "file": "Calendar/Weekly/2023-W-6.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024年目标"
+              "title": "2023-W-6"
             }
           }
         ],
@@ -94,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 295.5
   },
   "right": {
     "id": "839ab35236ed4929",
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Extras/个人资产/生活/驾考.md",
+                "file": "Calendar/Weekly/2023-W-6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "驾考 的反向链接列表"
+              "title": "2023-W-6 的反向链接列表"
             }
           },
           {
@@ -129,12 +129,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Extras/个人资产/生活/驾考.md",
+                "file": "Calendar/Weekly/2023-W-6.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "驾考 的出链列表"
+              "title": "2023-W-6 的出链列表"
             }
           },
           {
@@ -156,10 +156,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Extras/个人资产/生活/驾考.md"
+                "file": "Calendar/Weekly/2023-W-6.md"
               },
               "icon": "lucide-list",
-              "title": "驾考 的大纲"
+              "title": "2023-W-6 的大纲"
             }
           },
           {
@@ -187,11 +187,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 504.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -206,13 +206,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "009e88da361551b4",
+  "active": "e8320b89a37b5619",
   "lastOpenFiles": [
-    "Calendar/2023 目标.md",
+    "Calendar/Daily notes/2025-01-06.md",
     "Calendar/2024年目标.md",
+    "Calendar/2023 目标.md",
     "Calendar/未命名.md",
     "Calendar/2024 书单.md",
-    "Calendar/Daily notes/2025-01-06.md",
     "Calendar/Daily notes/2023-02-11.md",
     "README.md",
     "Extras/Templates/_blog.md",
