@@ -87,7 +87,14 @@
     }
   ],
   "pane-relief:go-6th": [],
-  "command-palette:open": [],
+  "command-palette:open": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "P"
+    }
+  ],
   "editor:toggle-source": [
     {
       "modifiers": [
@@ -214,6 +221,14 @@
         "Mod"
       ],
       "key": "E"
+    }
+  ],
+  "obsidian-tasks-plugin:edit-task": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "T"
     }
   ]
 }

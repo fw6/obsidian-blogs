@@ -11,7 +11,7 @@
     "侧边栏dataview样式定制",
     "菜单栏及侧边栏定制"
   ],
-  "theme": "system",
+  "theme": "moonstone",
   "baseFontSize": 16,
   "baseFontSizeAction": true,
   "translucency": true,
