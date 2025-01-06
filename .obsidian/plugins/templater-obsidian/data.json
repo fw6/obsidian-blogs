@@ -3,7 +3,7 @@
   "templates_folder": "Extras/Templates",
   "templates_pairs": [
     [
-      "random_picture",
+      "hero_image",
       "curl -s 'https://api.unsplash.com/photos/random?client_id=HGkAn1Qudg9D94acrDLRpns4T-DASkEwZqFhnJRUZn8&count=1&orientation=landscape' | jq -r '.[0].urls.full' | sed 's/$/\\&w=1200&h=400/'"
     ]
   ],
