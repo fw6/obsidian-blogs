@@ -14,3 +14,18 @@ tags:
 
 > [!quote] What we think determines what happens to us, so if we want to change our lives, we need to stretch our minds.
 > — Wayne Dyer
+
+
+>[!tip]+ 本周完成的任务
+>```tasks
+> done before this week
+> ```
+
+
+>[!tip]+ 前一周完成的任务
+> ```tasks
+> done before this week
+> done after last week
+> ```
+
+

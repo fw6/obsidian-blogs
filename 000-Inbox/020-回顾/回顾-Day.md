@@ -31,7 +31,13 @@ tags:
 > ```
 
 > [!question]- 近七天完成的任务
-> 1
+> ```tasks
+> done before 7 days ago
+> ```
 
-进来
+>[!tip]- 近2周完成的任务
+> ```tasks
+> done before two weeks ago
+> ```
+
 
