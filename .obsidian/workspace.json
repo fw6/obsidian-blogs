@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000-Inbox/020-回顾/回顾-Year.md",
+                "file": "任务进度追踪.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "回顾-Year"
+              "title": "任务进度追踪"
             }
           }
         ]
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-Inbox/020-回顾/回顾-Year.md",
+                "file": "任务进度追踪.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "回顾-Year 的反向链接列表"
+              "title": "任务进度追踪 的反向链接列表"
             }
           },
           {
@@ -114,12 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-Inbox/020-回顾/回顾-Year.md",
+                "file": "任务进度追踪.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "回顾-Year 的出链列表"
+              "title": "任务进度追踪 的出链列表"
             }
           },
           {
@@ -141,10 +141,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000-Inbox/020-回顾/回顾-Year.md"
+                "file": "任务进度追踪.md"
               },
               "icon": "lucide-list",
-              "title": "回顾-Year 的大纲"
+              "title": "任务进度追踪 的大纲"
             }
           },
           {
@@ -195,15 +195,18 @@
   },
   "active": "9d61f13e5be93060",
   "lastOpenFiles": [
-    "000-Inbox/020-回顾/回顾-Month.md",
-    "000-Inbox/020-回顾/回顾-Week.md",
-    "000-Inbox/020-回顾/回顾-Day.md",
-    "000-Inbox/020-回顾/Daily Agenda.md",
-    "000-Inbox/020-回顾/回顾-Year.md",
-    "任务进度追踪.md",
-    "000-Inbox/020-回顾/未命名.md",
+    "重要🚀不紧急🤷.md",
     "不重要☕️不紧急🤷.md",
     "不重要☕️但紧急🔥.md",
+    "工作流设计记录.md",
+    "000-Inbox/040-Idea Incubator/保存下有空看.md",
+    "000-Inbox/020-回顾/Daily Agenda.md",
+    "000-Inbox/020-回顾/回顾-Year.md",
+    "000-Inbox/020-回顾/回顾-Week.md",
+    "000-Inbox/020-回顾/回顾-Month.md",
+    "000-Inbox/020-回顾/回顾-Day.md",
+    "任务进度追踪.md",
+    "000-Inbox/020-回顾/未命名.md",
     "每日日程.md",
     "Extras/Templates/Calendar模板/_Daily notes模板.md",
     "200-Learning/240-Documents/学习Obsidian.md",
@@ -213,8 +216,6 @@
     "Extras/Templates/Untitled.md",
     "未命名",
     "重要🚀且紧急🔥.md",
-    "重要🚀不紧急🤷.md",
-    "工作流设计记录.md",
     "000-Inbox/010-Workspace/工作总结.md",
     "000-Inbox/020-Temp/各类收藏.md",
     "200-Learning/240-Documents",
@@ -224,7 +225,6 @@
     "Extras/个人资产/工作/学习文档/面试手册.md",
     "Extras/个人资产/工作/富文本编辑器/ProseMirror.md",
     "Calendar/2024 目标.md",
-    "Extras/个人资产/工作/代码库收集/GitHub.md",
     "Untitled.canvas",
     "300-work/310-sharing",
     "300-work",

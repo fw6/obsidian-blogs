@@ -15,27 +15,27 @@ tags:
 > [!quote] What we think determines what happens to us, so if we want to change our lives, we need to stretch our minds.
 > — Wayne Dyer
 
->[!tip]- 今天完成的任务
+>[!check]- 今天完成的任务
 > ```tasks
 > done today
 > ```
 
->[!tip]- 昨天完成的任务
+>[!check]- 昨天完成的任务
 > ```tasks
 > done yesterday
 > ```
 
->[!tip]- 近3天完成的任务
+>[!check]- 近3天完成的任务
 > ```tasks
 > done before three days ago
 > ```
 
-> [!question]- 近七天完成的任务
+> [!check]- 近七天完成的任务
 > ```tasks
 > done before 7 days ago
 > ```
 
->[!tip]- 近2周完成的任务
+>[!check]- 近2周完成的任务
 > ```tasks
 > done before two weeks ago
 > ```

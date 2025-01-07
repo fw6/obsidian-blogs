@@ -15,7 +15,7 @@ tags:
 > [!quote] What we think determines what happens to us, so if we want to change our lives, we need to stretch our minds.
 > — Wayne Dyer
 
->[!tip]+ 1月任务回顾
+>[!check]+ 1月任务回顾
 >```tasks
 >due after last year
 >```
