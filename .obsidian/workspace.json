@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "任务进度追踪.md",
+                "file": "000-Inbox/010-Workspace/晋升现场答辩（T15 -> T16）.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "任务进度追踪"
+              "title": "晋升现场答辩（T15 -> T16）"
             }
           }
         ]
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "任务进度追踪.md",
+                "file": "000-Inbox/010-Workspace/晋升现场答辩（T15 -> T16）.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "任务进度追踪 的反向链接列表"
+              "title": "晋升现场答辩（T15 -> T16） 的反向链接列表"
             }
           },
           {
@@ -114,12 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "任务进度追踪.md",
+                "file": "000-Inbox/010-Workspace/晋升现场答辩（T15 -> T16）.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "任务进度追踪 的出链列表"
+              "title": "晋升现场答辩（T15 -> T16） 的出链列表"
             }
           },
           {
@@ -141,10 +141,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "任务进度追踪.md"
+                "file": "000-Inbox/010-Workspace/晋升现场答辩（T15 -> T16）.md"
               },
               "icon": "lucide-list",
-              "title": "任务进度追踪 的大纲"
+              "title": "晋升现场答辩（T15 -> T16） 的大纲"
             }
           },
           {
@@ -195,6 +195,11 @@
   },
   "active": "9d61f13e5be93060",
   "lastOpenFiles": [
+    "任务进度追踪.md",
+    "000-Inbox/010-Workspace/晋升现场答辩（T15 -> T16）.md",
+    "000-Inbox/010-Workspace/未命名.md",
+    "300-work/320-todos/未命名.md",
+    "300-work/320-todos",
     "重要🚀不紧急🤷.md",
     "不重要☕️不紧急🤷.md",
     "不重要☕️但紧急🔥.md",
@@ -205,7 +210,6 @@
     "000-Inbox/020-回顾/回顾-Week.md",
     "000-Inbox/020-回顾/回顾-Month.md",
     "000-Inbox/020-回顾/回顾-Day.md",
-    "任务进度追踪.md",
     "000-Inbox/020-回顾/未命名.md",
     "每日日程.md",
     "Extras/Templates/Calendar模板/_Daily notes模板.md",
@@ -222,15 +226,11 @@
     "Extras/个人资产/工作/学习文档/效率工具.md",
     "000-Inbox/020-回顾",
     "000-Inbox/未命名.md",
-    "Extras/个人资产/工作/学习文档/面试手册.md",
-    "Extras/个人资产/工作/富文本编辑器/ProseMirror.md",
-    "Calendar/2024 目标.md",
     "Untitled.canvas",
     "300-work/310-sharing",
     "300-work",
     "200-Learning/210-Programing/未命名",
     "renovate.json",
-    "cedict_ts.u8",
-    "_obsidian/zk-prefixer.json"
+    "cedict_ts.u8"
   ]
 }
