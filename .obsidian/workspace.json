@@ -213,9 +213,6 @@
   "left-ribbon": {
     "hiddenItems": {
       "graph:查看关系图谱": false,
-      "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
-      "zk-prefixer:创建时间戳笔记": false,
       "workspaces:管理工作区布局": false,
       "omnisearch:Omnisearch": false,
       "templater-obsidian:Templater": false,
