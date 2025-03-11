@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000-Inbox/020-回顾/Daily Agenda.md",
+                "file": "000-Inbox/010-Workspace/工作待办事项（携程）.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Daily Agenda"
+              "title": "工作待办事项（携程）"
             }
           }
         ]
@@ -79,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "839ab35236ed4929",
@@ -142,10 +141,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000-Inbox/020-回顾/Daily Agenda.md"
+                "file": "000-Inbox/010-Workspace/工作待办事项（携程）.md"
               },
               "icon": "lucide-list",
-              "title": "Daily Agenda 的大纲"
+              "title": "工作待办事项（携程） 的大纲"
             }
           },
           {
@@ -193,11 +192,13 @@
   },
   "active": "9d61f13e5be93060",
   "lastOpenFiles": [
+    "000-Inbox/010-Workspace/晋升现场答辩（T15 -> T16）.md",
+    "000-Inbox/010-Workspace/工作总结.md",
+    "000-Inbox/020-回顾/Daily Agenda.md",
     "200-Learning/240-Documents/OpenAPI 规范.md",
     "200-Learning/240-Documents/HTMX HDA.md",
     "200-Learning/240-Documents/学习Obsidian.md",
     "000-Inbox/010-Workspace/工作待办事项（携程）.md",
-    "000-Inbox/010-Workspace/晋升现场答辩（T15 -> T16）.md",
     "200-Learning/230-Sociology/新手管理者面临的9个问题🙋.md",
     "任务进度追踪.md",
     "000-Inbox/010-Workspace/未命名.md",
@@ -208,7 +209,6 @@
     "不重要☕️但紧急🔥.md",
     "工作流设计记录.md",
     "000-Inbox/040-Idea Incubator/保存下有空看.md",
-    "000-Inbox/020-回顾/Daily Agenda.md",
     "000-Inbox/020-回顾/回顾-Year.md",
     "000-Inbox/020-回顾/回顾-Week.md",
     "000-Inbox/020-回顾/回顾-Month.md",
@@ -221,7 +221,6 @@
     "Extras/Templates/Daily tasks.md",
     "Extras/Templates/Untitled.md",
     "未命名",
-    "重要🚀且紧急🔥.md",
     "200-Learning/240-Documents",
     "000-Inbox/020-回顾",
     "Untitled.canvas",
