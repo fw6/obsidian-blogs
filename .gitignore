@@ -1,1 +1,14 @@
+# Never backup credentials
+.env
+*.key
+*.pem
+*.p12
+secrets/
+credentials/
+
+# OS junk
+.DS_Store
+
+# Obsidian workspace (session state, not needed for backup)
 .obsidian/workspace.json
+.obsidian/workspace-mobile.json
